@@ -1,7 +1,7 @@
 <svg width="800" height="900" xmlns="http://www.w3.org/2000/svg">
   <!-- Title -->
   <text x="400" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">
-    Hydrogenesis Recursion Pathways
+    Hydrogenesi Recursion Pathways
   </text>
   
   <!-- Primary Pathway: ROOT → GEN-N -->
