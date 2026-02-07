@@ -1,6 +1,6 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
-## v2.0.0 — Hydrogenesis Enhancement (2026-02-07)
+## v2.0.0 — Hydrogenesi Enhancement (2026-02-07)
 
 ### Added
 
@@ -11,7 +11,7 @@
 
 #### Hydrogenesi Documentation
 - **Recursion Pathways** — Complete documentation of cosmological recursion patterns
-- **Hydrogenesis Recursion Pathways Diagram** — SVG visualization of recursion mechanisms
+- **Hydrogenesi Recursion Pathways Diagram** — SVG visualization of recursion mechanisms
 
 #### Testing Infrastructure
 - Comprehensive test scaffolding for all Phoenix operators (11 tests)

@@ -1,4 +1,4 @@
-# HYDROGENESIS RECURSION PATHWAYS
+# HYDROGENESI RECURSION PATHWAYS
 
 **System:** Hydrogenesi 2.0  
 **Type:** Cosmological Recursion Patterns  
@@ -9,7 +9,7 @@ lineage
 
 ## OVERVIEW
 
-Hydrogenesis (Hydrogenesi) operates through **recursion pathways** — systematic patterns through
+Hydrogenesi operates through **recursion pathways** — systematic patterns through
 which cosmic structures emerge, replicate, and extend lineage across generations. This document maps
 the core recursion mechanisms operating at cosmological scale.
 
@@ -378,7 +378,7 @@ In modeling, recursion stops when:
 
 ## STATUS
 
-**Document:** Hydrogenesis Recursion Pathways  
+**Document:** Hydrogenesi Recursion Pathways  
 **Version:** 2.0  
 **Status:** ACTIVE  
 **Lineage:** ROOT::GEN-0

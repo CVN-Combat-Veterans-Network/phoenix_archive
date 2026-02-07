@@ -81,7 +81,7 @@
 - **Operator Flow** → `/Diagrams/Operator-Flow.svg`
 - **Cross-Reference Matrix** → `/Diagrams/Cross-Reference-Matrix.svg`
 - **Lineage Tree** → `/Diagrams/Lineage-Tree.svg`
-- **Hydrogenesis Recursion Pathways** → `/Diagrams/Hydrogenesis-Recursion-Pathways.svg`
+- **Hydrogenesi Recursion Pathways** → `/Diagrams/Hydrogenesis-Recursion-Pathways.svg`
 
 ---
 
