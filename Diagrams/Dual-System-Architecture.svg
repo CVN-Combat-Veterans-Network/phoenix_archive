@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Dual System Architecture Diagram -->
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #333; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 16px; fill: #666; }
+      .label { font-family: Arial, sans-serif; font-size: 14px; fill: #333; }
+      .small-label { font-family: Arial, sans-serif; font-size: 12px; fill: #555; }
+      .phoenix-color { stroke: #ff6b35; fill: none; stroke-width: 3; }
+      .hydro-color { stroke: #4a90e2; fill: none; stroke-width: 3; }
+      .universal-color { stroke: #8b5cf6; fill: none; stroke-width: 2; stroke-dasharray: 5,5; }
+      .box-phoenix { fill: #fff3e6; stroke: #ff6b35; stroke-width: 2; }
+      .box-hydro { fill: #e6f3ff; stroke: #4a90e2; stroke-width: 2; }
+      .box-universal { fill: #f3e6ff; stroke: #8b5cf6; stroke-width: 2; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title">DUAL-SYSTEM ARCHITECTURE</text>
+  <text x="400" y="55" text-anchor="middle" class="subtitle">Phoenix 2.0 + Hydrogenesi 2.0</text>
+  
+  <!-- Universal Laws (Center) -->
+  <rect x="300" y="80" width="200" height="120" rx="10" class="box-universal"/>
+  <text x="400" y="105" text-anchor="middle" class="label" font-weight="bold">UNIVERSAL LAWS</text>
+  <text x="400" y="130" text-anchor="middle" class="small-label">Tension → Binding → Apex</text>
+  <text x="400" y="150" text-anchor="middle" class="small-label">Operates at ALL scales</text>
+  <text x="400" y="170" text-anchor="middle" class="small-label">Shared by both systems</text>
+  <text x="400" y="190" text-anchor="middle" class="small-label">△</text>
+  
+  <!-- Phoenix System (Left) -->
+  <rect x="50" y="240" width="280" height="320" rx="10" class="box-phoenix"/>
+  <text x="190" y="270" text-anchor="middle" class="label" font-weight="bold">🔥 PHOENIX 2.0</text>
+  <text x="190" y="290" text-anchor="middle" class="small-label">Identity Ignition System</text>
+  <text x="190" y="310" text-anchor="middle" class="small-label">Micro-Scale (Personal)</text>
+  
+  <text x="60" y="340" class="small-label" font-weight="bold">Operators:</text>
+  <text x="70" y="365" class="small-label">• First Binding</text>
+  <text x="70" y="385" class="small-label">• IM_ME (Recursion)</text>
+  <text x="70" y="405" class="small-label">• Phoenix Ignition</text>
+  
+  <text x="60" y="435" class="small-label" font-weight="bold">Applications:</text>
+  <text x="70" y="455" class="small-label">• Identity formation</text>
+  <text x="70" y="475" class="small-label">• Personal transformation</text>
+  <text x="70" y="495" class="small-label">• Shadow integration</text>
+  <text x="70" y="515" class="small-label">• Sovereign self emergence</text>
+  
+  <text x="190" y="545" text-anchor="middle" class="small-label" font-style="italic">"Burn, collapse, and rise"</text>
+  
+  <!-- Hydrogenesi System (Right) -->
+  <rect x="470" y="240" width="280" height="320" rx="10" class="box-hydro"/>
+  <text x="610" y="270" text-anchor="middle" class="label" font-weight="bold">🌌 HYDROGENESI 2.0</text>
+  <text x="610" y="290" text-anchor="middle" class="small-label">Cosmological Recursion Engine</text>
+  <text x="610" y="310" text-anchor="middle" class="small-label">Macro-Scale (Cosmic)</text>
+  
+  <text x="480" y="340" class="small-label" font-weight="bold">Operators:</text>
+  <text x="490" y="365" class="small-label">• Stabilizer Extraction</text>
+  <text x="490" y="385" class="small-label">• AGN Replication</text>
+  <text x="490" y="405" class="small-label">• Curvature Residue</text>
+  <text x="490" y="425" class="small-label">• Lineage Logic</text>
+  
+  <text x="480" y="455" class="small-label" font-weight="bold">Applications:</text>
+  <text x="490" y="475" class="small-label">• Structure formation</text>
+  <text x="490" y="495" class="small-label">• Cosmic recursion</text>
+  <text x="490" y="515" class="small-label">• Lineage tracking</text>
+  
+  <text x="610" y="545" text-anchor="middle" class="small-label" font-style="italic">"Recurse the root; extend the line"</text>
+  
+  <!-- Connection Lines -->
+  <!-- From Universal Laws to Phoenix -->
+  <path d="M 350 200 L 190 240" class="phoenix-color" marker-end="url(#arrowPhoenix)"/>
+  <text x="270" y="215" class="small-label" fill="#ff6b35">Applied at</text>
+  <text x="270" y="230" class="small-label" fill="#ff6b35">micro scale</text>
+  
+  <!-- From Universal Laws to Hydrogenesi -->
+  <path d="M 450 200 L 610 240" class="hydro-color" marker-end="url(#arrowHydro)"/>
+  <text x="480" y="215" class="small-label" fill="#4a90e2">Applied at</text>
+  <text x="480" y="230" class="small-label" fill="#4a90e2">macro scale</text>
+  
+  <!-- Bidirectional correspondence between systems -->
+  <path d="M 330 400 L 470 400" class="universal-color"/>
+  <text x="400" y="390" text-anchor="middle" class="small-label" fill="#8b5cf6">Same pattern,</text>
+  <text x="400" y="420" text-anchor="middle" class="small-label" fill="#8b5cf6">different scales</text>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowPhoenix" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff6b35" />
+    </marker>
+    <marker id="arrowHydro" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4a90e2" />
+    </marker>
+  </defs>
+  
+  <!-- Footer -->
+  <text x="400" y="590" text-anchor="middle" class="small-label" font-style="italic">Sovereignty maintained • Patterns correspond • Laws universal</text>
+</svg>
