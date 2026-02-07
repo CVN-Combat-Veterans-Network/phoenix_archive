@@ -22,12 +22,13 @@
 - **First Binding** → `/Phoenix/Operators/First-Binding.md`
 - **IM_ME** → `/Phoenix/Operators/IM_ME.md`
 - **Phoenix Ignition** → `/Phoenix/Operators/Phoenix-Ignition.md`
-- **Apex Formation** → `/Phoenix/Operators/Apex-Formation.md` *(to be created)*
-- **Three-Finger Waltz** → `/Phoenix/Operators/Three-Finger-Waltz.md` *(to be created)*
-- **Black-Holed Imprint** → `/Phoenix/Operators/Black-Holed-Imprint.md` *(to be created)*
+- **Apex Formation** → `/Phoenix/Operators/Apex-Formation.md`
+- **Three-Finger Waltz** → `/Phoenix/Operators/Three-Finger-Waltz.md`
+- **Black-Holed Imprint** → `/Phoenix/Operators/Black-Holed-Imprint.md`
 
 ### Code
 - **Python Implementation** → `/code/phoenix/operators.py`
+- **Python Tests** → `/code/tests/test_phoenix_operators.py`
 
 ---
 
@@ -51,6 +52,10 @@
 
 ### Code
 - **Python Implementation** → `/code/hydrogenesi/operators.py`
+- **Python Tests** → `/code/tests/test_hydrogenesi_operators.py`
+
+### Documentation
+- **Recursion Pathways** → `/Hydrogenesi/Recursion-Pathways.md`
 
 ---
 
@@ -76,6 +81,7 @@
 - **Operator Flow** → `/Diagrams/Operator-Flow.svg`
 - **Cross-Reference Matrix** → `/Diagrams/Cross-Reference-Matrix.svg`
 - **Lineage Tree** → `/Diagrams/Lineage-Tree.svg`
+- **Hydrogenesis Recursion Pathways** → `/Diagrams/Hydrogenesis-Recursion-Pathways.svg`
 
 ---
 
