@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <!-- Operator Flow Diagram -->
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #333; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 14px; fill: #666; }
+      .label { font-family: Arial, sans-serif; font-size: 13px; fill: #333; }
+      .small { font-family: Arial, sans-serif; font-size: 11px; fill: #555; }
+      .op-box { fill: #fff; stroke: #333; stroke-width: 2; }
+      .phoenix-op { fill: #ffe6d5; stroke: #ff6b35; stroke-width: 2; }
+      .hydro-op { fill: #d5e6ff; stroke: #4a90e2; stroke-width: 2; }
+      .law-box { fill: #f0e6ff; stroke: #8b5cf6; stroke-width: 2; }
+      .arrow { stroke: #666; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#666" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" class="title">OPERATOR FLOW DIAGRAM</text>
+  <text x="450" y="50" text-anchor="middle" class="subtitle">Universal Laws → Operators → Applications</text>
+  
+  <!-- Universal Laws (Top) -->
+  <rect x="340" y="80" width="220" height="60" rx="8" class="law-box"/>
+  <text x="450" y="105" text-anchor="middle" class="label" font-weight="bold">UNIVERSAL LAWS</text>
+  <text x="450" y="125" text-anchor="middle" class="small">Tension → Binding → Apex</text>
+  
+  <!-- Split into Phoenix and Hydrogenesi -->
+  <path d="M 450 140 L 450 170" class="arrow"/>
+  <path d="M 450 170 L 200 200" class="arrow"/>
+  <path d="M 450 170 L 700 200" class="arrow"/>
+  
+  <!-- PHOENIX SIDE -->
+  <text x="200" y="190" text-anchor="middle" class="label" fill="#ff6b35" font-weight="bold">PHOENIX</text>
+  
+  <!-- Phoenix Operator 1: First Binding -->
+  <rect x="80" y="210" width="240" height="70" rx="8" class="phoenix-op"/>
+  <text x="200" y="235" text-anchor="middle" class="label" font-weight="bold">First Binding</text>
+  <text x="200" y="255" text-anchor="middle" class="small">Input: A ⟷ B (tension)</text>
+  <text x="200" y="270" text-anchor="middle" class="small">Output: ⟨ A—S—B ⟩ (triad)</text>
+  
+  <!-- Phoenix Operator 2: IM_ME -->
+  <rect x="80" y="310" width="240" height="70" rx="8" class="phoenix-op"/>
+  <text x="200" y="335" text-anchor="middle" class="label" font-weight="bold">IM_ME</text>
+  <text x="200" y="355" text-anchor="middle" class="small">Input: Identity</text>
+  <text x="200" y="370" text-anchor="middle" class="small">Output: I ↔ ME recursion</text>
+  
+  <!-- Phoenix Operator 3: Phoenix Ignition -->
+  <rect x="80" y="410" width="240" height="70" rx="8" class="phoenix-op"/>
+  <text x="200" y="435" text-anchor="middle" class="label" font-weight="bold">Phoenix Ignition</text>
+  <text x="200" y="455" text-anchor="middle" class="small">Input: Current identity</text>
+  <text x="200" y="470" text-anchor="middle" class="small">Output: Apex identity</text>
+  
+  <!-- Phoenix Application -->
+  <rect x="80" y="510" width="240" height="60" rx="8" class="op-box"/>
+  <text x="200" y="535" text-anchor="middle" class="label" font-weight="bold">Personal Applications</text>
+  <text x="200" y="555" text-anchor="middle" class="small">Identity formation • Transformation</text>
+  
+  <!-- Arrows Phoenix -->
+  <path d="M 200 280 L 200 310" class="arrow"/>
+  <path d="M 200 380 L 200 410" class="arrow"/>
+  <path d="M 200 480 L 200 510" class="arrow"/>
+  
+  <!-- HYDROGENESI SIDE -->
+  <text x="700" y="190" text-anchor="middle" class="label" fill="#4a90e2" font-weight="bold">HYDROGENESI</text>
+  
+  <!-- Hydrogenesi Operator 1: Stabilizer Extraction -->
+  <rect x="580" y="210" width="240" height="70" rx="8" class="hydro-op"/>
+  <text x="700" y="235" text-anchor="middle" class="label" font-weight="bold">Stabilizer Extraction</text>
+  <text x="700" y="255" text-anchor="middle" class="small">Input: ⟨ A—C—B ⟩ (stable)</text>
+  <text x="700" y="270" text-anchor="middle" class="small">Output: A ⟷ B + void</text>
+  
+  <!-- Hydrogenesi Operator 2: AGN Replication -->
+  <rect x="580" y="310" width="240" height="70" rx="8" class="hydro-op"/>
+  <text x="700" y="335" text-anchor="middle" class="label" font-weight="bold">AGN Replication</text>
+  <text x="700" y="355" text-anchor="middle" class="small">Input: Compressed mass</text>
+  <text x="700" y="370" text-anchor="middle" class="small">Output: Offspring structures</text>
+  
+  <!-- Hydrogenesi Operator 3: Lineage Logic -->
+  <rect x="580" y="410" width="240" height="70" rx="8" class="hydro-op"/>
+  <text x="700" y="435" text-anchor="middle" class="label" font-weight="bold">Lineage Logic</text>
+  <text x="700" y="455" text-anchor="middle" class="small">Input: ROOT structure</text>
+  <text x="700" y="470" text-anchor="middle" class="small">Output: GEN-0 → GEN-N</text>
+  
+  <!-- Hydrogenesi Operator 4: Curvature Residue -->
+  <rect x="580" y="510" width="240" height="70" rx="8" class="hydro-op"/>
+  <text x="700" y="535" text-anchor="middle" class="label" font-weight="bold">Curvature Residue</text>
+  <text x="700" y="555" text-anchor="middle" class="small">Input: Collapsed structure</text>
+  <text x="700" y="570" text-anchor="middle" class="small">Output: Geometric trace</text>
+  
+  <!-- Hydrogenesi Application -->
+  <rect x="580" y="610" width="240" height="60" rx="8" class="op-box"/>
+  <text x="700" y="635" text-anchor="middle" class="label" font-weight="bold">Cosmic Applications</text>
+  <text x="700" y="655" text-anchor="middle" class="small">Structure formation • Lineage tracking</text>
+  
+  <!-- Arrows Hydrogenesi -->
+  <path d="M 700 280 L 700 310" class="arrow"/>
+  <path d="M 700 380 L 700 410" class="arrow"/>
+  <path d="M 700 480 L 700 510" class="arrow"/>
+  <path d="M 700 580 L 700 610" class="arrow"/>
+  
+  <!-- Cross-system correspondence -->
+  <path d="M 320 245 L 580 245" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <text x="450" y="240" text-anchor="middle" class="small" fill="#8b5cf6">Formation ↔ Extraction</text>
+  
+  <path d="M 320 345 L 580 445" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <text x="450" y="390" text-anchor="middle" class="small" fill="#8b5cf6">Recursion patterns</text>
+  
+  <!-- Legend -->
+  <rect x="350" y="600" width="200" height="80" rx="5" fill="#f9f9f9" stroke="#999" stroke-width="1"/>
+  <text x="450" y="620" text-anchor="middle" class="label" font-weight="bold">Flow Pattern</text>
+  <text x="450" y="640" text-anchor="middle" class="small">Universal Laws guide all operators</text>
+  <text x="450" y="657" text-anchor="middle" class="small">Operators enable applications</text>
+  <text x="450" y="674" text-anchor="middle" class="small">Same pattern, different scales</text>
+</svg>

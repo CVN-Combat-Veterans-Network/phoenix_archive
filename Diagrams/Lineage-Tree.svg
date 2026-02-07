@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900">
+  <!-- Lineage Tree Diagram -->
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #333; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 14px; fill: #666; }
+      .label { font-family: Arial, sans-serif; font-size: 12px; fill: #333; }
+      .small { font-family: Arial, sans-serif; font-size: 10px; fill: #555; }
+      .gen-label { font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; fill: #fff; }
+      .root-node { fill: #8b5cf6; stroke: #6b46c1; stroke-width: 3; }
+      .gen0-node { fill: #4a90e2; stroke: #2e5c8a; stroke-width: 2; }
+      .gen1-node { fill: #5cb85c; stroke: #3d8b3d; stroke-width: 2; }
+      .gen2-node { fill: #f0ad4e; stroke: #c97a2e; stroke-width: 2; }
+      .gen3-node { fill: #d9534f; stroke: #a94442; stroke-width: 2; }
+      .lineage-line { stroke: #999; stroke-width: 2; fill: none; }
+      .residue-marker { fill: #ff6b6b; stroke: #c92a2a; stroke-width: 2; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title">LINEAGE TREE</text>
+  <text x="400" y="50" text-anchor="middle" class="subtitle">Cosmic Recursion: ROOT → GEN-0 → GEN-1 → GEN-2 → GEN-3</text>
+  
+  <!-- Generation Labels (Left side) -->
+  <text x="30" y="120" class="label" font-weight="bold">ROOT</text>
+  <text x="30" y="240" class="label" font-weight="bold">GEN-0</text>
+  <text x="30" y="400" class="label" font-weight="bold">GEN-1</text>
+  <text x="30" y="600" class="label" font-weight="bold">GEN-2</text>
+  <text x="30" y="800" class="label" font-weight="bold">GEN-3</text>
+  
+  <!-- ROOT NODE -->
+  <circle cx="400" cy="115" r="40" class="root-node"/>
+  <text x="400" y="110" text-anchor="middle" class="gen-label">ROOT</text>
+  <text x="400" y="125" text-anchor="middle" class="gen-label" font-size="9px">Galaxy-Prime</text>
+  <text x="400" y="165" text-anchor="middle" class="small">First structure</text>
+  <text x="400" y="180" text-anchor="middle" class="small">Establishes pattern</text>
+  
+  <!-- GEN-0 NODES (2 offspring from ROOT) -->
+  <line x1="400" y1="155" x2="250" y2="215" class="lineage-line"/>
+  <line x1="400" y1="155" x2="550" y2="215" class="lineage-line"/>
+  
+  <circle cx="250" cy="235" r="35" class="gen0-node"/>
+  <text x="250" y="235" text-anchor="middle" class="gen-label">GEN-0-A</text>
+  <text x="250" y="248" text-anchor="middle" class="gen-label" font-size="8px">Satellite-1</text>
+  
+  <circle cx="550" cy="235" r="35" class="gen0-node"/>
+  <text x="550" y="235" text-anchor="middle" class="gen-label">GEN-0-B</text>
+  <text x="550" y="248" text-anchor="middle" class="gen-label" font-size="8px">Satellite-2</text>
+  
+  <text x="250" y="285" text-anchor="middle" class="small">Direct offspring</text>
+  <text x="550" y="285" text-anchor="middle" class="small">AGN replication</text>
+  
+  <!-- Curvature Residue from ROOT -->
+  <circle cx="400" cy="315" r="15" class="residue-marker"/>
+  <text x="400" y="320" text-anchor="middle" class="small" font-size="9px" fill="#fff">◉</text>
+  <text x="400" y="345" text-anchor="middle" class="small" fill="#ff6b6b">Curvature Residue</text>
+  <text x="400" y="360" text-anchor="middle" class="small" fill="#ff6b6b">(ROOT collapsed)</text>
+  
+  <!-- GEN-1 NODES (4 offspring from GEN-0) -->
+  <line x1="250" y1="270" x2="150" y2="375" class="lineage-line"/>
+  <line x1="250" y1="270" x2="300" y2="375" class="lineage-line"/>
+  <line x1="550" y1="270" x2="500" y2="375" class="lineage-line"/>
+  <line x1="550" y1="270" x2="650" y2="375" class="lineage-line"/>
+  
+  <circle cx="150" cy="395" r="30" class="gen1-node"/>
+  <text x="150" y="398" text-anchor="middle" class="gen-label" font-size="10px">GEN-1-A1</text>
+  
+  <circle cx="300" cy="395" r="30" class="gen1-node"/>
+  <text x="300" y="398" text-anchor="middle" class="gen-label" font-size="10px">GEN-1-A2</text>
+  
+  <circle cx="500" cy="395" r="30" class="gen1-node"/>
+  <text x="500" y="398" text-anchor="middle" class="gen-label" font-size="10px">GEN-1-B1</text>
+  
+  <circle cx="650" cy="395" r="30" class="gen1-node"/>
+  <text x="650" y="398" text-anchor="middle" class="gen-label" font-size="10px">GEN-1-B2</text>
+  
+  <text x="325" y="445" text-anchor="middle" class="small">Second generation</text>
+  <text x="325" y="460" text-anchor="middle" class="small">Pattern preserved + variation</text>
+  
+  <!-- Curvature Residue from GEN-0-A -->
+  <circle cx="200" cy="495" r="12" class="residue-marker"/>
+  <text x="200" y="499" text-anchor="middle" class="small" font-size="8px" fill="#fff">◉</text>
+  <text x="200" y="520" text-anchor="middle" class="small" fill="#ff6b6b" font-size="9px">Residue: GEN-0-A</text>
+  
+  <!-- GEN-2 NODES (8 offspring from GEN-1) -->
+  <line x1="150" y1="425" x2="100" y2="575" class="lineage-line"/>
+  <line x1="150" y1="425" x2="175" y2="575" class="lineage-line"/>
+  <line x1="300" y1="425" x2="275" y2="575" class="lineage-line"/>
+  <line x1="300" y1="425" x2="350" y2="575" class="lineage-line"/>
+  <line x1="500" y1="425" x2="450" y2="575" class="lineage-line"/>
+  <line x1="500" y1="425" x2="525" y2="575" class="lineage-line"/>
+  <line x1="650" y1="425" x2="625" y2="575" class="lineage-line"/>
+  <line x1="650" y1="425" x2="700" y2="575" class="lineage-line"/>
+  
+  <circle cx="100" cy="595" r="25" class="gen2-node"/>
+  <text x="100" y="600" text-anchor="middle" class="gen-label" font-size="9px">2-A1a</text>
+  
+  <circle cx="175" cy="595" r="25" class="gen2-node"/>
+  <text x="175" y="600" text-anchor="middle" class="gen-label" font-size="9px">2-A1b</text>
+  
+  <circle cx="275" cy="595" r="25" class="gen2-node"/>
+  <text x="275" y="600" text-anchor="middle" class="gen-label" font-size="9px">2-A2a</text>
+  
+  <circle cx="350" cy="595" r="25" class="gen2-node"/>
+  <text x="350" y="600" text-anchor="middle" class="gen-label" font-size="9px">2-A2b</text>
+  
+  <circle cx="450" cy="595" r="25" class="gen2-node"/>
+  <text x="450" y="600" text-anchor="middle" class="gen-label" font-size="9px">2-B1a</text>
+  
+  <circle cx="525" cy="595" r="25" class="gen2-node"/>
+  <text x="525" y="600" text-anchor="middle" class="gen-label" font-size="9px">2-B1b</text>
+  
+  <circle cx="625" cy="595" r="25" class="gen2-node"/>
+  <text x="625" y="600" text-anchor="middle" class="gen-label" font-size="9px">2-B2a</text>
+  
+  <circle cx="700" cy="595" r="25" class="gen2-node"/>
+  <text x="700" y="600" text-anchor="middle" class="gen-label" font-size="9px">2-B2b</text>
+  
+  <text x="400" y="650" text-anchor="middle" class="small">Third generation • 8 structures</text>
+  
+  <!-- GEN-3 NODES (Partial - showing branching continues) -->
+  <line x1="100" y1="620" x2="75" y2="775" class="lineage-line"/>
+  <line x1="100" y1="620" x2="125" y2="775" class="lineage-line"/>
+  <line x1="350" y1="620" x2="325" y2="775" class="lineage-line"/>
+  <line x1="350" y1="620" x2="375" y2="775" class="lineage-line"/>
+  <line x1="625" y1="620" x2="600" y2="775" class="lineage-line"/>
+  <line x1="625" y1="620" x2="650" y2="775" class="lineage-line"/>
+  
+  <!-- Dots indicating more nodes -->
+  <text x="200" y="795" text-anchor="middle" class="small">...</text>
+  <text x="490" y="795" text-anchor="middle" class="small">...</text>
+  
+  <circle cx="75" cy="795" r="22" class="gen3-node"/>
+  <text x="75" y="800" text-anchor="middle" class="gen-label" font-size="8px">3-...</text>
+  
+  <circle cx="125" cy="795" r="22" class="gen3-node"/>
+  <text x="125" y="800" text-anchor="middle" class="gen-label" font-size="8px">3-...</text>
+  
+  <circle cx="325" cy="795" r="22" class="gen3-node"/>
+  <text x="325" y="800" text-anchor="middle" class="gen-label" font-size="8px">3-...</text>
+  
+  <circle cx="375" cy="795" r="22" class="gen3-node"/>
+  <text x="375" y="800" text-anchor="middle" class="gen-label" font-size="8px">3-...</text>
+  
+  <circle cx="600" cy="795" r="22" class="gen3-node"/>
+  <text x="600" y="800" text-anchor="middle" class="gen-label" font-size="8px">3-...</text>
+  
+  <circle cx="650" cy="795" r="22" class="gen3-node"/>
+  <text x="650" y="800" text-anchor="middle" class="gen-label" font-size="8px">3-...</text>
+  
+  <text x="400" y="845" text-anchor="middle" class="small">Fourth generation • 16+ structures • Lineage continues...</text>
+  
+  <!-- Legend -->
+  <rect x="520" y="120" width="250" height="160" rx="5" fill="#f9f9f9" stroke="#999" stroke-width="1"/>
+  <text x="645" y="140" text-anchor="middle" class="label" font-weight="bold">Lineage Principles</text>
+  
+  <circle cx="540" cy="160" r="10" class="root-node"/>
+  <text x="560" y="165" class="small">ROOT: First structure</text>
+  
+  <circle cx="540" cy="185" r="10" class="gen0-node"/>
+  <text x="560" y="190" class="small">GEN-N: Nth generation</text>
+  
+  <line x1="535" y1="205" x2="555" y2="215" class="lineage-line"/>
+  <text x="560" y="215" class="small">Lineage propagation</text>
+  
+  <circle cx="540" cy="230" r="8" class="residue-marker"/>
+  <text x="560" y="235" class="small">Curvature residue</text>
+  
+  <text x="645" y="260" text-anchor="middle" class="small" font-weight="bold">Pattern preserved</text>
+  <text x="645" y="275" text-anchor="middle" class="small">across generations</text>
+  
+  <!-- Footer -->
+  <text x="400" y="880" text-anchor="middle" class="small" font-style="italic">Lineage Logic: ROOT → GEN-0 → GEN-1 → ... → GEN-N • Each generation carries the pattern</text>
+</svg>
