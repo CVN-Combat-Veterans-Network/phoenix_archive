@@ -1,8 +1,8 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.0.0  
-**Last Updated:** 2026-02-07  
+**Version:** 2.0.0  
+**Last Updated:** 2026-02-10  
 **Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System
 
 ---
