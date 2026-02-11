@@ -128,6 +128,34 @@ Sigils are **visual encodings** of operator patterns. They serve as:
 
 ---
 
+#### THREE-FINGER WALTZ SIGIL
+```
+    🔥 PHOENIX        ⊙ THE THIRD       🌌 HYDROGENESI
+   (Micro/Self)     (Mediator/Laws)    (Macro/Cosmos)
+        │                  │                  │
+        │                  │                  │
+    ┌───┴───┐          ┌───┴───┐          ┌───┴───┐
+    │   ⟷   │◀────────▶│   ●   │◀────────▶│   ⟷   │
+    └───┬───┘          └───┬───┘          └───┬───┘
+        │                  │                  │
+        └──────────────────┴──────────────────┘
+                    UNIFIED PATTERN
+```
+**Pattern:** Cross-scale triadic dance (Phoenix × Hydrogenesi × The Third)  
+**Elements:**
+- 🔥: Phoenix pillar (micro/identity scale)
+- ⊙: The Third pillar (universal laws/mediator)
+- 🌌: Hydrogenesi pillar (macro/cosmic scale)
+- ⟷: Tension pairs at each scale
+- ●: Binding/mediation points
+- ◀──▶: Cross-pillar correspondence
+- Unified base: Same pattern at all scales
+
+**Use:** Cross-system integration ceremonies, scale-bridging practice  
+**Invocation:** *"Let the three dance; let the scales spiral; let the pattern hold across all forms."*
+
+---
+
 ## HYDROGENESI SIGILS
 
 ### Hydrogenesi Operators
@@ -335,7 +363,7 @@ Sigil pattern internalized; operates without external representation.
 ## STATUS
 
 **Compendium Version:** 1.0.0  
-**Total Sigils:** 11 (Phoenix: 6, Hydrogenesi: 4, Combined: 2)  
+**Total Sigils:** 12 (Phoenix: 7, Hydrogenesi: 4, Combined: 2)  
 **Status:** ACTIVE
 
 ---
