@@ -124,8 +124,8 @@ D₄: C = 4  = 2²  → dim = 2 (2D space)
 D₅: C = 2  = 2¹  → dim = 1 (1D space)
 D₆: C = 1  = 2⁰  → dim = 0 (0D point - Apex)
 
-Note: This formula applies when complexity is measured as degrees of freedom 
-in binary (yes/no) choices. For other complexity measures, the base of the 
+Note: This formula applies when complexity is measured as degrees of freedom
+in binary (yes/no) choices. For other complexity measures, the base of the
 logarithm may differ.
 ```
 

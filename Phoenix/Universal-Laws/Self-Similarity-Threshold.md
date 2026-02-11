@@ -151,8 +151,6 @@ Where:
 - 1/ρ: Magnification factor
 - D_fractal: Fractal dimension
 
-Note: log(1/ρ) = -log(ρ), so this can also be written as -log(N) / log(ρ)
-
 For Phoenix patterns:
 N = 3 (triadic structure, 3 self-similar pieces)
 ρ = 0.5 (each piece is half the size)
