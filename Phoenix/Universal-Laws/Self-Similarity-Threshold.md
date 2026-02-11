@@ -143,16 +143,20 @@ Similarity: 40% < (1 - ε)
 
 **Hausdorff Dimension:**
 ```
-D_fractal = log(N) / log(1/ρ)
+D_fractal = log(N) / log(1/ρ) = log(N) / log(ρ⁻¹)
 
 Where:
 - N: Number of self-similar pieces
-- ρ: Scaling ratio
+- ρ: Scaling ratio (size of piece / size of whole)
+- 1/ρ: Magnification factor
 - D_fractal: Fractal dimension
 
+Note: log(1/ρ) = -log(ρ), so this can also be written as -log(N) / log(ρ)
+
 For Phoenix patterns:
-N = 3 (triadic), ρ = 0.5
-D_fractal = log(3) / log(2) ≈ 1.585
+N = 3 (triadic structure, 3 self-similar pieces)
+ρ = 0.5 (each piece is half the size)
+D_fractal = log(3) / log(1/0.5) = log(3) / log(2) ≈ 1.585
 ```
 
 **Interpretation:**

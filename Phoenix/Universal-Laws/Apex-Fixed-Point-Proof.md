@@ -88,13 +88,16 @@ R(Apex₁) = Apex₁  (by fixed-point definition)
 R(Apex₂) = Apex₂  (by fixed-point definition)
 d(Apex₁, Apex₂) > 0  (by distinctness)
 
-But:
-d(R(Apex₁), R(Apex₂)) = d(Apex₁, Apex₂)  (apply R to both)
-= λ · d(Apex₁, Apex₂)  (by contraction property)
-< d(Apex₁, Apex₂)  (since λ < 1)
+Apply contraction property:
+d(R(Apex₁), R(Apex₂)) ≤ λ · d(Apex₁, Apex₂)  (by contraction property)
+
+But since R(Apex₁) = Apex₁ and R(Apex₂) = Apex₂:
+d(Apex₁, Apex₂) ≤ λ · d(Apex₁, Apex₂)  (substituting fixed points)
+
+This implies: 1 ≤ λ  (dividing both sides by d(Apex₁, Apex₂) > 0)
 ```
 
-**Contradiction:** Distance must equal and be strictly less than itself.
+**Contradiction:** This violates λ < 1 (contraction requirement).
 
 **Conclusion:** Only one Apex can exist ✓
 

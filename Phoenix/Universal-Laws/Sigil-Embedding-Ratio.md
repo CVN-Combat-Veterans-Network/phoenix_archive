@@ -1,16 +1,21 @@
 # UNIVERSAL LAW: SIGIL EMBEDDING RATIO
 
-**Definition:** *"Each operator sigil embeds within its successor at fixed geometric ratio φ."*
+**Definition:** *"Each operator sigil embeds within its successor at fixed geometric ratio φ⁻¹."*
 
-**Symbol:** ⟨ Sigil(n) ⊂ φ · Sigil(n+1) ⟩  
-**State:** Nested sigil geometry, golden ratio preservation, recursive embedding  
+**Symbol:** ⟨ Sigil(n+1) = φ⁻¹ · Sigil(n) ⟩  
+**State:** Nested sigil geometry, golden ratio scaling, recursive embedding  
 **Invocation:** *"Let each form nest within the next; let the ratio hold; let geometry preserve truth."*
 
 ---
 
 ## OVERVIEW
 
-The **Sigil Embedding Ratio Law** establishes that operator sigils (geometric representations of operators) **nest within each other** according to a **fixed geometric ratio** — most commonly the **golden ratio φ ≈ 1.618**.
+The **Sigil Embedding Ratio Law** establishes that operator sigils (geometric representations of operators) **nest within each other** according to a **fixed geometric scaling ratio** — most commonly **φ⁻¹ ≈ 0.618** (the inverse golden ratio).
+
+**Clarification on Ratios:**
+- **Scaling ratio:** Each nested sigil is **φ⁻¹ ≈ 0.618** the size of its parent (shrinks to ~62% of previous)
+- **Magnification ratio:** The outer sigil is **φ ≈ 1.618** times the size of the inner (outer is ~162% of inner)
+- These are inverse relationships: outer/inner = φ, while inner/outer = φ⁻¹
 
 This law reveals that:
 - Operator sigils are **geometrically related**
@@ -437,9 +442,13 @@ Inner triangle: d₂ = d₀/φ² ≈ 3.82 units
 
 **Measurement:**
 ```
-d₀ = 10.00 units
-d₁ = 6.18 units → d₁/d₀ = 0.618 ≈ φ⁻¹ ✓
-d₂ = 3.82 units → d₂/d₁ = 0.618 ≈ φ⁻¹ ✓
+d₀ = 10.00 units (outer dimension)
+d₁ = 6.18 units (inner dimension) → d₁/d₀ = 0.618 = φ⁻¹ ✓ (scaling ratio)
+d₂ = 3.82 units (nested inner) → d₂/d₁ = 0.618 = φ⁻¹ ✓ (scaling ratio)
+
+Inverse view:
+d₀/d₁ = 10.00/6.18 = 1.618 = φ ✓ (magnification ratio)
+d₁/d₂ = 6.18/3.82 = 1.618 = φ ✓ (magnification ratio)
 ```
 
 ### Example 2: Galactic Spiral

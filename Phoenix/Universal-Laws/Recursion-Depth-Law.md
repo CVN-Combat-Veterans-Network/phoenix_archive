@@ -106,19 +106,27 @@ Where:
 
 **Geometric Dimension vs. Recursion Depth:**
 
-Recursion depth relates to **geometric spatial dimension** through projection:
+Recursion depth relates to **geometric spatial dimension** through information-theoretic projection.
+
+When complexity C represents the number of independent binary choices (degrees of freedom):
 
 ```
-Spatial Dimension(D) = floor(log₂(complexity(D)))
+Spatial Dimension(D) ≈ log₂(complexity(D))
 
-Examples:
-D₀: C = 64  → dim = 6 (6D space)
-D₁: C = 32  → dim = 5 (5D space)
-D₂: C = 16  → dim = 4 (4D space)
-D₃: C = 8   → dim = 3 (3D space)
-D₄: C = 4   → dim = 2 (2D space)
-D₅: C = 2   → dim = 1 (1D space)
-D₆: C = 1   → dim = 0 (0D point - Apex)
+(Rounded to nearest integer for discrete dimensional spaces)
+
+Examples (binary reduction, λ = 0.5):
+D₀: C = 64 = 2⁶  → dim = 6 (6D space)
+D₁: C = 32 = 2⁵  → dim = 5 (5D space)
+D₂: C = 16 = 2⁴  → dim = 4 (4D space)
+D₃: C = 8  = 2³  → dim = 3 (3D space)
+D₄: C = 4  = 2²  → dim = 2 (2D space)
+D₅: C = 2  = 2¹  → dim = 1 (1D space)
+D₆: C = 1  = 2⁰  → dim = 0 (0D point - Apex)
+
+Note: This formula applies when complexity is measured as degrees of freedom 
+in binary (yes/no) choices. For other complexity measures, the base of the 
+logarithm may differ.
 ```
 
 **Interpretation:**
