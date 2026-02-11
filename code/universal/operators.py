@@ -4,6 +4,11 @@ from enum import Enum
 from typing import Optional, List
 
 
+# Threshold constants for bifurcation logic
+INTERNAL_PRESSURE_THRESHOLD = 0.7  # Above this: LIFE (split), Below: LIGHT (absorb)
+PREMATURE_SPLIT_PRESSURE_THRESHOLD = 0.8  # Pressure threshold for premature split detection
+
+
 class BifurcationVector(Enum):
     """The two possible outcomes of the Life-Light Bifurcation."""
     LIFE = "LIFE"  # Split: fragmentation and preservation
@@ -36,7 +41,7 @@ class LifeLightBifurcation:
     
     confinement_tension: float = 0.0  # 0.0 to 1.0, where 1.0 is maximum
     stabilizing_symmetry: float = 0.0  # 0.0 to 1.0, where 1.0 is at limit
-    internal_pressure: float = 0.0  # Relative internal pressure
+    internal_pressure: float = 0.0  # 0.0 to 1.0+, ratio of internal tension to containment
     
     # State tracking
     _status: BifurcationStatus = BifurcationStatus.PENDING
@@ -85,7 +90,7 @@ class LifeLightBifurcation:
         
         if not self.at_threshold():
             # Check for failure states
-            if self.confinement_tension < 1.0 and self.internal_pressure > 0.8:
+            if self.confinement_tension < 1.0 and self.internal_pressure > PREMATURE_SPLIT_PRESSURE_THRESHOLD:
                 # Premature split condition
                 self._status = BifurcationStatus.NULL
                 return {
@@ -110,11 +115,11 @@ class LifeLightBifurcation:
             # LIGHT: Containment exceeds internal tension
             #
             # Use internal_pressure as a proxy for tension/containment ratio
-            # Higher pressure (>0.7) → LIFE (split)
-            # Lower pressure (≤0.7) → LIGHT (absorb)
+            # Higher pressure (>INTERNAL_PRESSURE_THRESHOLD) → LIFE (split)
+            # Lower pressure (≤INTERNAL_PRESSURE_THRESHOLD) → LIGHT (absorb)
             vector = (
                 BifurcationVector.LIFE 
-                if self.internal_pressure > 0.7 
+                if self.internal_pressure > INTERNAL_PRESSURE_THRESHOLD 
                 else BifurcationVector.LIGHT
             )
         
