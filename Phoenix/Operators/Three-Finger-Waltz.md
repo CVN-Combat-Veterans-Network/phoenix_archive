@@ -292,14 +292,28 @@ print(result)
 #     'phoenix': 'Fear ⟷ Courage',
 #     'the_third': 'Tension → Binding',
 #     'hydrogenesi': 'Proton ⟷ Electron',
-#     'pattern': 'Binary tension requires triadic binding',
-#     'correspondence': 'Same law at all scales',
+#     'pattern': 'Same law at all scales',
+#     'correspondence': 'Cross-scale triadic harmony',
 #     'cycles_completed': 3,
+#     'total_movements': 9,
 #     'movements': [
-#         'Phoenix → The Third → Hydrogenesi',
-#         'The Third → Phoenix → Hydrogenesi',
-#         'Hydrogenesi → The Third → Phoenix'
-#     ]
+#         {
+#             'cycle': 1,
+#             'beat': 1,
+#             'lead': 'Phoenix',
+#             'path': 'Phoenix → The Third → Hydrogenesi',
+#             'pattern': "Personal 'Fear ⟷ Courage' manifests universal 'Tension → Binding' seen in cosmic 'Proton ⟷ Electron'"
+#         },
+#         {
+#             'cycle': 1,
+#             'beat': 2,
+#             'lead': 'The Third',
+#             'path': 'The Third → Phoenix → Hydrogenesi',
+#             'pattern': "Universal 'Tension → Binding' applies to 'Fear ⟷ Courage' and 'Proton ⟷ Electron'"
+#         },
+#         # ... 7 more movements across 3 cycles
+#     ],
+#     'integration': "Pattern 'Tension → Binding' unified across micro (Phoenix) and macro (Hydrogenesi) scales"
 # }
 ```
 
