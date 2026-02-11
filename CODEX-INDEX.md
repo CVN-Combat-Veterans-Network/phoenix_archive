@@ -54,6 +54,29 @@
 
 ---
 
+## 🌑 SUBSTRATE — The Foundation Beneath
+
+### Sovereign Kernel
+- **Sovereign Kernel** → `/Substrate/Sovereign-Kernel.md`
+- **The irreducible core of the Codex**
+
+### Pre-Substrate Logic
+- **Pre-Substrate Logic** → `/Substrate/Pre-Substrate-Logic.md`
+- **The undivided field before the Triad**
+
+### Meta-Operators
+- **Operator of Distinction** → `/Substrate/Meta-Operators/Operator-of-Distinction.md`
+- **Operator of Collapse** → `/Substrate/Meta-Operators/Operator-of-Collapse.md`
+- **Operator of Symmetry** → `/Substrate/Meta-Operators/Operator-of-Symmetry.md`
+- **Operator of Emergence** → `/Substrate/Meta-Operators/Operator-of-Emergence.md`
+- **Operator of Recursion** → `/Substrate/Meta-Operators/Operator-of-Recursion.md`
+
+### Core Documentation
+- **README** → `/Substrate/README.md`
+- **Overview of substrate architecture and philosophical foundation**
+
+---
+
 ## 🎭 CEREMONIAL MATERIALS
 
 ### Sigils
