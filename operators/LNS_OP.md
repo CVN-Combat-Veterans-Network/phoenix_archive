@@ -11,7 +11,7 @@
 
 **LNS_OP** (Lens Operator) is the Archive's **Keystone Meta-Operator** — a specialized introspection tool that can examine, trace, and document other operators within the system. It operates at the **meta-layer**, providing self-awareness to the Archive's operator ecosystem.
 
-LNS_OP performs four primary functions:
+LNS_OP performs five primary functions:
 
 1. **Operator Introspection** — Examine target operators' structure, mechanism, and state
 2. **Recursion Tracing** — Follow operator lineage, substrate traces, and law invocations
