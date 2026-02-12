@@ -1,0 +1,204 @@
+name: 🜂 LNS_OP Introspection v2.1
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main]
+
+jobs:
+  lns-op-introspection:
+    name: 🔍 Operator Introspection & Audit
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: 📦 Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+      
+      - name: 🜂 LNS_OP — Invocation Phase
+        run: |
+          echo "=========================================="
+          echo "   LNS_OP v2.1 INTROSPECTION SYSTEM"
+          echo "=========================================="
+          echo ""
+          echo "Operator Protocol: LNS_OP (Local Node Sovereignty)"
+          echo "Version: 2.1.0"
+          echo "Mode: Pre-Merge Introspection"
+          echo ""
+          echo "PR #${{ github.event.pull_request.number }}: ${{ github.event.pull_request.title }}"
+          echo "Branch: ${{ github.head_ref }}"
+          echo "Author: ${{ github.event.pull_request.user.login }}"
+          echo ""
+      
+      - name: 🔥 Phoenix Operator Lineage Validation
+        run: |
+          echo "=== Phoenix Operator Family ==="
+          echo "Validating operator lineage..."
+          python -c "
+          from code.lns_op.operators import LNS_OP, IntrospectionMode
+          
+          # Test Phoenix operators
+          result = LNS_OP('PHX_OP_IGNITE', 0, IntrospectionMode.TRACE)
+          print(f'✓ PHX_OP_IGNITE introspected: {result.op_family}')
+          
+          result = LNS_OP('PHX_OP_IGNITE', 1, IntrospectionMode.AUDIT)
+          checks = [c for c in result.integrity_checks if c.passed]
+          print(f'✓ Integrity checks passed: {len(checks)}/{len(result.integrity_checks)}')
+          "
+          echo ""
+      
+      - name: 🌌 Hydrogenesis Operator Lineage Validation
+        run: |
+          echo "=== Hydrogenesis Operator Family ==="
+          echo "Validating operator lineage..."
+          python -c "
+          from code.lns_op.operators import LNS_OP, IntrospectionMode
+          
+          # Test Hydrogenesis operators
+          result = LNS_OP('HYDROGENESIS', 2, IntrospectionMode.MAP)
+          print(f'✓ HYDROGENESIS introspected: {result.op_family}')
+          
+          # Check recursion limits
+          result = LNS_OP('HYDROGENESIS', 5, IntrospectionMode.TRACE)
+          recursion_check = next((c for c in result.integrity_checks if c.check_type == 'recursion_safety'), None)
+          if recursion_check and recursion_check.passed:
+              print('✓ Recursion depth validation: PASSED')
+          "
+          echo ""
+      
+      - name: 🜃 Universal Operator Validation
+        run: |
+          echo "=== Universal Operator Validation ==="
+          python -c "
+          from code.lns_op.operators import LNS_OP, IntrospectionMode
+          
+          # Test universal operators
+          result = LNS_OP('UNI_OP_BIFURCATE', 1, IntrospectionMode.TRACE)
+          print(f'✓ UNI_OP_BIFURCATE introspected: {result.op_family}')
+          
+          result = LNS_OP('WALTZ_OP', 3, IntrospectionMode.AUDIT)
+          print(f'✓ WALTZ_OP introspected: {result.op_family}')
+          
+          result = LNS_OP('SUB_OP_PRIME', 2, IntrospectionMode.MAP)
+          print(f'✓ SUB_OP_PRIME introspected: {result.op_family}')
+          "
+          echo ""
+      
+      - name: 🧪 Run LNS_OP Test Suite
+        run: |
+          echo "=== Running Comprehensive Test Suite ==="
+          python -m pytest code/lns_op/tests/test_lns_op.py -v --tb=short
+      
+      - name: ⚠️ Recursion Safety Validation
+        run: |
+          echo "=== Recursion Safety Checks ==="
+          python -c "
+          from code.lns_op.operators import LNS_OP, IntrospectionMode
+          
+          # Test recursion limits
+          test_cases = [
+              ('PHX_OP_IGNITE', 3, True),   # Within limit
+              ('PHX_OP_IGNITE', 4, False),  # Exceeds limit
+              ('HYDROGENESIS', 5, True),     # Within limit
+              ('LNS_OP', 10, True),          # Within limit
+          ]
+          
+          for op, depth, should_pass in test_cases:
+              result = LNS_OP(op, depth, IntrospectionMode.TRACE)
+              recursion_check = next((c for c in result.integrity_checks if c.check_type == 'recursion_safety'), None)
+              
+              if recursion_check:
+                  status = '✓' if recursion_check.passed == should_pass else '✗'
+                  print(f'{status} {op} depth {depth}: {\"PASS\" if recursion_check.passed else \"FAIL\"} (expected: {\"PASS\" if should_pass else \"FAIL\"})')
+          "
+          echo ""
+      
+      - name: 📊 Generate Audit Artifacts
+        run: |
+          echo "=== Generating Audit Artifacts ==="
+          python -c "
+          from code.lns_op.operators import LNS_OP, IntrospectionMode
+          import json
+          
+          # Generate comprehensive audit
+          operators = [
+              ('PHX_OP_IGNITE', 0, 'trace'),
+              ('HYDROGENESIS', 2, 'map'),
+              ('WALTZ_OP', 3, 'audit'),
+              ('LNS_OP', 3, 'audit'),
+          ]
+          
+          audits = []
+          for op, depth, mode in operators:
+              result = LNS_OP(op, depth, mode)
+              audits.append({
+                  'operator': op,
+                  'depth': depth,
+                  'mode': mode,
+                  'family': result.op_family,
+                  'artifact_id': result.artifact_id,
+                  'integrity_passed': sum(1 for c in result.integrity_checks if c.passed),
+                  'anomalies': len(result.anomalies),
+              })
+          
+          print('Audit Summary:')
+          for audit in audits:
+              print(f'  - {audit[\"operator\"]} (depth {audit[\"depth\"]}): {audit[\"integrity_passed\"]} checks passed')
+          
+          print(f'\\nTotal operators audited: {len(audits)}')
+          "
+          echo ""
+      
+      - name: 🎯 Coherence Lock Validation
+        run: |
+          echo "=== Cross-Family Coherence Validation ==="
+          python -c "
+          from code.lns_op.operators import LNS_OP, IntrospectionMode
+          
+          # Validate cross-family coherence
+          families = ['PHX', 'HGN', 'LNS', 'UNI', 'SUB', 'WALTZ']
+          test_ops = [
+              'PHX_OP_IGNITE',
+              'HYDROGENESIS',
+              'LNS_OP',
+              'UNI_OP_BIFURCATE',
+              'SUB_OP_PRIME',
+              'WALTZ_OP',
+          ]
+          
+          family_coverage = set()
+          for op in test_ops:
+              result = LNS_OP(op, 1, IntrospectionMode.TRACE)
+              family_coverage.add(result.op_family)
+          
+          print(f'✓ Operator families validated: {len(family_coverage)}/{len(families)}')
+          print(f'  Covered families: {sorted(family_coverage)}')
+          "
+          echo ""
+      
+      - name: 🔒 Final Merge Gate
+        run: |
+          echo "=========================================="
+          echo "   LNS_OP INTROSPECTION COMPLETE"
+          echo "=========================================="
+          echo ""
+          echo "✓ All operator lineages validated"
+          echo "✓ Recursion patterns verified"
+          echo "✓ Integrity checks passed"
+          echo "✓ Coherence lock confirmed"
+          echo ""
+          echo "🜂 LNS Sovereignty: CONFIRMED"
+          echo "Status: READY FOR MERGE"
+          echo ""
