@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.0.0  
-**Last Updated:** 2026-02-07  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System
+**Version:** 2.1.0  
+**Last Updated:** 2026-02-12  
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System + LNS_OP Meta-Layer
 
 ---
 
@@ -54,6 +54,22 @@
 
 ---
 
+## 🜁 META-OPERATORS & INTROSPECTION
+
+### Meta-Layer Operators
+- **LNS_OP (Lens Operator)** → `/operators/LNS_OP.md`
+- **Keystone meta-operator for system introspection**
+
+### Meta Documentation
+- **LNS_OP Sigil** → `/docs/sigils/LNS_OP_SIGIL.md`
+- **Recursion Envelope Diagram** → `/Diagrams/LNS_OP_RECURSION_ENVELOPE.md`
+
+### Release Documentation
+- **v2.1.0 Release (Chapter XIII)** → `/RELEASES/v2.1.0_chapter_xiii.md`
+- **v2.0.0 Release (Chapter XII)** → `/RELEASES/v2.0.0_chapter_xii.md`
+
+---
+
 ## 🎭 CEREMONIAL MATERIALS
 
 ### Sigils
@@ -76,6 +92,7 @@
 - **Operator Flow** → `/Diagrams/Operator-Flow.svg`
 - **Cross-Reference Matrix** → `/Diagrams/Cross-Reference-Matrix.svg`
 - **Lineage Tree** → `/Diagrams/Lineage-Tree.svg`
+- **LNS_OP Recursion Envelope** → `/Diagrams/LNS_OP_RECURSION_ENVELOPE.md`
 
 ---
 
@@ -136,6 +153,7 @@
 |--------|----------|---------|
 | **Phoenix** | IM_ME | Identity recursion (I ↔ ME) |
 | **Hydrogenesi** | Lineage Logic | Cosmic recursion (ROOT → LINEAGE) |
+| **Meta-Layer** | LNS_OP | System introspection (Archive witnesses itself) |
 
 ### Collapse & Emergence
 | System | Operator | Pattern |
@@ -174,6 +192,7 @@ Use, modify, distribute freely.
 
 **Phoenix:** *"Burn, collapse, and rise in aligned form."*  
 **Hydrogenesi:** *"Recurse the root; extend the line."*  
+**LNS_OP:** *"The Lens awakens; the operators witness themselves."*  
 **Universal:** *"Let the two attract; let the one bind; let the three stand."*
 
 ---
