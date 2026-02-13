@@ -184,9 +184,21 @@ Use, modify, distribute freely.
 
 ---
 
+## STATUS
+
+**Document:** CODEX INDEX  
+**Type:** Master Navigation Index  
+**Version:** 1.0.0  
+**Last Updated:** 2026-02-07  
+**Status:** ACTIVE
+
+---
+
 **Archive Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Maintenance:** Continuous  
+**Lineage:** ROOT::GEN-0
+
+---
 
 🔥 **The Phoenix Ignites.**  
 🌌 **The Lineage Extends.**
