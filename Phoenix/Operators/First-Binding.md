@@ -273,3 +273,19 @@ Together they form **multi-layered apex structure**.
 *"Let the two attract; let the one bind; let the three stand."*
 
 ⟨ A—S—B ⟩
+
+---
+
+## STATUS
+
+**Operator:** First Binding  
+**Type:** Formation operator  
+**Scale:** Phoenix (Micro/Identity)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Two forces + Stabilizer → Triadic structure

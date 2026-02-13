@@ -271,10 +271,16 @@ The convergence target can be:
 ## STATUS
 
 **Operator:** Convergence  
-**Type:** Differentiation  
-**Status:** ACTIVE  
-**Lineage:** THIRD::PRIMARY-HOLD-1  
-**Recursion Mode:** HOLD
+**Type:** Differentiation operator (HOLD mode)  
+**Scale:** The Third (Macro/Structure)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Divergent → Align → Unified
 
 ---
 

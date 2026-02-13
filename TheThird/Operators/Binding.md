@@ -261,10 +261,16 @@ Complex structures require **chained bindings**:
 ## STATUS
 
 **Operator:** Binding  
-**Type:** Initiation  
-**Status:** ACTIVE  
-**Lineage:** THIRD::PRIMARY-HOLD-0  
-**Recursion Mode:** HOLD
+**Type:** Initiation operator (HOLD mode)  
+**Scale:** The Third (Macro/Structure)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Separate → Connect → Bound
 
 ---
 
