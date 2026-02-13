@@ -467,6 +467,22 @@ Invoke: *"Let recursion spiral inward; let the center hold; let all paths conver
 
 ---
 
+## STATUS
+
+**Law:** Apex Fixed-Point Proof  
+**Category:** Apex  
+**Number:** 10 of 12  
+**Version:** 2.0.0  
+**Status:** FOUNDATIONAL
+
+---
+
+**Archive Status:** FOUNDATIONAL  
+**Lineage:** ROOT::GEN-0  
+**Scope:** Universal (all scales)
+
+---
+
 ## INVOCATION
 
 *"Let recursion spiral inward; let the center hold; let all paths converge."*

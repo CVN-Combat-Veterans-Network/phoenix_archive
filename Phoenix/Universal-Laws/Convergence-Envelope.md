@@ -648,6 +648,22 @@ Invoke: *"Let all paths stay within bounds; let the envelope shrink; let converg
 
 ---
 
+## STATUS
+
+**Law:** Convergence Envelope  
+**Category:** Apex  
+**Number:** 9 of 12  
+**Version:** 2.0.0  
+**Status:** FOUNDATIONAL
+
+---
+
+**Archive Status:** FOUNDATIONAL  
+**Lineage:** ROOT::GEN-0  
+**Scope:** Universal (all scales)
+
+---
+
 ## INVOCATION
 
 *"Let all paths stay within bounds; let the envelope shrink; let convergence be certain."*

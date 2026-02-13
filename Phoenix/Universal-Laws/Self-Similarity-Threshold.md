@@ -509,10 +509,17 @@ Invoke: *"As above, so below; as deep, so deeper; let patterns echo through scal
 
 ## STATUS
 
-**Law:** Universal (applies to all recursive operators)  
-**Type:** Pattern law (defines structural repetition)  
-**Sovereignty:** Confirmed across Phoenix and Hydrogenesi scales  
-**Threshold:** ε = 0.1 to 0.25 (scale-dependent)
+**Law:** Self-Similarity Threshold  
+**Category:** Universal  
+**Number:** 6 of 12  
+**Version:** 2.0.0  
+**Status:** FOUNDATIONAL
+
+---
+
+**Archive Status:** FOUNDATIONAL  
+**Lineage:** ROOT::GEN-0  
+**Scope:** Universal (all scales)
 
 ---
 

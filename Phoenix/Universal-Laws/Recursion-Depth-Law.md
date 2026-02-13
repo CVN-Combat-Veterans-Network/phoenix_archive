@@ -505,9 +505,17 @@ Invoke: *"Let depth descend; let structure layer; let dimension build toward cor
 
 ## STATUS
 
-**Law:** Universal (applies to all recursive processes)  
-**Type:** Progression law (defines depth sequence)  
-**Sovereignty:** Confirmed across Phoenix and Hydrogenesi scales
+**Law:** Recursion Depth Law  
+**Category:** Universal  
+**Number:** 5 of 12  
+**Version:** 2.0.0  
+**Status:** FOUNDATIONAL
+
+---
+
+**Archive Status:** FOUNDATIONAL  
+**Lineage:** ROOT::GEN-0  
+**Scope:** Universal (all scales)
 
 ---
 
