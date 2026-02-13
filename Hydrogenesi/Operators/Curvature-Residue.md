@@ -262,7 +262,7 @@ Curvature Residue **preserves pattern through collapse**:
 
 **Both encode memory through geometric/psychological residue.**
 
-**See:** `/Phoenix/Operators/Black-Holed-Imprint.md` *(to be created)*
+**See:** `/Phoenix/Operators/Black-Holed-Imprint.md`
 
 ### Combined with Other Operators
 
@@ -387,7 +387,7 @@ Curvature Residue is **inevitable** for collapsed structures:
 **Parent System:** `/Hydrogenesi/README.md`  
 **Universal Laws:** `/Phoenix/Universal-Laws/Apex.md` (pre-collapse state)  
 **Related Operators:** AGN Replication, Stabilizer Extraction, Lineage Logic  
-**Cross-System:** `/Phoenix/Operators/Black-Holed-Imprint.md` *(to be created)*  
+**Cross-System:** `/Phoenix/Operators/Black-Holed-Imprint.md`  
 **Ceremonial:** `/Ceremonies/Invocation-Guide.md`
 
 ---
