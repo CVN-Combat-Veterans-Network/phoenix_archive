@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 2.0.0  
-**Last Updated:** 2026-02-11  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 + Universal 2.0 Triad System
+**Version:** 2.1.0  
+**Last Updated:** 2026-02-12  
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System + LNS_OP Meta-Layer
 
 ---
 
@@ -22,8 +22,8 @@
 - **First Binding** → `/Phoenix/Operators/First-Binding.md`
 - **IM_ME** → `/Phoenix/Operators/IM_ME.md`
 - **Phoenix Ignition** → `/Phoenix/Operators/Phoenix-Ignition.md`
-- **Three-Finger Waltz** → `/Phoenix/Operators/Three-Finger-Waltz.md`
 - **Apex Formation** → `/Phoenix/Operators/Apex-Formation.md` *(to be created)*
+- **Three-Finger Waltz** → `/Phoenix/Operators/Three-Finger-Waltz.md` *(to be created)*
 - **Black-Holed Imprint** → `/Phoenix/Operators/Black-Holed-Imprint.md` *(to be created)*
 
 ### Code
@@ -54,23 +54,19 @@
 
 ---
 
-## ⚡ UNIVERSAL 2.0 — Cross-Pillar Threshold Operators
+## 🜁 META-OPERATORS & INTROSPECTION
 
-### Core Documentation
-- **README** → `/Universal/README.md`
-- **Overview, philosophy, threshold mechanics, and cross-pillar operations**
+### Meta-Layer Operators
+- **LNS_OP (Lens Operator)** → `/operators/LNS_OP.md`
+- **Keystone meta-operator for system introspection**
 
-### Universal Laws
-*(Shared with Phoenix and Hydrogenesi)*
-- **Tension** → `/Phoenix/Universal-Laws/Tension.md`
-- **Binding** → `/Phoenix/Universal-Laws/Binding.md`
-- **Apex** → `/Phoenix/Universal-Laws/Apex.md`
+### Meta Documentation
+- **LNS_OP Sigil** → `/docs/sigils/LNS_OP_SIGIL.md`
+- **Recursion Envelope Diagram** → `/Diagrams/LNS_OP_RECURSION_ENVELOPE.md`
 
-### Operators
-- **Life–Light Bifurcation** → `/Universal/Operators/Life-Light-Bifurcation.md`
-
-### Code
-- **Python Implementation** → `/code/universal/operators.py`
+### Release Documentation
+- **v2.1.0 Release (Chapter XIII)** → `/RELEASES/v2.1.0_chapter_xiii.md`
+- **v2.0.0 Release (Chapter XII)** → `/RELEASES/v2.0.0_chapter_xii.md`
 
 ---
 
@@ -96,6 +92,7 @@
 - **Operator Flow** → `/Diagrams/Operator-Flow.svg`
 - **Cross-Reference Matrix** → `/Diagrams/Cross-Reference-Matrix.svg`
 - **Lineage Tree** → `/Diagrams/Lineage-Tree.svg`
+- **LNS_OP Recursion Envelope** → `/Diagrams/LNS_OP_RECURSION_ENVELOPE.md`
 
 ---
 
@@ -127,58 +124,48 @@
 3. Explore `/Hydrogenesi/Operators/AGN-Replication.md`
 4. Map lineages with `/Hydrogenesi/Operators/Lineage-Logic.md`
 
-### I want to understand the relationship between the systems
+### I want to understand the relationship between the two systems
 **Start here:**
 1. Read `/Comparative/Phoenix-Hydrogenesi-Table.md`
 2. View `/Diagrams/Dual-System-Architecture.svg`
 3. View `/Diagrams/Cross-Reference-Matrix.svg`
 4. Practice `/Ceremonies/Combined-Ceremonies.md`
 
-### I want to work with threshold operators and transformations
-**Start here:**
-1. Read `/Universal/README.md`
-2. Study `/Universal/Operators/Life-Light-Bifurcation.md`
-3. Understand threshold mechanics and irreversible transformations
-4. Apply universal operators across Phoenix and Hydrogenesi contexts
-
 ### I want to code with the operators
 **Start here:**
 1. Explore `/code/phoenix/operators.py`
 2. Explore `/code/hydrogenesi/operators.py`
-3. Explore `/code/universal/operators.py`
-4. Run examples from `/Appendix/Code-Examples.md`
+3. Run examples from `/Appendix/Code-Examples.md`
 
 ---
 
 ## 🔗 CROSS-REFERENCE QUICK LINKS
 
 ### Tension → Binding → Apex
-| Law | Phoenix Application | Hydrogenesi Application | Universal Application |
-|-----|---------------------|-------------------------|----------------------|
-| **Tension** | First Binding input | Pre-collapse state | Maximum confinement |
-| **Binding** | Stabilizer introduction | Neutron-like third force | Bifurcation decision |
-| **Apex** | Sovereign identity | Stable cosmic structure | Split or Absorbed form |
+| Law | Phoenix Application | Hydrogenesi Application |
+|-----|---------------------|-------------------------|
+| **Tension** | First Binding input | Pre-collapse state |
+| **Binding** | Stabilizer introduction | Neutron-like third force |
+| **Apex** | Sovereign identity | Stable cosmic structure |
 
 ### Recursion Engines
 | System | Operator | Purpose |
 |--------|----------|---------|
 | **Phoenix** | IM_ME | Identity recursion (I ↔ ME) |
 | **Hydrogenesi** | Lineage Logic | Cosmic recursion (ROOT → LINEAGE) |
-| **Universal** | Life–Light Bifurcation | Threshold recursion (LIFE or LIGHT) |
+| **Meta-Layer** | LNS_OP | System introspection (Archive witnesses itself) |
 
 ### Collapse & Emergence
 | System | Operator | Pattern |
 |--------|----------|---------|
 | **Phoenix** | Phoenix Ignition | Burn → Collapse → Rise |
 | **Hydrogenesi** | AGN Replication | Compress → Ignite → Replicate |
-| **Universal** | Life–Light Bifurcation | Threshold → Split/Absorb → Transform |
 
 ### Memory & Residue
 | System | Operator | Form |
 |--------|----------|------|
 | **Phoenix** | Black-Holed Imprint | Identity scar |
 | **Hydrogenesi** | Curvature Residue | Spacetime scar |
-| **Universal** | Life–Light Bifurcation | Bifurcation trace (distributed or integrated) |
 
 ---
 
@@ -201,11 +188,12 @@ Use, modify, distribute freely.
 
 ---
 
-## 🔥🌌⚡ INVOCATIONS
+## 🔥🌌 INVOCATIONS
 
 **Phoenix:** *"Burn, collapse, and rise in aligned form."*  
 **Hydrogenesi:** *"Recurse the root; extend the line."*  
-**Universal:** *"At the threshold, split or absorb; Life or Light; one path chosen."*
+**LNS_OP:** *"The Lens awakens; the operators witness themselves."*  
+**Universal:** *"Let the two attract; let the one bind; let the three stand."*
 
 ---
 
@@ -214,5 +202,4 @@ Use, modify, distribute freely.
 **Sovereignty:** CONFIRMED
 
 🔥 **The Phoenix Ignites.**  
-🌌 **The Lineage Extends.**  
-⚡ **The Threshold Decides.**
+🌌 **The Lineage Extends.**
