@@ -148,6 +148,24 @@ New state: Phoenix operator with amplitude=1.5
 stability_score = 1.0 - (structural_drift / max_allowed_drift)
 ```
 
+**For Composition Transformations:**
+
+When composing operators (adding structure without replacing core identity), use **weighted scoring**:
+
+```
+core_preservation_score = 1.0 if core signature unchanged, else < 1.0
+drift_score = 1.0 - (structural_drift / max_allowed_drift)
+
+stability_score = (weight_core * core_preservation_score) + 
+                  (weight_drift * drift_score)
+
+# Typical weights:
+# weight_core = 0.7 (70% - core identity is most important)
+# weight_drift = 0.3 (30% - drift tolerance is secondary)
+```
+
+This ensures that transformations preserving core identity score higher even with moderate structural drift.
+
 ---
 
 ### Phase 4: STABILIZATION
