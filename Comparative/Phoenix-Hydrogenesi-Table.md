@@ -1,7 +1,11 @@
 # PHOENIX vs HYDROGENESI COMPARATIVE TABLE
 
 **Dimension-by-Dimension Analysis**  
+<<<<<<< HEAD
 **Version:** 2.0.0  
+=======
+**Version:** 1.0.0  
+>>>>>>> copilot/consolidate-codex-documentation
 **Purpose:** Detailed comparison of dual-system architecture
 
 ---
@@ -293,7 +297,11 @@ PHOENIX (Micro)          HYDROGENESI (Macro)
 
 ## STATUS
 
+<<<<<<< HEAD
 **Table Version:** 2.0.0  
+=======
+**Table Version:** 1.0.0  
+>>>>>>> copilot/consolidate-codex-documentation
 **Dimensions Compared:** 50+  
 **Depth:** Comprehensive  
 **Status:** ACTIVE
