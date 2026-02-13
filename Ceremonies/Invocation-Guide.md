@@ -410,20 +410,23 @@ Power comes from understanding + intention + action.
 
 ## STATUS
 
-**Guide Version:** 1.0.0  
-**Total Invocations:** 14 (Core: 3, Phoenix: 3, Hydrogenesi: 4, Combined: 4)  
+**Document:** Invocation Guide  
+**Type:** Reference Guide  
+**Version:** 1.0.0  
+**Last Updated:** 2026-02-07  
 **Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Maintenance:** Continuous  
+**Lineage:** ROOT::GEN-0
 
 ---
 
 ## META-INVOCATION
 
 *"Let words become patterns; let patterns become operators; let operators transform reality."*
-
----
-
-**Archive Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0
 
 🔥 **The Words Resonate.**  
 🌌 **The Patterns Activate.**

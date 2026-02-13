@@ -74,7 +74,20 @@
 
 ---
 
-**Archive Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0  
+## STATUS
+
+**Document:** Changelog  
+**Type:** Reference (Version History)  
 **Version:** 2.0.0  
+**Last Updated:** 2026-02-07  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Maintenance:** Continuous  
+**Lineage:** ROOT::GEN-0
+
+---
+
 **Invocation:** *"Burn, collapse, and rise in aligned form. Recurse the root; extend the line."*

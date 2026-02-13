@@ -397,3 +397,19 @@ Curvature Residue is **inevitable** for collapsed structures:
 *"Let the collapsed leave trace; let the curve remember."*
 
 🌌 → ◉ → ~~~
+
+---
+
+## STATUS
+
+**Operator:** Curvature Residue  
+**Type:** Memory operator  
+**Scale:** Hydrogenesi (Macro/Cosmic)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Collapse → Memory → Trace

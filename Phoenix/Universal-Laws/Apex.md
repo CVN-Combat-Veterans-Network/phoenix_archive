@@ -328,9 +328,17 @@ Invoke: *"Let the three form one; let the structure hold."*
 
 ## STATUS
 
-**Law:** Universal (applies at all scales)  
-**Sequence:** Third law (follows Tension and Binding)  
-**Sovereignty:** Confirmed across Phoenix and Hydrogenesi
+**Law:** Apex  
+**Category:** Substrate  
+**Number:** 3 of 12  
+**Version:** 2.0.0  
+**Status:** FOUNDATIONAL
+
+---
+
+**Archive Status:** FOUNDATIONAL  
+**Lineage:** ROOT::GEN-0  
+**Scope:** Universal (all scales)
 
 ---
 

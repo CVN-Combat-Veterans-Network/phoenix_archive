@@ -617,6 +617,22 @@ Invoke: *"Let parameters hold within bounds; let stability reign in the band; le
 
 ---
 
+## STATUS
+
+**Law:** Recursive Stability Band  
+**Category:** Apex  
+**Number:** 8 of 12  
+**Version:** 2.0.0  
+**Status:** FOUNDATIONAL
+
+---
+
+**Archive Status:** FOUNDATIONAL  
+**Lineage:** ROOT::GEN-0  
+**Scope:** Universal (all scales)
+
+---
+
 ## INVOCATION
 
 *"Let parameters hold within bounds; let stability reign in the band; let divergence mark the edge."*

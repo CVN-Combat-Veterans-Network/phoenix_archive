@@ -498,10 +498,16 @@ To release a binding, use the inverse operator:
 ## STATUS
 
 **Operator:** Knot-Binding  
-**Type:** Binding  
-**Status:** ACTIVE  
+**Type:** Binding operator  
+**Scale:** The Third (Triadic/Knot)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
 **Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Pattern:** Pillar + Knot → Stable binding
 
 ---
 
