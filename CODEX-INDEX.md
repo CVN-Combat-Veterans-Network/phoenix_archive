@@ -114,6 +114,24 @@
 
 ---
 
+## 🏗️ ARCHITECTURE & OPERATIONS
+
+### Merge & Release Documentation
+- **Stratum I Dashboard** → `/docs/architecture/stratum_i_dashboard.md`
+- **Operational view of Architecture Layer PRs**
+- **Stratum I Ignition Sequence** → `/docs/architecture/stratum_i_ignition_sequence.md`
+- **Complete merge guide for Architecture Layer**
+- **PR Merge Comments** → `/docs/architecture/pr_merge_comments.md`
+- **Professional merge comments for GitHub PRs**
+- **Merge Dependencies** → `/docs/architecture/merge_dependencies.md`
+- **Visual merge architecture and dependency flow**
+
+### Release Ceremonies
+- **v2.0 Inscription** → `/docs/ceremonies/v2_inscription.md`
+- **Triadic completion ceremony for v2.0.0**
+
+---
+
 ## 🚀 QUICK START PATHS
 
 ### I want to work with identity and self-formation
