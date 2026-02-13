@@ -1,10 +1,15 @@
 from __future__ import annotations
 from dataclasses import dataclass
+<<<<<<< HEAD
 from typing import List, Dict, Any, Tuple
+=======
+from typing import List
+>>>>>>> copilot/consolidate-codex-documentation
 
 
 @dataclass
 class FirstBinding:
+<<<<<<< HEAD
     """
     Triadic emergence: bind two forces with a stabilizer.
     
@@ -28,17 +33,26 @@ class FirstBinding:
         if not all([a, b, stabilizer]):
             raise ValueError("All parameters (a, b, stabilizer) must be non-empty")
         
+=======
+    """Triadic emergence: bind two forces with a stabilizer."""
+
+    def apply(self, a: str, b: str, stabilizer: str) -> dict:
+>>>>>>> copilot/consolidate-codex-documentation
         return {
             "tension_pair": (a, b),
             "stabilizer": stabilizer,
             "triad": (a, stabilizer, b),
+<<<<<<< HEAD
             "pattern": "triadic_formation",
             "status": "bound",
+=======
+>>>>>>> copilot/consolidate-codex-documentation
         }
 
 
 @dataclass
 class IM_ME:
+<<<<<<< HEAD
     """
     Identity recursion operator.
     
@@ -63,10 +77,19 @@ class IM_ME:
         if depth < 1:
             raise ValueError("Depth must be at least 1")
         
+=======
+    """Identity recursion operator."""
+
+    def recurse(self, identity: str, depth: int = 3) -> List[str]:
+        """
+        Generate an IM→ME recursion sequence.
+        """
+>>>>>>> copilot/consolidate-codex-documentation
         sequence = []
         for i in range(depth):
             sequence.append(f"IM({identity})")
             sequence.append(f"ME({identity})")
+<<<<<<< HEAD
         
         return {
             "identity": identity,
@@ -75,10 +98,14 @@ class IM_ME:
             "pattern": "observer_observed_recursion",
             "status": "recursive",
         }
+=======
+        return sequence
+>>>>>>> copilot/consolidate-codex-documentation
 
 
 @dataclass
 class PhoenixIgnition:
+<<<<<<< HEAD
     """
     Ignition and regenerative collapse.
     
@@ -110,3 +137,14 @@ class PhoenixIgnition:
             "pattern": "burn_collapse_rise",
             "status": "ignited",
         }
+=======
+    """Ignition and regenerative collapse."""
+
+    def ignite(self, state: str) -> dict:
+        """
+        Collapse to core and re-emerge as apex.
+        """
+        core = f"core::{state}"
+        apex = f"apex::{state}"
+        return {"collapsed": core, "risen": apex}
+>>>>>>> copilot/consolidate-codex-documentation

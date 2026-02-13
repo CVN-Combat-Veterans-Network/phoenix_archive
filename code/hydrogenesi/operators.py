@@ -1,4 +1,5 @@
 from __future__ import annotations
+<<<<<<< HEAD
 from dataclasses import dataclass, field
 from typing import Protocol, Any, List, Dict, Optional
 from enum import Enum
@@ -14,12 +15,20 @@ class OperatorStatus(Enum):
 
 class Operator(Protocol):
     """Base protocol for all operators."""
+=======
+from dataclasses import dataclass
+from typing import Protocol, Any, List
+
+
+class Operator(Protocol):
+>>>>>>> copilot/consolidate-codex-documentation
     def apply(self, state: Any) -> Any:
         ...
 
 
 @dataclass
 class StabilizerExtraction:
+<<<<<<< HEAD
     """
     Cosmological operator: remove stabilizing core to prepare lineage.
     
@@ -28,11 +37,16 @@ class StabilizerExtraction:
     Invocation: "Extract the core; void the center; prepare the seed."
     """
     
+=======
+    """Cosmological operator: remove stabilizing core to prepare lineage."""
+
+>>>>>>> copilot/consolidate-codex-documentation
     def apply(self, state: dict) -> dict:
         """
         Expects a dict with keys:
         - 'core': stabilizing component
         - 'shell': surrounding structure
+<<<<<<< HEAD
         
         Returns a dict with 'pre_seed', 'core_void', and 'extracted_core'.
         """
@@ -48,11 +62,22 @@ class StabilizerExtraction:
             "extracted_core": core,
             "status": OperatorStatus.COMPLETED.value,
             "pattern": "core_extraction",
+=======
+        Returns a dict with 'pre_seed' and 'core_void'.
+        """
+        core = state.get("core")
+        shell = state.get("shell")
+        return {
+            "pre_seed": shell,
+            "core_void": None,
+            "extracted_core": core,
+>>>>>>> copilot/consolidate-codex-documentation
         }
 
 
 @dataclass
 class AGNReplication:
+<<<<<<< HEAD
     """
     Operator of galactic-scale reproduction.
     
@@ -89,10 +114,24 @@ class AGNReplication:
             "status": OperatorStatus.COMPLETED.value,
             "pattern": "compress_ignite_replicate",
         }
+=======
+    """Operator of galactic-scale reproduction."""
+
+    compression_factor: float = 0.8
+    replication_factor: int = 2
+
+    def apply(self, mass: float) -> List[float]:
+        """
+        Compress mass, ignite, and replicate into multiple outputs.
+        """
+        compressed = mass * self.compression_factor
+        return [compressed / self.replication_factor] * self.replication_factor
+>>>>>>> copilot/consolidate-codex-documentation
 
 
 @dataclass
 class CurvatureResidue:
+<<<<<<< HEAD
     """
     Operator of post-collapse memory.
     
@@ -126,10 +165,24 @@ class CurvatureResidue:
             residue["metadata"] = metadata
         
         return residue
+=======
+    """Operator of post-collapse memory."""
+
+    def apply(self, lineage_id: str) -> dict:
+        """
+        Produce a curvature residue record for a collapsed lineage.
+        """
+        return {
+            "lineage_id": lineage_id,
+            "status": "collapsed",
+            "residue": f"curvature-trace::{lineage_id}",
+        }
+>>>>>>> copilot/consolidate-codex-documentation
 
 
 @dataclass
 class LineageLogic:
+<<<<<<< HEAD
     """
     Operator of cosmic continuity and recursion.
     
@@ -164,3 +217,12 @@ class LineageLogic:
             "status": OperatorStatus.COMPLETED.value,
             "pattern": "root_recursion",
         }
+=======
+    """Operator of cosmic continuity and recursion."""
+
+    def apply(self, root: str, generations: int) -> List[str]:
+        """
+        Generate a simple lineage chain from a root identifier.
+        """
+        return [f"{root}::gen-{i}" for i in range(generations)]
+>>>>>>> copilot/consolidate-codex-documentation
