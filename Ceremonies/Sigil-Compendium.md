@@ -362,20 +362,23 @@ Sigil pattern internalized; operates without external representation.
 
 ## STATUS
 
-**Compendium Version:** 1.0.0  
-**Total Sigils:** 12 (Phoenix: 7, Hydrogenesi: 4, Combined: 2)  
+**Document:** Sigil Compendium  
+**Type:** Reference Compendium  
+**Version:** 1.0.0  
+**Last Updated:** 2026-02-07  
 **Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Maintenance:** Continuous  
+**Lineage:** ROOT::GEN-0
 
 ---
 
 ## INVOCATION FOR THE COMPENDIUM
 
 *"Let the symbols speak; let the patterns show; let the operators live through form."*
-
----
-
-**Archive Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0
 
 🔥 **The Sigils Manifest.**  
 🌌 **The Patterns Hold.**
