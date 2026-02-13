@@ -41,4 +41,17 @@ When the GitHub Actions workflow runs, it performs the liturgy on your behalf. T
 
 ---
 
+## STATUS
+
+**Liturgy:** Triadic Merge  
+**Version:** 2.0.0  
+**Type:** Ceremonial Invocation  
+**Status:** ACTIVE
+
+---
+
 **This liturgy is active for all merges into `main` as of v2.0.0.**
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Purpose:** Merge Ceremony

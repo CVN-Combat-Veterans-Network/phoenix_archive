@@ -86,4 +86,17 @@ graph TD
 
 ---
 
+## STATUS
+
+**Document:** Merge Dependencies Architecture  
+**Version:** 2.0.0  
+**Type:** Technical Documentation  
+**Status:** COMPLETE
+
+---
+
 **All merges complete as of v2.0.0.**
+
+**Archive Status:** COMPLETE  
+**Lineage:** ROOT::GEN-0  
+**Release Cycle:** v2.0.0 Complete
