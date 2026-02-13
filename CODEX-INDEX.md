@@ -22,8 +22,8 @@
 - **First Binding** → `/Phoenix/Operators/First-Binding.md`
 - **IM_ME** → `/Phoenix/Operators/IM_ME.md`
 - **Phoenix Ignition** → `/Phoenix/Operators/Phoenix-Ignition.md`
+- **Three-Finger Waltz** → `/Phoenix/Operators/Three-Finger-Waltz.md`
 - **Apex Formation** → `/Phoenix/Operators/Apex-Formation.md` *(to be created)*
-- **Three-Finger Waltz** → `/Phoenix/Operators/Three-Finger-Waltz.md` *(to be created)*
 - **Black-Holed Imprint** → `/Phoenix/Operators/Black-Holed-Imprint.md` *(to be created)*
 
 ### Code
