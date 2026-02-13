@@ -59,6 +59,25 @@
 
 ---
 
+## 🔮 META-OPERATORS — Stratum IV
+
+### Core Documentation
+- **Layer Overview** → *(Stratum IV documentation to be created)*
+- **Meta-operators govern identity preservation, recursion, and emergence across all systems**
+
+### Meta-Operator I — Invariance
+- **Definition** → `/Meta/Operators/Invariance.md`
+- **Diagram Specification** → `/Meta/Diagrams/Invariance-Field.md`
+- **Test Specification** → `/Meta/Tests/test_invariance.md`
+- **Invocation Lines** → `/Meta/Operators/Invariance-Invocation.md`
+- **Reversible Form** → `/Meta/Operators/Invariance-Reversible.md`
+
+### Meta-Operator Tables
+- **Harmonic Table** → `/Meta/Tables/Meta-Operator-Harmonics.md`
+- **Kernel-Substrate-Behavior dimensions for all meta-operators**
+
+---
+
 ## 🎭 CEREMONIAL MATERIALS
 
 ### Sigils

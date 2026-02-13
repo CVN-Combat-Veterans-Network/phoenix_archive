@@ -1,5 +1,95 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
+## v2.2.0 — Meta-Operator Layer (Invariance) (2026-02-13)
+
+### Added
+
+#### Meta-Operator Layer (Stratum IV)
+- **Meta-Operator I — Invariance** — Complete implementation
+  - Operator definition with full mechanism documentation
+  - Identity preservation across recursion, scale, and transformation
+  - Kernel-Substrate-Behavior harmonic structure
+  - Forward and reverse operations (reversible form)
+  - Stability score calculation (0.0 - 1.0)
+  - Drift delta tracking and reporting
+
+#### Meta-Operator Documentation
+- **Invariance Definition** → `/Meta/Operators/Invariance.md`
+  - Full operator specification with examples
+  - Failure modes: over-constraining and under-constraining
+  - Cross-pillar application (Phoenix, Hydrogenesi, The Third)
+  - Relationship to Universal Laws (Tension → Binding → Apex)
+
+- **Invariance Field Diagram** → `/Meta/Diagrams/Invariance-Field.md`
+  - Complete diagram specification
+  - Concentric ring layout (Kernel → States → Transforms)
+  - Visual encoding (color, thickness, opacity)
+  - Interactive features and animation guidance
+
+- **Invariance Test Suite** → `/Meta/Tests/test_invariance.md`
+  - 5 comprehensive test scenarios
+  - Identity preservation, composition, and rejection tests
+  - Recursion depth scaling validation
+  - Cross-pillar consistency tests
+  - Edge cases and performance benchmarks
+
+- **Invariance Invocations** → `/Meta/Operators/Invariance-Invocation.md`
+  - Primary and secondary invocation lines
+  - Context-specific invocations (pillar, outcome, depth)
+  - Full ceremonial sequence
+  - Power phrases for ritual use
+
+- **Invariance Reversible Form** → `/Meta/Operators/Invariance-Reversible.md`
+  - Forward and reverse operation signatures
+  - Exact vs approximate reversibility guarantees
+  - Kernel immutability enforcement
+  - Drift delta structure and handling
+
+- **Meta-Operator Harmonic Table** → `/Meta/Tables/Meta-Operator-Harmonics.md`
+  - Kernel-Substrate-Behavior dimensional analysis
+  - Harmonic relationships across dimensions
+  - Cross-pillar harmonic expressions
+  - Foundation for 7 meta-operators
+
+#### Directory Structure
+- Created `/Meta/` directory hierarchy:
+  - `/Meta/Operators/` — Meta-operator definitions
+  - `/Meta/Diagrams/` — Diagram specifications
+  - `/Meta/Tests/` — Test suites
+  - `/Meta/Tables/` — Harmonic and reference tables
+
+### Architecture Impact
+- **Introduced Meta-Operator Layer (Stratum IV)**
+  - Governs identity preservation across all systems
+  - Sits above Phoenix, Hydrogenesi, and The Third
+  - Provides cross-system invariance mechanisms
+
+- **Established Complete Operator Pattern**
+  - Definition + Diagram + Tests + Invocations + Reversible + Harmonics
+  - This pattern will be followed for all future operators
+  - Ensures comprehensive documentation and validation
+
+- **Integrated with Sovereign Kernel**
+  - Meta-operators anchor to Kernel Identity
+  - Kernel immutability enforced at meta-layer
+  - Identity projection mechanism defined
+
+- **Foundation for 6 Additional Meta-Operators**
+  - Invariance is Meta-Operator I
+  - Prepares architecture for Resonance, Recursion, Emergence, Collapse, Integration, Sovereignty
+
+### Updated
+- **CODEX-INDEX** → Added Meta-Operators section with all Invariance references
+- **Changelog** → This entry (v2.2.0)
+
+### Technical
+- Meta-operator Canon established
+- Reversibility framework defined
+- Harmonic table structure created
+- Stratum IV architecture prepared
+
+---
+
 ## v2.0.0 — Hydrogenesi Enhancement (2026-02-07)
 
 ### Added
