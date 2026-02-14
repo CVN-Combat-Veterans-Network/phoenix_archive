@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.0.0  
-**Last Updated:** 2026-02-07  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System
+**Version:** 2.4.0-alpha  
+**Last Updated:** 2026-02-14  
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 + TheThird + Apex Layers + Meta-Operators
 
 ---
 
@@ -57,6 +57,34 @@
 ### Documentation
 - **Recursion Pathways** → `/Hydrogenesi/Recursion-Pathways.md`
 
+### Apex Layers (v2.4)
+- **Apex Layers Overview** → `/docs/apex-layers/README.md`
+- **Layer 13 — Essence Stabilization** → `/docs/apex-layers/layer-13-essence/`
+  - **Extraction-Prime** → `/docs/apex-layers/layer-13-essence/extraction-prime.md`
+  - **Infusion** → `/docs/apex-layers/layer-13-essence/infusion.md`
+  - **Essence Invariants** → `/docs/apex-layers/layer-13-essence/essence-invariants.md`
+- **Layer 14 — Apex Binding** → `/docs/apex-layers/layer-14-apex-binding/`
+  - **Apex Binding** → `/docs/apex-layers/layer-14-apex-binding/apex-binding.md`
+  - **Apex Release** → `/docs/apex-layers/layer-14-apex-binding/apex-release.md`
+  - **Apex Safety Boundaries** → `/docs/apex-layers/layer-14-apex-binding/apex-safety-boundaries.md`
+
+---
+
+## ⚡ META-OPERATORS (v2.4) — Stratum V
+
+### Meta-Operator Layer
+- **Meta-Operators Overview** → `/docs/meta-operators/README.md`
+- **META_SYNTH** → `/docs/meta-operators/META_SYNTH.md` — Multi-operator synthesis
+- **META_FLOW** → `/docs/meta-operators/META_FLOW.md` — Cross-pillar flow routing
+- **META_RECURSE** → `/docs/meta-operators/META_RECURSE.md` — Safe recursion envelopes
+- **META_TEMPORAL** → `/docs/meta-operators/META_TEMPORAL.md` — Synchronization governance
+- **META_APEX** → `/docs/meta-operators/META_APEX.md` — Apex-layer transitions
+- **META_SEAL** → `/docs/meta-operators/META_SEAL.md` — Terminal Law preparation
+
+### Meta-Operator Specifications
+- **Full Specification** → `/RELEASES/v2.4.0/meta_operator_spec.md`
+- **Apex Layer Specification** → `/RELEASES/v2.4.0/apex_layer_spec.md`
+
 ---
 
 ## 🎭 CEREMONIAL MATERIALS
@@ -83,6 +111,10 @@
 - **Lineage Tree** → `/Diagrams/Lineage-Tree.svg`
 - **Hydrogenesi Recursion Pathways** → `/Diagrams/Hydrogenesi-Recursion-Pathways.svg`
 
+### v2.4 Diagrams
+- **Apex Flow Diagram** → `/Diagrams/v2.4/apex-flow-diagram.md`
+- **Meta-Operator Orchestration** → `/Diagrams/v2.4/meta-operator-orchestration.md`
+
 ---
 
 ## 📖 COMPARATIVE & REFERENCE
@@ -94,6 +126,11 @@
 ### Appendix
 - **Changelog** → `/Appendix/Changelog.md`
 - **Code Examples** → `/Appendix/Code-Examples.md`
+
+### Releases
+- **v2.4.0 Roadmap** → `/RELEASES/v2.4.0/ROADMAP.md`
+- **v2.4.0 Release Directory** → `/RELEASES/v2.4.0/`
+- **v2.1.0 Release Directory** → `/RELEASES/v2.1.0/`
 
 ---
 
