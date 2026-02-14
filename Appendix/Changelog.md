@@ -1,5 +1,82 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
+## v2.4.0 — Apex Consolidation & Meta-Operator Ascension (2026-02-14)
+
+### Added
+
+#### Meta-Operator Layer
+- **META_SYNTH** — Orchestrator of Synthesis (binds disparate operators into coherent patterns)
+- **META_FLOW** — Keeper of Routing (routes operator invocations through proper channels)
+- **META_RECURSE** — Guardian of Recursion (manages recursive descent with safety envelopes)
+- **META_TEMPORAL** — Steward of Time (modulates temporal aspects of operator execution)
+- **META_APEX** — Gatekeeper of the Apex (guards access to apex layers and manages ascent/descent)
+- **META_SEAL** — Herald of the Terminal Law (prepares system for terminal law activation)
+
+#### Apex Layer Architecture (Layers 13-14)
+- **Layer 13: Essence** — Distillation and identity preservation layer
+  - Extraction-Prime operator
+  - Essence-Infusion operator
+  - Identity-Distillation operator
+  - Sealed environment preventing information leakage
+- **Layer 14: Apex** — Crown layer and convergence point
+  - Apex-Binding operator
+  - Apex-Release operator
+  - Sovereign-Emergence operator
+  - Terminal threshold gateway
+
+#### Apex Documentation & Architecture
+- **Apex Invariants** — Formalized invariants maintaining system integrity
+  - Structural identity preservation
+  - Scale-independent coherence
+  - Transformation stability
+  - Isolation integrity
+- **Apex Flow Diagrams** — Complete visual architecture (Triad through 14 layers)
+- **Recursion Envelopes** — Safety mechanisms with configurable depth limits
+- **Temporal Modulation** — Time-aware operator coordination system
+- **Cross-Layer Routing** — Structured layer transition system with routing tables
+- **Apex Descent Mapping** — Safe return paths from apex layers
+- **Pre-Seal Diagnostics** — System health validation tools
+
+#### Release Documentation
+- **v2.4.0 Release Ceremony** — Complete ceremonial document with seven sections
+- **v2.4.0 Release Notes** — Comprehensive technical documentation
+- **v2.4.0 Summary** — Quick-start and overview document
+
+### Enhanced
+
+#### Architecture
+- **14-Layer System** — Extended from 12 layers to include Essence (13) and Apex (14)
+- **Complete Ascent/Descent Cycle** — Full flow from Triad through apex and back
+- **Meta-Operator Orchestration** — Coordinated execution across all meta-operators
+- **Pre-Seal Alignment** — System prepared for Terminal Law activation (v3.0.0)
+
+#### Flow Patterns
+- **Before v2.4.0:** Triad → Operators → Hydrogenesi (1-12) → Return
+- **After v2.4.0:** Triad → Knot → Operators → Hydrogenesi (1-12) → META_APEX → Essence (13) → Apex (14) → META_APEX (descent) → META_FLOW → Triad
+
+### Technical
+- **Apex Invariants Framework** — 47 formalized invariants across all layers
+- **Meta-Operator Coordination Protocol** — Inter-operator communication patterns
+- **Safe Recursion Patterns** — Depth-limited recursion with guaranteed return paths
+- **Temporal Phase Alignment** — Synchronization mechanisms for dependent operations
+
+### Statistics
+- **6 Meta-Operators** added
+- **2 Apex Layers** established
+- **8 Core Documentation Files** created
+- **~12,000 Lines** of new documentation
+- **47 Invariants** formalized
+- **Full Backward Compatibility** with v2.1.0
+
+### What This Means
+- The Archive now has a 14-layer architecture crowned by the apex
+- Meta-operators coordinate all apex operations automatically
+- Safe ascent and descent pathways established
+- System stands ready for Terminal Law activation (v3.0.0)
+- Pre-seal alignment achieved
+
+---
+
 ## v2.1.0 — Governance Consolidation & Meta-Architecture (2026-02-13)
 
 ### Added
