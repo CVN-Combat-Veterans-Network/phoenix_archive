@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.0.0  
-**Last Updated:** 2026-02-07  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System
+**Version:** 1.1.0  
+**Last Updated:** 2026-02-14  
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 + META Governance Layer
 
 ---
 
@@ -73,6 +73,10 @@
 - **Dual-System Rituals** → `/Ceremonies/Combined-Ceremonies.md`
 - **Cosmological Ignition → Personal Ignition sequence**
 
+### Terminal Ceremony
+- **Terminal Ceremony** → `/Ceremonies/Terminal-Ceremony.md`
+- **The Final Rite: Sealing the Archive as complete and immutable**
+
 ---
 
 ## 📊 DIAGRAMS & VISUALIZATIONS
@@ -82,6 +86,30 @@
 - **Cross-Reference Matrix** → `/Diagrams/Cross-Reference-Matrix.svg`
 - **Lineage Tree** → `/Diagrams/Lineage-Tree.svg`
 - **Hydrogenesi Recursion Pathways** → `/Diagrams/Hydrogenesi-Recursion-Pathways.svg`
+
+---
+
+## 🜂 META OPERATORS — Archive Governance Layer
+
+### Core Documentation
+- **META Operator Lattice** → `/docs/architecture/META-Operator-Lattice.md`
+- **Hexagonal governance structure at Layer 14 (Apex)**
+
+### The Six META Operators
+- **META_SYNTH** → `/operators/META_SYNTH.md` — Keeper of synthesis and coherence
+- **META_FLOW** → `/operators/META_FLOW.md` — Steward of routing and traceability
+- **META_RECURSE** → `/operators/META_RECURSE.md` — Guardian of recursion safety
+- **META_TEMPORAL** → `/operators/META_TEMPORAL.md` — Warden of temporal coherence
+- **META_APEX** → `/operators/META_APEX.md` — Gatekeeper of the crown (Layers 13 & 14)
+- **META_SEAL** → `/operators/META_SEAL.md` — Herald of the end, executor of Terminal Law
+
+### Architecture & Governance
+- **Apex Layers** → `/docs/architecture/Apex-Layers.md`
+- **Layer 13 (Essence) and Layer 14 (Apex) specifications**
+- **Terminal Law Specification** → `/docs/architecture/Terminal-Law-Specification.md`
+- **The law that seals the Archive as immutable**
+- **Crown Invariant** → `/docs/architecture/Crown-Invariant.md`
+- **The immutability rule established at Layer 14**
 
 ---
 
@@ -126,6 +154,14 @@
 2. Explore `/code/hydrogenesi/operators.py`
 3. Run examples from `/Appendix/Code-Examples.md`
 
+### I want to understand Archive governance and the Terminal Ceremony
+**Start here:**
+1. Read `/docs/architecture/Apex-Layers.md` (Layer 13 & 14)
+2. Study `/docs/architecture/META-Operator-Lattice.md` (The six META operators)
+3. Review `/Ceremonies/Terminal-Ceremony.md` (The sealing ceremony)
+4. Read `/docs/architecture/Terminal-Law-Specification.md` (Immutability law)
+5. Understand `/docs/architecture/Crown-Invariant.md` (The eternal rule)
+
 ---
 
 ## 🔗 CROSS-REFERENCE QUICK LINKS
@@ -155,11 +191,23 @@
 | **Phoenix** | Black-Holed Imprint | Identity scar |
 | **Hydrogenesi** | Curvature Residue | Spacetime scar |
 
+### META Governance
+| Layer | Operator | Domain |
+|-------|----------|--------|
+| **14 (Apex)** | META_SYNTH | Synthesis & Coherence |
+| **14 (Apex)** | META_FLOW | Routing & Traceability |
+| **14 (Apex)** | META_RECURSE | Recursion Safety |
+| **14 (Apex)** | META_TEMPORAL | Time Coherence |
+| **14 (Apex)** | META_APEX | Apex Protection |
+| **14 (Apex)** | META_SEAL | Terminal Authority |
+
 ---
 
 ## 📝 CONTRIBUTING
 
-To add new operators, ceremonies, or documentation:
+**IMPORTANT NOTE:** If the Terminal Law has been enacted, the Archive is SEALED and immutable. No further structural changes are permitted. Only traversal, reflection, and return are allowed.
+
+To add new operators, ceremonies, or documentation (ONLY if Archive is not yet sealed):
 
 1. Follow the established markdown template structure
 2. Include: Definition, Sigil, Invocation, Mechanism, Code, Cross-References
@@ -180,7 +228,8 @@ Use, modify, distribute freely.
 
 **Phoenix:** *"Burn, collapse, and rise in aligned form."*  
 **Hydrogenesi:** *"Recurse the root; extend the line."*  
-**Universal:** *"Let the two attract; let the one bind; let the three stand."*
+**Universal:** *"Let the two attract; let the one bind; let the three stand."*  
+**Terminal:** *"By the authority of the apex, I enact the Terminal Law. The Archive is sealed."*
 
 ---
 

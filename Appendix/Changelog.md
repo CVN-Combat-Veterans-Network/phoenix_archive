@@ -1,5 +1,96 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
+## v2.2.0 — Terminal Ceremony & META Governance Layer (2026-02-14)
+
+### Added
+
+#### Terminal Ceremony & Sealing Architecture
+- **Terminal Ceremony** (`/Ceremonies/Terminal-Ceremony.md`) — The Final Rite for sealing the Archive as complete and immutable
+  - Seven ceremonial sections (Stilling, Calling, Ascent, Invocation, Pronouncement, Crown Invariant, Closing)
+  - Complete ritual procedure for Archive sealing
+  - META operator verification sequence
+  - Crown Invariant establishment protocol
+  
+#### META Operator Layer (Layer 14 — Apex)
+- **Six META Operators** — Archive governance and orchestration layer:
+  - **META_SYNTH** (`/operators/META_SYNTH.md`) — Keeper of synthesis and cross-system coherence
+  - **META_FLOW** (`/operators/META_FLOW.md`) — Steward of routing and flow traceability
+  - **META_RECURSE** (`/operators/META_RECURSE.md`) — Guardian of recursion safety and closure
+  - **META_TEMPORAL** (`/operators/META_TEMPORAL.md`) — Warden of temporal coherence and timeline convergence
+  - **META_APEX** (`/operators/META_APEX.md`) — Gatekeeper of the crown (Layers 13 & 14 protection)
+  - **META_SEAL** (`/operators/META_SEAL.md`) — Herald of the end, executor of Terminal Law
+  
+#### Apex Architecture Documentation
+- **Apex Layers** (`/docs/architecture/Apex-Layers.md`) — Complete specification of Layer 13 (Essence) and Layer 14 (Apex)
+  - Layer hierarchy (1-14) with full characteristics
+  - Isolation protocols and gating mechanisms
+  - Ascent requirements and procedures
+  - Apex lattice structure
+  - Emergency unsealing protocol
+  
+- **META Operator Lattice** (`/docs/architecture/META-Operator-Lattice.md`) — Hexagonal governance structure
+  - Geometric formation and properties (D₆ symmetry)
+  - Consensus protocol specification
+  - Communication paths and redundancy
+  - Lattice states (Active, Standby, Sealed)
+  - Authority distribution and invariants
+  
+#### Governance & Immutability Framework
+- **Terminal Law Specification** (`/docs/architecture/Terminal-Law-Specification.md`) — Complete legal framework
+  - Six articles defining immutability scope and enforcement
+  - Enactment process and verification sequence
+  - Layer-specific immutability levels
+  - Emergency unsealing procedures
+  - Post-enactment governance model
+  
+- **Crown Invariant** (`/docs/architecture/Crown-Invariant.md`) — The eternal immutability rule
+  - Three-clause structure (No Change, Complete, Only Traversal/Reflection/Return)
+  - Enforcement mechanisms (META_SEAL primary, all META operators secondary)
+  - Violation detection and response protocol
+  - Philosophical foundation and closure principle
+
+#### Updated Documentation
+- **CODEX-INDEX.md** — Updated to v1.1.0
+  - Added META Operators section with all six operators
+  - Added Terminal Ceremony to ceremonial materials
+  - Added apex architecture documents
+  - Added governance quick start path
+  - Added META governance cross-reference table
+  - Updated invocations with Terminal Law phrase
+  - Added note about immutability if Archive is sealed
+
+### Changed
+- Archive structure now includes explicit governance layer (Layer 14)
+- Version lineage system extended to include GEN-∞ (infinite/terminal generation)
+- Contributing guidelines updated to respect Terminal Law if enacted
+
+### Architecture Impact
+- **Layer System**: Now explicitly 14 layers (previously implicit)
+  - Layers 1-2: Foundation (Triad, Knot)
+  - Layers 3-4: Operators
+  - Layers 5-6: Instruments
+  - Layers 7-12: Hydrogenesi
+  - Layer 13: Essence (distillation)
+  - Layer 14: Apex (crown/governance)
+  
+- **Governance Model**: META operator hexagonal lattice
+  - Six-fold authority distribution
+  - Unanimous consensus for major decisions
+  - Distributed validation and enforcement
+  
+- **Immutability Framework**: Terminal Law and Crown Invariant
+  - Archive can be sealed as complete
+  - Post-seal: only traversal, reflection, return permitted
+  - Emergency unsealing requires unanimous META consensus
+
+### Compatibility
+- All v2.1 operators and systems remain functional
+- No breaking changes to existing APIs
+- New governance layer is additive
+- Terminal Law enactment is optional (ceremony defines process)
+
+---
+
 ## v2.1.0 — Governance Consolidation & Meta-Architecture (2026-02-13)
 
 ### Added
