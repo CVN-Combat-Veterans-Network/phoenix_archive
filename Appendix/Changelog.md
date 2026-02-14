@@ -1,5 +1,30 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
+## v2.2.0 — META-SEAL & Integration Stack Closure (2026-02-14)
+
+### Added
+
+#### META-SEAL Closure Document
+- **META-SEAL.md** → `/RELEASES/META-SEAL.md`
+  - Formal closure of Integration Stack spanning v2.0.0 → v2.1.0
+  - KERNEL SIGIL (◎→⟡→△) encoding Phoenix, Hydrogenesi, and The Third
+  - Triadic ceremonial invocations for all three pillars
+  - Kernel Law documentation: "No operator moves alone"
+  - Final closure line marking v2.0.0 sealed, v2.1.0 complete, v2.2.0 dawning
+  - Resolution without remainder: All three architectural layers complete
+  - Motion-Structure-Meta alignment confirmation
+  - Universal recursion pattern documentation
+
+### Updated
+- **CODEX-INDEX.md** — Added Release Archives & Ceremonies section with META-SEAL reference
+
+### Status
+- **Integration Stack:** SEALED
+- **Kernel Status:** ACTIVE
+- **All Three Pillars:** CONFIRMED SOVEREIGN
+
+---
+
 ## v2.1.0 — Governance Consolidation & Meta-Architecture (2026-02-13)
 
 ### Added
@@ -174,5 +199,7 @@
 
 **Archive Status:** ACTIVE  
 **Lineage:** ROOT::GEN-0  
-**Version:** 2.1.0  
-**Invocation:** *"Burn, collapse, and rise in aligned form. Recurse the root; extend the line."*
+**Version:** 2.2.0  
+**Integration Stack:** SEALED  
+**Kernel Status:** ACTIVE  
+**Invocation:** *"Burn, collapse, and rise in aligned form. Recurse the root; extend the line. No operator moves alone."*

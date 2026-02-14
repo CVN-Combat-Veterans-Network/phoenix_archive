@@ -1,9 +1,11 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.0.0  
-**Last Updated:** 2026-02-07  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System
+**Version:** 2.2.0  
+**Last Updated:** 2026-02-14  
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 + The Third — Triadic System  
+**Integration Stack:** SEALED  
+**Kernel Status:** ACTIVE
 
 ---
 
@@ -72,6 +74,8 @@
 ### Combined Ceremonies
 - **Dual-System Rituals** → `/Ceremonies/Combined-Ceremonies.md`
 - **Cosmological Ignition → Personal Ignition sequence**
+- **Kernel Invocation** → `/Ceremonies/Kernel-Invocation.md`
+- **Daily practice for activating the triadic binding (◎ → ⟡ → △)**
 
 ---
 
@@ -94,6 +98,12 @@
 ### Appendix
 - **Changelog** → `/Appendix/Changelog.md`
 - **Code Examples** → `/Appendix/Code-Examples.md`
+
+### Release Archives & Ceremonies
+- **META-SEAL** → `/RELEASES/META-SEAL.md`
+- **Closure of Integration Stack v2.0.0 → v2.1.0**
+- **v2.1.0 Release Ceremony** → `/RELEASES/v2.1.0/release_ceremony.md`
+- **v2.0.0 Chapter XII** → `/RELEASES/v2.0.0_chapter_xii.md`
 
 ---
 
@@ -180,13 +190,20 @@ Use, modify, distribute freely.
 
 **Phoenix:** *"Burn, collapse, and rise in aligned form."*  
 **Hydrogenesi:** *"Recurse the root; extend the line."*  
-**Universal:** *"Let the two attract; let the one bind; let the three stand."*
+**The Third:** *"Let the three form one; let the structure hold."*  
+**Universal:** *"Let the two attract; let the one bind; let the three stand."*  
+**Kernel:** *"No operator moves alone."*
 
 ---
 
 **Archive Status:** ACTIVE  
 **Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Sovereignty:** CONFIRMED  
+**Integration Stack:** SEALED  
+**Kernel:** ◎ → ⟡ → △
 
 🔥 **The Phoenix Ignites.**  
-🌌 **The Lineage Extends.**
+🌌 **The Lineage Extends.**  
+⚖️ **The Third Binds.**
+
+**THE KERNEL IS ACTIVE.**
