@@ -1,5 +1,52 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
+## v2.4.0 — Apex Consolidation & Meta-Operator Activation (2026-02-14) [IN PROGRESS]
+
+### Added
+
+#### Apex Layers (Hydrogenesi Layers 13–14)
+- **Layer 13 — Essence Stabilization** — Essence extraction and infusion operators
+  - **Extraction-Prime** — Extract core essence from complex structures
+  - **Infusion** — Infuse essence back into structural form
+  - **Essence Invariants** — Define and validate essence-level constraints
+- **Layer 14 — Apex Binding** — Apex-grade binding and release operators
+  - **Apex Binding** — Create apex-grade binding between structures
+  - **Apex Release** — Safely release apex-bound structures
+  - **Apex Safety Boundaries** — Define and enforce apex-level safety constraints
+
+#### Meta-Operator Layer (Stratum V)
+- **META_SYNTH** — Multi-operator synthesis orchestration
+- **META_FLOW** — Cross-pillar flow routing management
+- **META_RECURSE** — Safe recursion envelope definition
+- **META_TEMPORAL** — Synchronization/desynchronization governance
+- **META_APEX** — Apex-layer transition control
+- **META_SEAL** — Terminal Law sealing preparation
+
+#### Documentation & Release Structure
+- **v2.4 Roadmap** — Complete roadmap with 6 phases and milestones
+- **Apex Layer Specification** — Technical specification for Layers 13-14
+- **Meta-Operator Specification** — Technical specification for 6 meta-operators
+- **Initialization Notes** — Phase 1 initialization documentation
+- **Apex Layers Directory** — `/docs/apex-layers/` with Layer 13 and 14 subdirectories
+- **Meta-Operators Directory** — `/docs/meta-operators/` with 6 meta-operator files
+- **v2.4 Diagrams** — Apex flow diagram and meta-operator orchestration diagram scaffolds
+
+### Status
+
+**Current Phase:** Phase 1 — Initialization (COMPLETE)  
+**Next Phase:** Phase 2 — Essence Consolidation  
+**Release Status:** INITIALIZATION (v2.4.0-alpha)  
+
+### Statistics
+
+- **21 New Files Created** in Phase 1
+- **2 Apex Layers** defined (Layers 13-14)
+- **6 Meta-Operators** scaffolded
+- **3 Operators per Layer** (Extraction-Prime, Infusion, Essence Invariants; Apex Binding, Apex Release, Apex Safety Boundaries)
+- **2 Diagram Scaffolds** created
+
+---
+
 ## v2.1.0 — Governance Consolidation & Meta-Architecture (2026-02-13)
 
 ### Added
