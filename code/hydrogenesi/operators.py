@@ -181,6 +181,45 @@ class HarmonicRecursion:
     amplitude: float = 1.0
     damping: float = 0.1
     
+    def set_frequency(self, frequency: float) -> None:
+        """
+        Set the recursion frequency parameter.
+        
+        Higher frequency = faster oscillation = more recursion cycles
+        Lower frequency = slower oscillation = fewer recursion cycles
+        
+        Args:
+            frequency: Frequency value (typically 0.1 to 10.0)
+        """
+        if frequency <= 0:
+            raise ValueError("Frequency must be positive")
+        self.frequency = frequency
+    
+    def get_frequency_characteristics(self) -> Dict[str, Any]:
+        """
+        Get characteristics of the current frequency setting.
+        
+        Returns:
+            Dict containing frequency analysis
+        """
+        period = 2 * math.pi / self.frequency if self.frequency > 0 else float('inf')
+        
+        return {
+            "frequency": self.frequency,
+            "period": period,
+            "cycles_per_unit": self.frequency / (2 * math.pi),
+            "category": self._categorize_frequency(),
+        }
+    
+    def _categorize_frequency(self) -> str:
+        """Categorize frequency into ranges."""
+        if self.frequency < 0.5:
+            return "low_frequency"
+        elif self.frequency < 2.0:
+            return "medium_frequency"
+        else:
+            return "high_frequency"
+    
     def apply(self, n: int, max_depth: int = 10) -> Dict[str, Any]:
         """
         Calculate harmonic recursion depth for generation n.
