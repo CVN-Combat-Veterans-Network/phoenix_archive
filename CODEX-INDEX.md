@@ -157,6 +157,27 @@
 
 ---
 
+## 🔄 VERSION 2.2 — REFINEMENT & STRUCTURAL CONSOLIDATION
+
+### Overview
+- **v2.2 Main Index** → `/v2.2/docs/v2.2/index.md`
+- **v2.2 README** → `/v2.2/README.md`
+- **v2.2 Changelog** → `/v2.2/changelog/v2.2.0.md`
+
+### Components
+- **Operators** → `/v2.2/operators/` (enhanced meta-operators and introspection)
+- **Glossary** → `/v2.2/glossary/` (comprehensive terminology reference)
+- **Triadic Map** → `/v2.2/triadic-map/` (relationship visualizations)
+- **Assets** → `/v2.2/assets/` (banners and visual resources)
+
+### Key Features
+- Operator introspection framework
+- Structured glossary system
+- Visual triadic mapping
+- Preparation for v2.3 expansion (28 Instruments)
+
+---
+
 ## 📝 CONTRIBUTING
 
 To add new operators, ceremonies, or documentation:
