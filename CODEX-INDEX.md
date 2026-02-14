@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.0.0  
-**Last Updated:** 2026-02-07  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System
+**Version:** 2.4.0  
+**Last Updated:** 2026-02-14  
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System + Apex Layers (v2.4)
 
 ---
 
@@ -56,6 +56,50 @@
 
 ### Documentation
 - **Recursion Pathways** → `/Hydrogenesi/Recursion-Pathways.md`
+
+---
+
+## 🜂 APEX LAYERS & META-OPERATORS (v2.4) — Terminal Architecture
+
+### Apex Layers (Stratum IV — Terminal Layers)
+- **Layer 13 — Essence** → `/code/v2.4/apex/layer_13_essence.md`
+  - **Essence-level operations (Extraction-Prime and Infusion)**
+- **Layer 14 — Apex** → `/code/v2.4/apex/layer_14_apex.md`
+  - **Terminal crown (Apex Binding and Apex Release)**
+- **Apex Invariants** → `/code/v2.4/apex/apex_invariants.md`
+  - **17 structural constraints governing apex layers**
+- **Apex Integration Flows** → `/code/v2.4/apex/apex_integration_flows.md`
+  - **Entry/exit protocols for apex access**
+- **Apex Flow Diagram** → `/code/v2.4/apex/apex_flow_diagram.md`
+  - **14-layer architecture visualization**
+
+### Meta-Operators (Stratum IV — Orchestration Layer)
+- **META_SYNTH** → `/code/v2.4/meta-operators/META_SYNTH.md`
+  - **Synthesis orchestration (multi-operator composition)**
+- **META_FLOW** → `/code/v2.4/meta-operators/META_FLOW.md`
+  - **Cross-pillar routing (Phoenix ↔ Hydrogenesi bridge)**
+- **META_RECURSE** → `/code/v2.4/meta-operators/META_RECURSE.md`
+  - **Recursion envelopes (depth-controlled recursion)**
+- **META_TEMPORAL** → `/code/v2.4/meta-operators/META_TEMPORAL.md`
+  - **Temporal modulation (time-synchronized coordination)**
+- **META_APEX** → `/code/v2.4/meta-operators/META_APEX.md`
+  - **Apex transition mediator (GATEKEEPER for Layers 13-14)**
+- **META_SEAL** → `/code/v2.4/meta-operators/META_SEAL.md`
+  - **Terminal Law preparation (pre-seal validation)**
+
+### Integration & Orchestration
+- **Meta-Operator Integration** → `/code/v2.4/meta-operators/meta_operator_integration.md`
+  - **Coordination patterns and integration rules**
+- **Orchestration Rules** → `/code/v2.4/meta-operators/meta_operator_orchestration_rules.md`
+  - **Governance rules (20+ rules across 5 categories)**
+- **Orchestration Diagram** → `/code/v2.4/meta-operators/meta_operator_orchestration_diagram.md`
+  - **Meta-operator coordination visualization**
+
+### Release Documentation (v2.4)
+- **v2.4.0 Release Notes** → `/RELEASES/v2.4.0/release_notes.md`
+  - **Complete Apex Consolidation release summary**
+- **v2.4.0 README** → `/RELEASES/v2.4.0/README.md`
+  - **Quick start and navigation guide**
 
 ---
 
@@ -125,6 +169,14 @@
 1. Explore `/code/phoenix/operators.py`
 2. Explore `/code/hydrogenesi/operators.py`
 3. Run examples from `/Appendix/Code-Examples.md`
+
+### I want to work with apex layers and meta-operators (v2.4)
+**Start here:**
+1. Read `/RELEASES/v2.4.0/release_notes.md` (complete overview)
+2. Study `/code/v2.4/apex/layer_13_essence.md` and `layer_14_apex.md`
+3. Explore `/code/v2.4/meta-operators/META_APEX.md` (gatekeeper)
+4. Review `/code/v2.4/apex/apex_flow_diagram.md` (architecture visualization)
+5. Practice with `/code/v2.4/meta-operators/META_SYNTH.md` (synthesis examples)
 
 ---
 

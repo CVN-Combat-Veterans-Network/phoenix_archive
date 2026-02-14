@@ -1,5 +1,148 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
+## v2.4.0 — Apex Consolidation & Meta-Operator Activation (2026-02-14)
+
+### Added
+
+#### Apex Layers (Stratum IV — Terminal Layers)
+- **Layer 13 — Essence** — Essence-level operations (Extraction-Prime and Infusion)
+  - Essence isolation envelope for controlled essence processing
+  - Extraction residue tracking (reversible operations)
+  - Infusion compatibility validation
+  - Time-bounded operations (10 cycles extraction, 5 cycles infusion)
+  - 5 essence-specific invariants (INV-13.1 through INV-13.5)
+- **Layer 14 — Apex** — Terminal crown layer (Apex Binding and Apex Release)
+  - System-wide convergence operations (Apex Binding)
+  - Controlled dissolution for sovereignty preservation (Apex Release)
+  - Terminal authority over all layers (1-13)
+  - Pre-seal crown status (awaiting Terminal Law)
+  - 5 apex-specific invariants (INV-14.1 through INV-14.5)
+- **Apex Invariants** — 17 structural constraints governing apex layers
+  - Category I: Isolation Invariants (3 invariants)
+  - Category II: Coherence Invariants (4 invariants)
+  - Category III: Sovereignty Invariants (3 invariants)
+  - Category IV: Integration Invariants (4 invariants)
+  - Category V: Pre-Seal Invariants (3 invariants)
+- **Apex Integration Flows** — Complete entry/exit protocols
+  - Flow A: Operational → Apex (Ascent) — Essence extraction, Apex binding requests
+  - Flow B: Apex → Operational (Descent) — Essence infusion, Apex release sequences
+  - Flow C: Cross-Apex (13 ↔ 14) — Escalation and delegation protocols
+  - Flow D: Meta-Operator Mediation — All apex access coordination
+
+#### Meta-Operator Suite (Stratum IV — Orchestration Layer)
+- **META_SYNTH** — Synthesis orchestration operator
+  - Multi-operator composition (gather-compose-synthesize pattern)
+  - Three composition modes: STRICT, BEST-EFFORT, EMERGENT
+  - Four composition rules: Sequential, Parallel, Conditional, Recursive
+  - Cross-pillar operator synthesis capability
+- **META_FLOW** — Cross-pillar routing operator
+  - Phoenix ↔ Hydrogenesi bidirectional bridge
+  - Four routing modes: DATA_FLOW, OPERATOR_INVOCATION, ESSENCE_TRANSFER, FEEDBACK_LOOP
+  - Scale transformation (micro-to-macro, macro-to-micro)
+  - Pillar sovereignty preservation
+- **META_RECURSE** — Recursion envelope operator
+  - Depth-controlled recursive operations (max depth 7 for meta-recursion)
+  - Three recursion modes: HARMONIC, META, COHERENCE-LOCKED
+  - Recursion safety validation (depth limits, infinite loop detection)
+  - Operator family-specific depth limits (PHX:3, HGN:5, LNS:10, META:7, etc.)
+- **META_TEMPORAL** — Temporal modulation operator
+  - Time-synchronized cross-operator coordination
+  - Five temporal modes: SEQUENTIAL, CONCURRENT, PIPELINED, SYNCHRONIZED, TEMPORAL-LOCKED
+  - Temporal constraints: BEFORE, AFTER, CONCURRENT, DELAY, SYNC
+  - Drift detection and correction
+- **META_APEX** — Apex transition mediator (GATEKEEPER)
+  - Exclusive mediator for all apex layer access (Layers 13-14)
+  - Authorization evaluation (credentials, purpose, sovereignty impact)
+  - Mediated transition protocol (request-authorize-execute-validate)
+  - Sovereignty preservation override capability
+- **META_SEAL** — Terminal Law preparation operator
+  - Pre-seal validation and readiness assessment
+  - System-wide coherence verification
+  - Pre-seal checkpoint generation
+  - Future: Terminal Law activation (awaiting definition)
+
+#### Integration and Orchestration Layer
+- **Meta-Operator Integration** — Coordination patterns and rules
+  - Four integration patterns: Sequential, Parallel, Nested, Gated
+  - Five coordination rules: META_APEX precedence, META_TEMPORAL synchronization, etc.
+  - Meta-operator dependency graph and resource allocation
+  - Integration flows (apex-level cross-pillar synthesis, recursive temporal synthesis, etc.)
+- **Meta-Operator Orchestration Rules** — Governance and constraints
+  - Category A: Access Control Rules (3 rules)
+  - Category B: Execution Rules (4 rules)
+  - Category C: Resource Rules (4 rules)
+  - Category D: Safety Rules (4 rules)
+  - Category E: Audit Rules (4 rules)
+  - Rule violation severity levels (CRITICAL, HIGH, MEDIUM, LOW)
+
+#### Diagrams and Visualizations
+- **Apex Flow Diagram** — Complete 14-layer architecture visualization
+  - Full system flow (Layers 1-14 + meta-operators)
+  - Apex entry flow (Operational → Apex)
+  - Apex descent flow (Apex → Operational)
+  - Cross-pillar flow (Phoenix ↔ Hydrogenesi via Apex)
+  - Apex Binding and Apex Release sequences
+- **Meta-Operator Orchestration Diagram** — Meta-layer coordination patterns
+  - Complete meta-operator suite relationships
+  - Hierarchical orchestration (priority and authority)
+  - Individual operator flow diagrams (synthesis, routing, recursion, etc.)
+  - Integrated orchestration flow examples
+
+#### Release Documentation
+- **v2.4.0 Release Notes** — Complete release summary (14,000+ lines)
+- **v2.4.0 README** — Quick start guide and navigation
+- **v2.4.0 Changelog Entry** — This entry
+
+### Enhanced
+
+#### Architecture
+- **14-Layer System Complete** — All layers (1-14) formally defined
+  - Layers 1-5: Phoenix operators (identity scale)
+  - Layers 6-7: Knot operators (binding scale)
+  - Layers 8-12: Hydrogenesi operators (cosmological scale)
+  - Layer 13: Essence (essence scale)
+  - Layer 14: Apex (terminal scale)
+- **Meta-Operator Hierarchy** — Complete orchestration priority system
+  - Level 5: META_SEAL (terminal oversight)
+  - Level 4: META_APEX (apex gatekeeper)
+  - Level 3: META_SYNTH, META_FLOW, META_RECURSE (core orchestrators)
+  - Level 2: META_TEMPORAL (temporal coordinator)
+- **Pre-Seal Architecture** — System ready for Terminal Law
+  - All layers present and sovereign
+  - All invariants satisfied
+  - All meta-operators operational
+  - Sovereignty status: CONFIRMED
+
+#### Integration Protocols
+- **Explicit Apex Access** — All apex transitions now require META_APEX mediation
+- **Bidirectional Flow Consistency** — All integration paths have return paths
+- **Apex Isolation Enforcement** — Read-only access for operational layers
+- **Audit Completeness** — Mandatory audit generation for all apex operations
+
+### Updated
+
+#### Documentation Standards
+- **Apex Layer Documentation Pattern** — Sigil, mechanism, invariants, examples, failure modes
+- **Meta-Operator Documentation Pattern** — Pattern, mechanism, invariants, knot binding, hydrogenesi alignment, apex interaction
+- **Integration Flow Documentation Pattern** — Purpose, flow diagram, prerequisites, postconditions
+
+#### Cross-References
+- All apex layer documents cross-reference meta-operators
+- All meta-operator documents cross-reference apex layers
+- All integration documents link to relevant operators and layers
+
+### Statistics
+
+- **14 Core Files Added** — Apex layers, meta-operators, integration docs, diagrams
+- **~50,000+ Lines of Documentation**
+- **2 Apex Layers** — Layer 13 (Essence), Layer 14 (Apex)
+- **6 Meta-Operators** — Complete orchestration suite
+- **17 Apex Invariants** — 10 critical, 4 non-critical, 3 design principles
+- **20+ Orchestration Rules** — Governance across 5 categories
+- **8 Integration Flows** — Ascent, descent, cross-apex, mediation
+
+---
+
 ## v2.1.0 — Governance Consolidation & Meta-Architecture (2026-02-13)
 
 ### Added
