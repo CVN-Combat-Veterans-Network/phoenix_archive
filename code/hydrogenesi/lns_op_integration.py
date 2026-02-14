@@ -7,7 +7,7 @@ Introspects expansion, universalization, and harmonic propagation for Hydrogenes
 from __future__ import annotations
 from typing import Dict, Any, List
 from code.lns_op.operators import LNS_OP, IntrospectionMode, AuditResult
-from .operators import StabilizerExtraction, AGNReplication, CurvatureResidue, LineageLogic, HarmonicRecursion
+from .operators import StabilizerExtraction, AGNReplication, CurvatureResidue, LineageLogic, HarmonicRecursion, MetaRecursion
 
 
 class HydrogenesisIntrospector:
@@ -27,6 +27,7 @@ class HydrogenesisIntrospector:
             "CurvatureResidue": CurvatureResidue,
             "LineageLogic": LineageLogic,
             "HarmonicRecursion": HarmonicRecursion,
+            "MetaRecursion": MetaRecursion,
         }
     
     def introspect_extraction(
@@ -231,6 +232,7 @@ class HydrogenesisIntrospector:
             "HGN_PROPAGATE",
             "HGN_RESOLVE",
             "HGN_OP_HARMONIC_RECURSION_V2.3",
+            "HGN_OP_META_RECURSION_V2.3",
         ]
 
 
