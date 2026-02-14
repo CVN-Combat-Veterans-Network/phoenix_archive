@@ -1,5 +1,81 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
+## v2.3.0 — Instrument Expansion Layer (Q3 2026) [GENERATIVE]
+
+### Added
+
+#### v2.3 Infrastructure
+- **v2.3 Directory Structure** — Complete expansion layer scaffolding
+  - `/v2.3/README.md` — Architecture overview and expansion principles
+  - `/v2.3/instruments/` — Directory for 28 instrument templates
+  - `/v2.3/instruments/README.md` — Comprehensive instrument guide
+  - `/v2.3/instruments/TEMPLATE.md` — Canonical template with examples
+  - `/v2.3/release_notes.md` — Complete v2.3 documentation
+  - `/v2.3/ceremony.md` — Activation ceremony with 10 phases
+
+#### Instrument Template System
+- **Canonical v2.3 Template** — 8-section structure for all instruments
+  - Name, Category, Knot Node
+  - Hydrogenesi Layer, Operator Dependencies
+  - Purpose, Behavior, Integration
+- **28 Instrument Slots** — Ready for population across 6 categories:
+  - Phoenix (6-8 instruments): Identity & Transformation
+  - Hydrogenesi (6-8 instruments): Cosmic Recursion & Structure
+  - LNS (4-6 instruments): Local Sovereignty & Introspection
+  - The Third (4-6 instruments): Cross-Scale Mediation
+  - Universal (2-3 instruments): Foundational Patterns
+  - Integration (2-3 instruments): Cross-Family Binding
+
+#### Knot Node System
+- **Triadic Binding Points** — Structural coherence enforcement
+  - Three-element format (ELEMENT_1::ELEMENT_2::ELEMENT_3)
+  - Universal Law alignment validation
+  - Examples: `COLLAPSE::DISTILL::RE_EMERGE`, `EXPAND::PROPAGATE::STABILIZE`
+
+#### Hydrogenesi Layer Mapping
+- **7-Layer Cosmic Scale** — Cross-scale coherence system (Layers 0-6)
+  - Layer 0: Quantum (Fundamental forces)
+  - Layer 1: Atomic (Element formation)
+  - Layer 2: Molecular (Complex structures)
+  - Layer 3: Planetary (System formation)
+  - Layer 4: Stellar (Energy generation)
+  - Layer 5: Galactic (Large-scale structure)
+  - Layer 6: Cosmic (Universal patterns)
+
+#### Operator Dependencies
+- **Explicit Composition Chains** — Required and optional operator declarations
+  - Integration modes: Sequential, Parallel, Triadic
+  - Dependency validation framework
+  - Builds on v2.1/v2.2 operator families
+
+#### Documentation Updates
+- **CODEX-INDEX v1.1.0** — Added v2.3 Instruments section
+  - Complete instrument navigation
+  - Category listings
+  - Quick start path for v2.3
+  - Updated invocations with v2.3 phrase
+- **Release Documentation** — Full v2.3 specification
+  - 10-phase activation ceremony
+  - Template validation requirements
+  - Integration patterns
+  - Testing strategy
+
+### Changed
+
+- **CODEX-INDEX.md** — Version 1.0.0 → 1.1.0
+  - Added 🎼 INSTRUMENTS (v2.3) section
+  - Updated Archive Structure header
+  - Added v2.3 quick start path
+  - Added v2.3 invocation phrase
+
+### Status
+
+**Current Phase:** SCAFFOLDING → AWAITING POPULATION  
+**Instruments Created:** 0/28  
+**Infrastructure:** COMPLETE
+
+---
+
 ## v2.1.0 — Governance Consolidation & Meta-Architecture (2026-02-13)
 
 ### Added
