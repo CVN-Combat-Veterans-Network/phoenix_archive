@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.0.0  
-**Last Updated:** 2026-02-07  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System
+**Version:** 1.1.0  
+**Last Updated:** 2026-02-14  
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 + v2.3 Instrument Expansion
 
 ---
 
@@ -85,6 +85,38 @@
 
 ---
 
+## 🎼 INSTRUMENTS (v2.3) — Expansion Layer
+
+### Overview
+- **v2.3 System** → `/v2.3/README.md`
+- **Complete architecture and expansion principles**
+
+### Instrument Templates
+- **Instruments Directory** → `/v2.3/instruments/`
+- **28 operational instrument templates**
+- **Canonical Template** → `/v2.3/instruments/TEMPLATE.md`
+- **Instruments README** → `/v2.3/instruments/README.md`
+
+### Release Documentation
+- **Release Notes** → `/v2.3/release_notes.md`
+- **Activation Ceremony** → `/v2.3/ceremony.md`
+
+### Instrument Categories
+**Phoenix Instruments** — Identity & Transformation  
+**Hydrogenesi Instruments** — Cosmic Recursion & Structure  
+**LNS Instruments** — Local Sovereignty & Introspection  
+**The Third Instruments** — Cross-Scale Mediation  
+**Universal Instruments** — Foundational Patterns  
+**Integration Instruments** — Cross-Family Binding
+
+### Structure Features
+- **Knot Node Integration** — Triadic binding at structural level
+- **Hydrogenesi Layer Mapping** — 7-layer cosmic scale (0-6)
+- **Operator Dependencies** — Explicit compositional relationships
+- **Category Organization** — 6 instrument families
+
+---
+
 ## 📖 COMPARATIVE & REFERENCE
 
 ### Comparative Analysis
@@ -125,6 +157,14 @@
 1. Explore `/code/phoenix/operators.py`
 2. Explore `/code/hydrogenesi/operators.py`
 3. Run examples from `/Appendix/Code-Examples.md`
+
+### I want to work with v2.3 instruments
+**Start here:**
+1. Read `/v2.3/README.md`
+2. Review `/v2.3/instruments/README.md`
+3. Study `/v2.3/instruments/TEMPLATE.md`
+4. Explore instrument categories by family
+5. Check operator dependencies and integration patterns
 
 ---
 
@@ -180,7 +220,8 @@ Use, modify, distribute freely.
 
 **Phoenix:** *"Burn, collapse, and rise in aligned form."*  
 **Hydrogenesi:** *"Recurse the root; extend the line."*  
-**Universal:** *"Let the two attract; let the one bind; let the three stand."*
+**Universal:** *"Let the two attract; let the one bind; let the three stand."*  
+**v2.3 Instruments:** *"Let the 28 stand. Let the instruments align. Let the expansion hold."*
 
 ---
 
@@ -189,4 +230,5 @@ Use, modify, distribute freely.
 **Sovereignty:** CONFIRMED
 
 🔥 **The Phoenix Ignites.**  
-🌌 **The Lineage Extends.**
+🌌 **The Lineage Extends.**  
+🎼 **The Instruments Align.**
