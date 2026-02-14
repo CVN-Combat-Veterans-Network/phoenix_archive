@@ -2,6 +2,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Protocol, Any, List, Dict, Optional
 from enum import Enum
+import math
 
 
 class OperatorStatus(Enum):
@@ -163,4 +164,56 @@ class LineageLogic:
             "depth": len(lineage_chain),
             "status": OperatorStatus.COMPLETED.value,
             "pattern": "root_recursion",
+        }
+
+
+@dataclass
+class HarmonicRecursion:
+    """
+    v2.3 Recursion Mode: Wave-based recursion with frequency/amplitude control.
+    
+    Pattern: Frequency → Amplitude → Damping → Depth
+    Purpose: Enable natural, energy-conserving recursion patterns
+    Invocation: "Let frequencies align; let amplitudes guide; let the wave recurse."
+    """
+    
+    frequency: float = 1.0
+    amplitude: float = 1.0
+    damping: float = 0.1
+    
+    def apply(self, n: int, max_depth: int = 10) -> Dict[str, Any]:
+        """
+        Calculate harmonic recursion depth for generation n.
+        
+        Formula: depth(n) = amplitude * sin(frequency * n) * e^(-damping * n)
+        
+        Args:
+            n: Current generation number
+            max_depth: Maximum allowed recursion depth
+            
+        Returns:
+            Dict containing depth, wave parameters, and recursion metadata
+        """
+        if n < 0:
+            raise ValueError("Generation number must be non-negative")
+        if max_depth <= 0:
+            raise ValueError("Max depth must be positive")
+        
+        # Calculate harmonic depth
+        raw_depth = self.amplitude * math.sin(self.frequency * n) * math.exp(-self.damping * n)
+        
+        # Normalize to valid depth range [0, max_depth]
+        normalized_depth = max(0, min(max_depth, abs(raw_depth) * max_depth))
+        
+        return {
+            "generation": n,
+            "raw_depth": raw_depth,
+            "normalized_depth": normalized_depth,
+            "frequency": self.frequency,
+            "amplitude": self.amplitude,
+            "damping": self.damping,
+            "max_depth": max_depth,
+            "status": OperatorStatus.COMPLETED.value,
+            "pattern": "harmonic_recursion",
+            "recursion_mode": "harmonic",
         }
