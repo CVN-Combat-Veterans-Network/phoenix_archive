@@ -406,6 +406,10 @@ def initialize_integration_engine() -> IntegrationEngine:
     Returns:
         Activated IntegrationEngine instance
     """
+    # Import and display activation banner
+    from . import _print_activation_banner
+    _print_activation_banner()
+    
     engine = IntegrationEngine()
     sovereignty = engine.verify_sovereignty()
     

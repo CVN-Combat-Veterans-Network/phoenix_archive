@@ -54,15 +54,11 @@ class UniversalLaws:
     
     # Constants for law validation
     MAX_RECURSION_DEPTH = 7
-    GOLDEN_RATIO = 1.618
+    GOLDEN_RATIO = 1.618  # Used for sigil embedding validation
     GOLDEN_RATIO_LOWER = 0.618
     GOLDEN_RATIO_UPPER = 1.618
     COHERENCE_THRESHOLD = 0.80
     MIN_OPERATORS = 3
-    
-    def __init__(self):
-        """Initialize Universal Laws validator."""
-        pass
     
     # ============================================================================
     # SUBSTRATE LAWS (4)

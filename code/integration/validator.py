@@ -50,10 +50,6 @@ class IntegrationValidator:
         "The Third": "HOLD"
     }
     
-    def __init__(self):
-        """Initialize Integration Validator."""
-        pass
-    
     def validate_pillar_structure(self, pattern: Dict[str, Any]) -> Dict[str, Any]:
         """
         Validate three-pillar structure.
