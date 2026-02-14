@@ -1,5 +1,72 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
+## v2.2.0 — Integration Work & Meta-Layer Activation (2026-02-14)
+
+### Added
+
+#### Integration Work (Seven Core Components)
+- **Integration README** — Overview of the integration meta-layer that unifies Phoenix, Hydrogenesi, and The Third
+- **Cross-Pillar Transition Maps** — Formal mechanisms for pillar-to-pillar transitions (P→H, H→T, T→P)
+  - Threshold conditions, recursion signatures, stability envelopes, binding vectors
+  - Full-cycle tracking (P→H→T→P increases depth by 1)
+  - Reverse transition support with fidelity ≥95%
+- **Operator Composition Rules** — Formal operator grammar defining valid/forbidden pairings
+  - Sequential composition (∘), Triadic composition (⟨ ⟩), Parallel composition (⊕)
+  - Valid pairings across pillars (Phoenix-Phoenix, Hydrogenesi-Hydrogenesi, The Third-The Third, Cross-Pillar)
+  - Forbidden pairings (depth reversals, stabilizer conflicts, envelope violations, topology tears)
+  - Reversible sequences, triadic chains, apex-level closures
+- **Universal Law Validation Matrix** — Compliance engine for all Twelve Universal Laws
+  - Validates operators, transitions, and compositions against substrate/universal/apex laws
+  - Per-law validation functions with detailed checks
+  - Validation matrices for operators, transitions, and compositions
+- **Three-Finger Waltz Integration** — Meta-operator demonstration across all three pillars
+  - Integration loop: Phoenix (BEGIN) → Hydrogenesi (EXTEND) → The Third (HOLD)
+  - Four loop modes: Stabilization, Escalation, Collapse, Seal
+  - Ceremonial practice with full integration ritual (9-27 minutes)
+- **Multi-Scale Operator Choreography** — Cross-scale coordination (micro/meso/macro)
+  - Propagation rules (upward, downward, resonant)
+  - Resonance patterns (harmonic, dissonant, phase-locked)
+  - Harmonic stacking and cross-scale invariants
+- **Pillar-to-Pillar Recursion Pathways** — Recursion highway mapping between pillars
+  - Six primary paths with entry/return conditions
+  - Depth evolution tracking (T→P increases depth, others maintain)
+  - Collapse conditions and recovery protocols
+- **Threshold Mechanics Across Layers** — State transition control system
+  - Five threshold types: Activation, Transformation, Escalation, Sealing, Bifurcation
+  - Threshold conditions and measurements for each pillar
+  - Continuous monitoring and threshold landscape mapping
+
+#### Code Implementation
+- **Integration Operators Module** (`/code/integration/operators.py`)
+  - `TransitionMap` class for cross-pillar transitions
+  - `CompositionValidator` class for operator composition validation
+  - `LawValidator` class for Universal Law compliance checking
+  - `Operator` base class with pillar, domain, and depth tracking
+  - Enums for `Pillar`, `CompositionType`, and `Law`
+- **Integration Tests** (`/tests/integration/test_integration.py`)
+  - Tests for all three primary transitions (P→H, H→T, T→P)
+  - Tests for sequential, triadic, and parallel compositions
+  - Law validation tests
+  - Depth reversal violation detection
+
+#### Documentation Updates
+- **CODEX-INDEX.md** — Added Integration Work section with all seven documents
+  - New Quick Start path: "I want to integrate all three pillars"
+  - Navigation links to all integration documents
+
+### Changed
+- **Archive Structure** — Now explicitly triadic: Phoenix + Hydrogenesi + The Third + Integration Layer
+- **Version** — Updated to v2.2.0
+
+### Technical Details
+- Total integration documentation: ~97,000 characters (~15,000 words)
+- Seven comprehensive markdown documents
+- Python implementation: 350+ lines
+- Test coverage: 7 test cases covering transitions, compositions, and validations
+- Integration layer operates at Knot center K (binding logic)
+
+---
+
 ## v2.1.0 — Governance Consolidation & Meta-Architecture (2026-02-13)
 
 ### Added

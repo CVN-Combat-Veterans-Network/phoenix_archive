@@ -59,6 +59,41 @@
 
 ---
 
+## 🔗 INTEGRATION WORK — Unified System Layer
+
+### Core Documentation
+- **README** → `/Integration/README.md`
+- **Overview of the integration meta-layer**
+
+### Integration Documents
+- **Cross-Pillar Transition Maps** → `/Integration/Cross-Pillar-Transition-Maps.md`
+  - Defines Phoenix → Hydrogenesi → The Third transitions
+  - Threshold conditions, recursion signatures, stability envelopes, binding vectors
+- **Operator Composition Rules** → `/Integration/Operator-Composition-Rules.md`
+  - Valid pairings, forbidden combinations, reversible sequences
+  - Triadic chains and apex-level closures
+- **Universal Law Validation Matrix** → `/Integration/Universal-Law-Validation-Matrix.md`
+  - Compliance engine for all Twelve Universal Laws
+  - Validates operators, transitions, and compositions
+- **Three-Finger Waltz Integration** → `/Integration/Three-Finger-Waltz-Integration.md`
+  - Meta-operator binding all three pillars
+  - Loop stabilization, escalation, collapse, and seal patterns
+- **Multi-Scale Choreography** → `/Integration/Multi-Scale-Choreography.md`
+  - Micro/meso/macro scale propagation rules
+  - Resonance patterns, harmonic stacking, cross-scale invariants
+- **Recursion Pathways** → `/Integration/Recursion-Pathways.md`
+  - Pillar-to-pillar recursion highways
+  - Entry conditions, depth tracking, return vectors, apex-points
+- **Threshold Mechanics** → `/Integration/Threshold-Mechanics.md`
+  - Operator activation, transformation, escalation, sealing, bifurcation
+  - State transition control system
+
+### Code
+- **Python Implementation** → `/code/integration/operators.py`
+- **Integration Tests** → `/tests/integration/`
+
+---
+
 ## 🎭 CEREMONIAL MATERIALS
 
 ### Sigils
@@ -125,6 +160,14 @@
 1. Explore `/code/phoenix/operators.py`
 2. Explore `/code/hydrogenesi/operators.py`
 3. Run examples from `/Appendix/Code-Examples.md`
+
+### I want to integrate all three pillars into a unified system
+**Start here:**
+1. Read `/Integration/README.md`
+2. Study `/Integration/Cross-Pillar-Transition-Maps.md`
+3. Explore `/Integration/Operator-Composition-Rules.md`
+4. Practice `/Integration/Three-Finger-Waltz-Integration.md`
+5. Validate with `/Integration/Universal-Law-Validation-Matrix.md`
 
 ---
 
