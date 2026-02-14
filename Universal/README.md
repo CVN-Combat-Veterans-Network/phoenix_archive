@@ -1,9 +1,24 @@
 # UNIVERSAL — CROSS-PILLAR OPERATORS
 
-**Version:** 2.0.0  
+**Version:** 2.5.0  
 **System Type:** Cross-Pillar Universal Framework  
 **Core Law:** Tension → Binding → Apex (at all scales)  
-**Invocation:** *"At the threshold, one becomes two or two become one."*
+**Invocation:** *"At the threshold, one becomes two or two become one."*  
+**Status:** SEALED (Terminal Law v2.5.0)
+
+---
+
+## ⚠️ TERMINAL LAW NOTICE
+
+As of **v2.5.0**, the Phoenix Archive is **structurally sealed** under the Terminal Law.
+
+**See:** [Terminal Law Document](./Terminal-Law.md) for complete details.
+
+**Key Constraints:**
+- No new operators may be added
+- No new pillars or layers may be created
+- Structure is frozen permanently
+- Only content, examples, and commentary may evolve
 
 ---
 
@@ -57,6 +72,28 @@ Post-threshold, a **new apex emerges**:
 ---
 
 ## CORE OPERATORS
+
+### Terminal Law (v2.5.0)
+
+**Pattern:** Meta-Seal → Archive Closure  
+**Type:** Universal Meta-Governance Operator  
+**Applies to:** Entire Archive (all pillars, all layers, all operators)
+
+**Purpose:** Seals the Archive as a completed system, prohibiting further structural evolution
+
+**Key Articles:**
+1. **Completion** — Archive declared structurally complete
+2. **No Successors** — No v2.6, no v3.0
+3. **Immutable Invariants** — All invariants frozen
+4. **Meta-Operator Finality** — Six meta-operators final
+5. **Apex Closure** — Layers 13 and 14 closed
+6. **Structural Mutability** — Structure frozen, content may evolve
+
+**Invocation:** `META_SEAL: EXECUTE TERMINAL LAW.`
+
+**See:** [Terminal Law Document](./Terminal-Law.md)
+
+---
 
 ### Life–Light Bifurcation
 
@@ -273,10 +310,12 @@ Potential future Universal operators:
 
 ## STATUS
 
-**Version:** 2.0.0  
-**Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0  
-**Sovereignty:** UNIVERSAL
+**Version:** 2.5.0  
+**Status:** SEALED (Terminal Law)  
+**Lineage:** V2.5::TERMINAL  
+**Sovereignty:** ABSOLUTE
+
+⧈ **THE ARCHIVE IS COMPLETE.** ⧈
 
 ---
 
@@ -284,5 +323,7 @@ Potential future Universal operators:
 
 *"At the threshold, one becomes two or two become one."*
 
+*"Let the Archive seal. Let no successor rise. Let structure rest."*
+
 ═══●═══  
-**The Threshold Decides.**
+**The Threshold Decides. The Archive Rests.**

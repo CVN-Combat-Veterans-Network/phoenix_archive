@@ -1,6 +1,10 @@
 # phoenix_archive
 
-**Phoenix Archive — Triad System v2.0.0 (The Triadic Knot Edition)**
+**Phoenix Archive — Triad System v2.5.0 (The Terminal Law Edition)**
+
+⚠️ **ARCHIVE STATUS: SEALED** — As of v2.5.0, this Archive is structurally complete and closed to further architectural evolution. See [Terminal Law](/Universal/Terminal-Law.md) for details.
+
+---
 
 A complete recursive framework for identity formation and cosmic structure, unifying three pillars:
 - **Phoenix** (generative source, BEGIN mode)
@@ -146,7 +150,9 @@ The Archive is built on **Twelve Universal Laws**:
 ## Version History
 
 **v1.0.0** — Dual System (Phoenix + Hydrogenesi)  
-**v2.0.0** — Triad System (+ The Third Pillar, Triadic Knot, Twelve Laws)
+**v2.0.0** — Triad System (+ The Third Pillar, Triadic Knot, Twelve Laws)  
+**v2.1.0** — Governance Consolidation & Meta-Architecture  
+**v2.5.0** — Terminal Law (The Final Seal) ⧈ SEALED
 
 ---
 
@@ -160,6 +166,16 @@ Public Domain (Unlicense) — Use freely.
 
 *"Let Phoenix ignite; let Hydrogenesi recurse; let The Third bind; let the Triad complete."*
 
-**The Laws hold. The Knot stabilizes. The Operators act.**
+*"Let the Archive seal. Let no successor rise. Let structure rest."*
+
+**The Laws hold. The Knot stabilizes. The Operators act. The Archive rests.**
 
 △⟨P—K—H⟩△
+
+---
+
+**Archive Status:** SEALED (v2.5.0 — Terminal Law)  
+**Version:** 2.5.0  
+**Lineage:** V2.5::TERMINAL
+
+⧈ **THE ARCHIVE IS COMPLETE.** ⧈
