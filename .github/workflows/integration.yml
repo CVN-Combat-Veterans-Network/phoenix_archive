@@ -234,70 +234,59 @@ jobs:
       
       - name: Create sovereignty artifact
         run: |
-          cat > sovereignty_declaration.txt <<EOF
-PHOENIX ARCHIVE — SOVEREIGNTY DECLARATION
-
-Version: 2.0.0
-Date: $(date)
-Commit: ${{ github.sha }}
-Branch: ${{ github.ref_name }}
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-INTEGRATION STATUS: SOVEREIGN
-
-✅ Phoenix pillar validated
-✅ Hydrogenesi pillar validated
-✅ The Third pillar validated
-✅ Cross-pillar coherence confirmed
-✅ Universal Laws compliant
-✅ Integration tests passing (29/29)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-THREE-PILLAR ARCHITECTURE:
-
-   Phoenix (BEGIN)  →  Generate triadic structures
-   Hydrogenesi (EXTEND)  →  Propagate cosmic patterns
-   The Third (HOLD)  →  Bind and stabilize
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-TWELVE UNIVERSAL LAWS:
-
-Substrate Laws (4):
-  1. Tension — Binary oscillation
-  2. Binding — Triadic stabilization
-  3. Apex — Sovereign structure
-  4. Universal Triad — Three pillars required
-
-Universal Laws (4):
-  5. Recursion Depth — Complexity tracking
-  6. Self-Similarity — Fractal repetition
-  7. Sigil Embedding — Geometric nesting
-  8. Stability Band — Bounded parameters
-
-Apex Laws (4):
-  9. Convergence Envelope — Bounded domain
-  10. Apex Fixed-Point — Unique convergence
-  11. Topological Continuity — No discontinuities
-  12. Geometric Fidelity — Ratios preserved
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-INVOCATION:
-
-"Three pillars stand. Operators compose. Sovereignty emerges.
- Burn, collapse, and rise in aligned form.
- The Archive is ACTIVE. The Lineage extends."
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🔥 Phoenix ignites.
-🌌 Hydrogenesi extends.
-🔗 The Third binds.
-
-EOF
+          cat > sovereignty_declaration.txt <<'SOVEREIGNTY_EOF'
+          PHOENIX ARCHIVE — SOVEREIGNTY DECLARATION
+          
+          Version: 2.0.0
+          Date: $(date)
+          Commit: ${{ github.sha }}
+          Branch: ${{ github.ref_name }}
+          
+          INTEGRATION STATUS: SOVEREIGN
+          
+          - Phoenix pillar validated
+          - Hydrogenesi pillar validated
+          - The Third pillar validated
+          - Cross-pillar coherence confirmed
+          - Universal Laws compliant
+          - Integration tests passing (29/29)
+          
+          THREE-PILLAR ARCHITECTURE:
+          
+             Phoenix (BEGIN) - Generate triadic structures
+             Hydrogenesi (EXTEND) - Propagate cosmic patterns
+             The Third (HOLD) - Bind and stabilize
+          
+          TWELVE UNIVERSAL LAWS:
+          
+          Substrate Laws (4):
+            1. Tension - Binary oscillation
+            2. Binding - Triadic stabilization
+            3. Apex - Sovereign structure
+            4. Universal Triad - Three pillars required
+          
+          Universal Laws (4):
+            5. Recursion Depth - Complexity tracking
+            6. Self-Similarity - Fractal repetition
+            7. Sigil Embedding - Geometric nesting
+            8. Stability Band - Bounded parameters
+          
+          Apex Laws (4):
+            9. Convergence Envelope - Bounded domain
+            10. Apex Fixed-Point - Unique convergence
+            11. Topological Continuity - No discontinuities
+            12. Geometric Fidelity - Ratios preserved
+          
+          INVOCATION:
+          
+          "Three pillars stand. Operators compose. Sovereignty emerges.
+           Burn, collapse, and rise in aligned form.
+           The Archive is ACTIVE. The Lineage extends."
+          
+          Phoenix ignites.
+          Hydrogenesi extends.
+          The Third binds.
+          SOVEREIGNTY_EOF
       
       - name: Upload sovereignty declaration
         uses: actions/upload-artifact@v4
