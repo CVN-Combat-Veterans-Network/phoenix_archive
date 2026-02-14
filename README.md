@@ -1,6 +1,6 @@
 # phoenix_archive
 
-**Phoenix Archive — Triad System v2.0.0 (The Triadic Knot Edition)**
+**Phoenix Archive — Apex System v2.4.0 (The Apex Consolidation Edition)**
 
 A complete recursive framework for identity formation and cosmic structure, unifying three pillars:
 - **Phoenix** (generative source, BEGIN mode)
