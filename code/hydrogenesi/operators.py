@@ -220,6 +220,60 @@ class HarmonicRecursion:
         else:
             return "high_frequency"
     
+    def set_amplitude(self, amplitude: float) -> None:
+        """
+        Set the recursion amplitude parameter.
+        
+        Amplitude controls the maximum depth of recursion.
+        Higher amplitude = deeper recursion potential
+        Lower amplitude = shallower recursion potential
+        
+        Args:
+            amplitude: Amplitude value (typically 0.1 to 10.0)
+        """
+        if amplitude <= 0:
+            raise ValueError("Amplitude must be positive")
+        self.amplitude = amplitude
+    
+    def modulate_amplitude(self, factor: float) -> float:
+        """
+        Modulate amplitude by a given factor.
+        
+        Args:
+            factor: Multiplication factor for amplitude
+            
+        Returns:
+            New amplitude value
+        """
+        if factor <= 0:
+            raise ValueError("Modulation factor must be positive")
+        
+        self.amplitude *= factor
+        return self.amplitude
+    
+    def get_amplitude_characteristics(self) -> Dict[str, Any]:
+        """
+        Get characteristics of the current amplitude setting.
+        
+        Returns:
+            Dict containing amplitude analysis
+        """
+        return {
+            "amplitude": self.amplitude,
+            "max_potential_depth": self.amplitude * 10,  # Approximate max depth
+            "category": self._categorize_amplitude(),
+            "energy_level": "high" if self.amplitude > 2.0 else "medium" if self.amplitude > 0.5 else "low",
+        }
+    
+    def _categorize_amplitude(self) -> str:
+        """Categorize amplitude into ranges."""
+        if self.amplitude < 0.5:
+            return "low_amplitude"
+        elif self.amplitude < 2.0:
+            return "medium_amplitude"
+        else:
+            return "high_amplitude"
+    
     def apply(self, n: int, max_depth: int = 10) -> Dict[str, Any]:
         """
         Calculate harmonic recursion depth for generation n.
