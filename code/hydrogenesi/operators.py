@@ -363,3 +363,105 @@ class HarmonicRecursion:
             "pattern": "harmonic_recursion",
             "recursion_mode": "harmonic",
         }
+
+
+@dataclass
+class MetaRecursion:
+    """
+    v2.3 Recursion Mode: Second-order recursion that operates on recursion patterns.
+    
+    Pattern: Introspect → Adjust → Recurse → Meta
+    Purpose: Enable adaptive, self-modifying recursion
+    Invocation: "Let recursion witness recursion; let patterns evolve; let meta emerge."
+    """
+    
+    base_depth: int = 3
+    adaptation_rate: float = 0.1
+    complexity_threshold: float = 0.5
+    
+    def apply(self, pattern: Dict[str, Any], iterations: int = 5) -> Dict[str, Any]:
+        """
+        Apply meta-recursion to an existing recursion pattern.
+        
+        Meta-recursion observes and modifies recursion parameters dynamically.
+        
+        Args:
+            pattern: Base recursion pattern to meta-recurse
+            iterations: Number of meta-recursion iterations
+            
+        Returns:
+            Dict containing evolved pattern and meta-recursion trace
+        """
+        if iterations < 0:
+            raise ValueError("Iterations must be non-negative")
+        
+        trace = []
+        current_pattern = pattern.copy()
+        current_depth = self.base_depth
+        
+        for i in range(iterations):
+            # Introspect current recursion pattern
+            complexity = self._calculate_complexity(current_pattern)
+            
+            # Adjust parameters based on complexity
+            adjustment = self._calculate_adjustment(complexity)
+            current_depth = max(1, int(current_depth * (1 + adjustment)))
+            
+            # Apply adjusted recursion
+            current_pattern["depth"] = current_depth
+            current_pattern["complexity"] = complexity
+            current_pattern["adjustment"] = adjustment
+            
+            # Record trace
+            trace.append({
+                "iteration": i,
+                "depth": current_depth,
+                "complexity": complexity,
+                "adjustment": adjustment,
+            })
+        
+        return {
+            "original_pattern": pattern,
+            "evolved_pattern": current_pattern,
+            "iterations": iterations,
+            "trace": trace,
+            "final_depth": current_depth,
+            "status": OperatorStatus.COMPLETED.value,
+            "pattern": "meta_recursion",
+            "recursion_mode": "meta",
+        }
+    
+    def _calculate_complexity(self, pattern: Dict[str, Any]) -> float:
+        """
+        Calculate complexity metric of current recursion pattern.
+        
+        Args:
+            pattern: Recursion pattern to analyze
+            
+        Returns:
+            Complexity value between 0.0 and 1.0
+        """
+        # Simple complexity metric based on depth and number of parameters
+        depth = pattern.get("depth", self.base_depth)
+        param_count = len(pattern.keys())
+        
+        # Normalize to [0, 1] range
+        complexity = min(1.0, (depth / 10.0 + param_count / 20.0) / 2.0)
+        return complexity
+    
+    def _calculate_adjustment(self, complexity: float) -> float:
+        """
+        Calculate parameter adjustment based on complexity.
+        
+        Args:
+            complexity: Current complexity measure
+            
+        Returns:
+            Adjustment factor (positive = increase, negative = decrease)
+        """
+        # If below threshold, increase depth (positive adjustment)
+        # If above threshold, decrease depth (negative adjustment)
+        deviation = complexity - self.complexity_threshold
+        adjustment = -deviation * self.adaptation_rate
+        
+        return adjustment
