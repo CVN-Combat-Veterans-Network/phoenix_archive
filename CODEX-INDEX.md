@@ -59,11 +59,33 @@
 
 ---
 
+## ⊙ THE THIRD — Binding Law & Meta-Recursion
+
+### Core Documentation
+- **Operators** → `/TheThird/Operators/`
+- **Knot-Binding, Cross-Pillar Knot, Triadic Closure, Apex Knot, Stability Knot**
+
+### Sigils
+- **Triadic Knot Geometry Atlas** → `/TheThird/Sigils/Triadic-Knot.md`
+- **Complete geometric specification for three-pillar connections**
+- **Integration Engine Ceremonial Artifacts** → `/TheThird/Sigils/Integration-Engine-Artifacts.md`
+- **Terminal Seal, Sigil-line, Triadic Knot completion artifacts**
+
+### Examples
+- **Phoenix to Knot** → `/TheThird/Examples/Phoenix-to-Knot.md`
+- **Hydrogenesi to Knot** → `/TheThird/Examples/Hydrogenesi-to-Knot.md`
+- **Triadic Loop** → `/TheThird/Examples/Triadic-Loop.md`
+- **Apex Convergence** → `/TheThird/Examples/Apex-Convergence.md`
+
+---
+
 ## 🎭 CEREMONIAL MATERIALS
 
 ### Sigils
 - **Sigil Compendium** → `/Ceremonies/Sigil-Compendium.md`
-- **All operator sigils for Phoenix and Hydrogenesi**
+- **All operator sigils for Phoenix, Hydrogenesi, and The Third**
+- **Integration Engine Artifacts** → `/TheThird/Sigils/Integration-Engine-Artifacts.md`
+- **Terminal Seal, Sigil-line, Triadic Knot completion sigils**
 
 ### Invocations
 - **Invocation Guide** → `/Ceremonies/Invocation-Guide.md`
