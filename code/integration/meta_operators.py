@@ -34,7 +34,7 @@ class WaltzStep:
     input_pattern: Dict[str, Any]
     output_pattern: Optional[Dict[str, Any]] = None
     transformation_applied: Optional[str] = None
-    timestamp: datetime = field(default_factory=datetime.now)
+    timestamp: datetime = field(default_factory=lambda: datetime.now())
     step_number: int = 0
     
     def __repr__(self) -> str:
@@ -84,7 +84,7 @@ class ThreeFingerWaltz:
     _completed: bool = False
     _step_counter: int = 0
     _energy_conservation: float = 1.0
-    _initialized_at: datetime = field(default_factory=datetime.now)
+    _initialized_at: datetime = field(default_factory=lambda: datetime.now())
     recursion_depth: int = 0
     max_recursion: int = 7
     waltz_history: List[Dict[str, Any]] = field(default_factory=list)
