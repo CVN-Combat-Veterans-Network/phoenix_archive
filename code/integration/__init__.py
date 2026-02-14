@@ -5,9 +5,12 @@ The Integration Engine binds the Three-Pillar Architecture into unified sovereig
 
 Components:
 - Universal Laws: 12 laws for pattern validation
-- Three-Finger Waltz: Cross-pillar meta-operator
+- Three-Finger Waltz: Cross-pillar meta-operator (with caching & telemetry)
 - Integration Validator: Sovereignty verification
 - Integration Engine: Supreme orchestrating intelligence
+- Visualization: Export waltz choreography in multiple formats
+- Caching: LRU pattern cache for performance
+- Telemetry: Structured logging and metrics collection
 
 🔥 △ ⚡ THE TRIAD IS BOUND ⚡ △ 🔥
 """
@@ -22,6 +25,7 @@ from .meta_operators import (
     ThreeFingerWaltz,
     WaltzPhase,
     WaltzStep,
+    execute_waltz,
 )
 
 from .validator import (
@@ -35,6 +39,24 @@ from .engine import (
     initialize_integration_engine,
 )
 
+from .cache import (
+    PatternCache,
+    CachedThreeFingerWaltz,
+)
+
+from .telemetry import (
+    WaltzLogger,
+    WaltzMetrics,
+    InstrumentedThreeFingerWaltz,
+)
+
+from .visualization import (
+    MermaidWaltzExporter,
+    GraphVizWaltzExporter,
+    JSONWaltzExporter,
+    WaltzVisualizer,
+)
+
 __all__ = [
     # Universal Laws
     "UniversalLaws",
@@ -44,6 +66,7 @@ __all__ = [
     "ThreeFingerWaltz",
     "WaltzPhase",
     "WaltzStep",
+    "execute_waltz",
     # Validator
     "IntegrationValidator",
     "ValidationReport",
@@ -51,6 +74,18 @@ __all__ = [
     "IntegrationEngine",
     "IntegrationPattern",
     "initialize_integration_engine",
+    # Caching
+    "PatternCache",
+    "CachedThreeFingerWaltz",
+    # Telemetry
+    "WaltzLogger",
+    "WaltzMetrics",
+    "InstrumentedThreeFingerWaltz",
+    # Visualization
+    "MermaidWaltzExporter",
+    "GraphVizWaltzExporter",
+    "JSONWaltzExporter",
+    "WaltzVisualizer",
 ]
 
 __version__ = "2.0.0"
