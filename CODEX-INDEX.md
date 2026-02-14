@@ -95,6 +95,10 @@
 - **Changelog** → `/Appendix/Changelog.md`
 - **Code Examples** → `/Appendix/Code-Examples.md`
 
+### Archive Management
+- **Activity Summary (2026-02-14)** → `/docs/ACTIVITY-SUMMARY-2026-02-14.md`
+- **Recent repository activity feed and analysis**
+
 ---
 
 ## 🚀 QUICK START PATHS
