@@ -274,6 +274,59 @@ class HarmonicRecursion:
         else:
             return "high_amplitude"
     
+    def set_damping(self, damping: float) -> None:
+        """
+        Set the recursion damping parameter.
+        
+        Damping controls the exponential decay of recursion over generations.
+        Higher damping = faster decay = shorter recursion lifetime
+        Lower damping = slower decay = longer recursion lifetime
+        
+        Args:
+            damping: Damping coefficient (typically 0.0 to 1.0)
+        """
+        if damping < 0:
+            raise ValueError("Damping must be non-negative")
+        self.damping = damping
+    
+    def calculate_damping_factor(self, n: int) -> float:
+        """
+        Calculate exponential damping factor for generation n.
+        
+        Args:
+            n: Generation number
+            
+        Returns:
+            Damping factor value (between 0 and 1)
+        """
+        return math.exp(-self.damping * n)
+    
+    def get_damping_characteristics(self) -> Dict[str, Any]:
+        """
+        Get characteristics of the current damping setting.
+        
+        Returns:
+            Dict containing damping analysis
+        """
+        # Calculate half-life: when damping factor = 0.5
+        half_life = math.log(2) / self.damping if self.damping > 0 else float('inf')
+        
+        return {
+            "damping": self.damping,
+            "half_life": half_life,
+            "decay_rate": self.damping * 100,  # As percentage
+            "category": self._categorize_damping(),
+        }
+    
+    def _categorize_damping(self) -> str:
+        """Categorize damping into ranges."""
+        if self.damping < 0.05:
+            return "low_damping"
+        elif self.damping < 0.2:
+            return "medium_damping"
+        else:
+            return "high_damping"
+    
     def apply(self, n: int, max_depth: int = 10) -> Dict[str, Any]:
         """
         Calculate harmonic recursion depth for generation n.
