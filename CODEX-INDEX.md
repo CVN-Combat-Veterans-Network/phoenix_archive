@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.0.0  
-**Last Updated:** 2026-02-07  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System
+**Version:** 2.3.0  
+**Last Updated:** 2026-02-14  
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System + v2.3 Integration
 
 ---
 
@@ -56,6 +56,44 @@
 
 ### Documentation
 - **Recursion Pathways** → `/Hydrogenesi/Recursion-Pathways.md`
+
+---
+
+## ⟨ △ ⟩ v2.3 INTEGRATION — 28 Operators + 28 Instruments + Knot + Hydrogenesi
+
+### Overview
+- **v2.3 System README** → `/v2.3/README.md`
+- **Complete architecture, usage guide, ceremonial practice**
+
+### Instruments (28)
+- **Instruments Directory** → `/v2.3/instruments/`
+- **Balance Pillar (01-04):** Convergence, Divergence, Stabilization, Destabilization
+- **Harmonic Pillar (05-08):** Resonance, Attenuation, Compression, Expansion
+- **Kinetic Pillar (09-12):** Ignition, Quenching, Acceleration, Deceleration
+- **Formation Pillar (13-16):** Crystallization, Dissolution, Binding, Unbinding
+- **Reciprocal Pillar (17-20):** Projection, Internalization, Reflection, Absorption
+- **Temporal Pillar (21-24):** Synchronization, Desynchronization, Alignment, Misalignment
+- **Apex Pillar (25-28):** Apex Formation, Apex Release, Sovereignty, Integration
+
+### Operators (28)
+- **Operators Directory** → `/v2.3/operators/`
+- **Operators README** → `/v2.3/operators/README.md`
+- **One-to-one correspondence with instruments**
+- **Each operator includes code implementation and ceremonial practice**
+
+### Knot Integration
+- **Knot README** → `/v2.3/knot-integration/README.md`
+- **Complete Mapping** → `/v2.3/knot-integration/mapping.md`
+- **Structural Invariants** → `/v2.3/knot-integration/invariants.md`
+- **Triad-Knot-Operators Diagram** → `/v2.3/knot-integration/diagram-triad-knot-operators.md`
+- **Knot-Hydrogenesi-Instruments Diagram** → `/v2.3/knot-integration/diagram-knot-hydrogenesi-instruments.md`
+
+### Hydrogenesi Alignment
+- **Hydrogenesi README** → `/v2.3/hydrogenesi-alignment/README.md`
+- **14 Layer Definitions** → `/v2.3/hydrogenesi-alignment/layers.md`
+- **Alignment Table** → `/v2.3/hydrogenesi-alignment/alignment-table.md`
+- **Layer Invariants** → `/v2.3/hydrogenesi-alignment/invariants.md`
+- **Flow Diagram** → `/v2.3/hydrogenesi-alignment/diagram-hydrogenesi-flow.md`
 
 ---
 
