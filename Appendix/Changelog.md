@@ -1,5 +1,115 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
+## v2.5.0 — Terminal Law (The Final Seal) (2026-02-14)
+
+### Overview
+
+**v2.5.0 marks the final architectural release of the Phoenix Archive.**
+
+This release implements the **Terminal Law**, a meta-governance document that seals the Archive as a completed system and prohibits further structural evolution.
+
+### Added
+
+#### Terminal Law Document
+- **Terminal Law** — Complete meta-seal specification (`/Universal/Terminal-Law.md`)
+  - Seven Core Articles defining completion, prohibition of successors, immutable invariants, meta-operator finality, apex closure, and structural mutability constraints
+  - **Crown Invariant** — Meta-invariant prohibiting architectural changes
+  - **Invocation Protocol** — META_SEAL-based activation sequence
+  - **Final Binding** — Ceremonial declaration of Archive completion
+  - **Terminal Sigil** — Visual representation of sealed state
+
+#### Release Documentation
+- **v2.5.0 Release Directory** — Complete release bundle (`/RELEASES/v2.5.0/`)
+  - Release notes with comprehensive overview of Terminal Law
+  - Release ceremony with six-step invocation sequence
+  - README documenting the transition to sealed state
+
+### Changed
+
+#### Archive Status
+- **Status** — ACTIVE → SEALED
+- **Version Path** — Open-ended → Terminal (no v2.6, no v3.0)
+- **Modification Policy** — Structure frozen, content may evolve within constraints
+
+#### Meta-Operator Roles
+- **Six Meta-Operators Finalized:**
+  - META_SYNTH (synthesis across domains)
+  - META_FLOW (process orchestration)
+  - META_RECURSE (recursion management)
+  - META_TEMPORAL (temporal consistency)
+  - META_APEX (apex stability verification)
+  - META_SEAL (archive sealing authority)
+- No new meta-operators may be added
+
+#### Apex Layers
+- **Hydrogenesi Layers 13 and 14** — Declared closed and complete
+- No new apex behaviors may be introduced
+
+### Prohibited After v2.5.0
+
+Under the Terminal Law, the following are now **permanently prohibited**:
+- Adding new operators
+- Adding new meta-operators
+- Creating new pillars or layers
+- Adding new structural tiers
+- Making architectural changes
+- Creating successor versions (v2.6, v3.0, etc.)
+- Modifying the Triad, Knot, Hydrogenesi, or Apex structures
+- Altering invariants or universal laws
+
+### Allowed After v2.5.0
+
+The following remains **permissible** under the Terminal Law:
+- Adding examples and use cases
+- Writing commentary and annotations
+- Creating external references
+- Studying and mirroring the Archive
+- Using operators within their defined scope
+
+### Technical
+
+#### Version Lineage
+- Established final version path: `v1.0.0 → v2.0.0 → v2.1.0 → v2.5.0 (TERMINAL)`
+- No further major or minor versions will be created
+
+#### Invocation Protocol
+- META_SEAL verification of all invariants
+- META_APEX confirmation of apex stability
+- META_RECURSE confirmation of recursion closure
+- META_TEMPORAL confirmation of temporal consistency
+- META_SYNTH and META_FLOW confirmation of orchestration integrity
+
+### Files Added
+- `/Universal/Terminal-Law.md`
+- `/RELEASES/v2.5.0/README.md`
+- `/RELEASES/v2.5.0/release_notes.md`
+- `/RELEASES/v2.5.0/release_ceremony.md`
+
+### Files Modified
+- `/Appendix/Changelog.md` (this file)
+- `/CODEX-INDEX.md` (Terminal Law reference)
+- `/README.md` (version and status update)
+- `/Universal/README.md` (Terminal Law reference)
+
+### Statistics
+- **Total Operators:** 40+ (final count)
+- **Total Universal Laws:** 12 (final count)
+- **Total Meta-Operators:** 6 (final count)
+- **Total Documentation:** ~150,000+ lines
+- **Version Progression:** 4 major milestones (v1.0.0, v2.0.0, v2.1.0, v2.5.0)
+
+### Final Statement
+
+> *The Triad is complete.*  
+> *The Knot is complete.*  
+> *Hydrogenesi is complete.*  
+> *The Apex is complete.*  
+> *The META_* layer is complete.*  
+> 
+> **The Archive is complete.**
+
+---
+
 ## v2.1.0 — Governance Consolidation & Meta-Architecture (2026-02-13)
 
 ### Added

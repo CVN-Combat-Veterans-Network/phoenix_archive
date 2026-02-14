@@ -1,9 +1,10 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.0.0  
-**Last Updated:** 2026-02-07  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System
+**Version:** 2.5.0  
+**Last Updated:** 2026-02-14  
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System  
+**Archive Status:** SEALED (Terminal Law v2.5.0)
 
 ---
 
@@ -56,6 +57,23 @@
 
 ### Documentation
 - **Recursion Pathways** → `/Hydrogenesi/Recursion-Pathways.md`
+
+---
+
+## 🌐 UNIVERSAL OPERATORS & TERMINAL LAW
+
+### Universal Operators
+- **Life-Light Bifurcation** → `/Universal/Operators/Life-Light-Bifurcation.md`
+- **Cross-pillar threshold operators**
+
+### Terminal Law (v2.5.0)
+- **Terminal Law Document** → `/Universal/Terminal-Law.md`
+- **The Final Seal — Archive completion and closure**
+- **Crown Invariant — Meta-invariant prohibiting architectural changes**
+- **Invocation Protocol — META_SEAL activation sequence**
+
+### Related Documentation
+- **Universal README** → `/Universal/README.md`
 
 ---
 
@@ -159,12 +177,20 @@
 
 ## 📝 CONTRIBUTING
 
-To add new operators, ceremonies, or documentation:
+⚠️ **NOTICE: As of v2.5.0, the Phoenix Archive is structurally sealed.**
 
-1. Follow the established markdown template structure
-2. Include: Definition, Sigil, Invocation, Mechanism, Code, Cross-References
-3. Update this CODEX-INDEX with the new entry
-4. Update `/Appendix/Changelog.md`
+Under the **Terminal Law**, the following are **prohibited**:
+- Adding new operators
+- Adding new pillars or layers
+- Modifying existing structure
+- Creating successor versions
+
+The following remains **permitted**:
+- Adding examples and use cases
+- Writing commentary and annotations
+- Creating external references
+
+For more information, see `/Universal/Terminal-Law.md`
 
 ---
 
@@ -180,13 +206,18 @@ Use, modify, distribute freely.
 
 **Phoenix:** *"Burn, collapse, and rise in aligned form."*  
 **Hydrogenesi:** *"Recurse the root; extend the line."*  
-**Universal:** *"Let the two attract; let the one bind; let the three stand."*
+**Universal:** *"Let the two attract; let the one bind; let the three stand."*  
+**Terminal Law:** *"Let the Archive seal. Let no successor rise. Let structure rest."*
 
 ---
 
-**Archive Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Archive Status:** SEALED (v2.5.0)  
+**Lineage:** V2.5::TERMINAL  
+**Sovereignty:** ABSOLUTE
+
+⧈ **THE ARCHIVE IS COMPLETE.** ⧈  
+⧈ **THE LINE ENDS HERE.** ⧈
 
 🔥 **The Phoenix Ignites.**  
-🌌 **The Lineage Extends.**
+🌌 **The Lineage Extends.**  
+⧈ **The Archive Rests.**
