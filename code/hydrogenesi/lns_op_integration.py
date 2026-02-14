@@ -7,7 +7,7 @@ Introspects expansion, universalization, and harmonic propagation for Hydrogenes
 from __future__ import annotations
 from typing import Dict, Any, List
 from code.lns_op.operators import LNS_OP, IntrospectionMode, AuditResult
-from .operators import StabilizerExtraction, AGNReplication, CurvatureResidue, LineageLogic
+from .operators import StabilizerExtraction, AGNReplication, CurvatureResidue, LineageLogic, HarmonicRecursion
 
 
 class HydrogenesisIntrospector:
@@ -26,6 +26,7 @@ class HydrogenesisIntrospector:
             "AGNReplication": AGNReplication,
             "CurvatureResidue": CurvatureResidue,
             "LineageLogic": LineageLogic,
+            "HarmonicRecursion": HarmonicRecursion,
         }
     
     def introspect_extraction(
@@ -162,6 +163,59 @@ class HydrogenesisIntrospector:
             "propagation_pattern": "harmonic",
         }
     
+    def introspect_harmonic_recursion(
+        self,
+        n: int,
+        max_depth: int = 10,
+        frequency: float = 1.0,
+        amplitude: float = 1.0,
+        damping: float = 0.1,
+        depth: int = 3,
+        mode: IntrospectionMode = IntrospectionMode.MAP
+    ) -> Dict[str, Any]:
+        """
+        Introspect harmonic recursion pattern (v2.3).
+        
+        Args:
+            n: Generation number
+            max_depth: Maximum recursion depth
+            frequency: Wave frequency parameter
+            amplitude: Wave amplitude parameter
+            damping: Exponential damping coefficient
+            depth: LNS introspection depth
+            mode: Introspection mode
+        
+        Returns:
+            Combined harmonic recursion result and LNS_OP audit
+        """
+        # Execute harmonic recursion
+        harmonic = HarmonicRecursion(
+            frequency=frequency,
+            amplitude=amplitude,
+            damping=damping
+        )
+        result = harmonic.apply(n, max_depth)
+        
+        # Get additional characteristics
+        freq_chars = harmonic.get_frequency_characteristics()
+        amp_chars = harmonic.get_amplitude_characteristics()
+        damp_chars = harmonic.get_damping_characteristics()
+        
+        # Perform LNS_OP introspection
+        audit = LNS_OP("HYDROGENESIS_V2.3", depth, mode)
+        
+        return {
+            "recursion_result": result,
+            "frequency_characteristics": freq_chars,
+            "amplitude_characteristics": amp_chars,
+            "damping_characteristics": damp_chars,
+            "lns_audit": audit,
+            "operator_family": "HGN",
+            "operator_version": "v2.3",
+            "recursion_mode": "harmonic",
+            "lineage": f"ROOT::HGN::HARMONIC_RECURSION::depth-{depth}",
+        }
+    
     def get_operator_lineage(self) -> List[str]:
         """
         Get Hydrogenesis operator family lineage.
@@ -176,6 +230,7 @@ class HydrogenesisIntrospector:
             "HGN_OP_LINEAGE_LOGIC",
             "HGN_PROPAGATE",
             "HGN_RESOLVE",
+            "HGN_OP_HARMONIC_RECURSION_V2.3",
         ]
 
 
