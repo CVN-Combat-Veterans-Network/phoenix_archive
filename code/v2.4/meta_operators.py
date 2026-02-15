@@ -71,8 +71,13 @@ class META_FLOW:
             return self._parallel_graph(operators)
         elif pattern == "recursive":
             return self._recursive_graph(operators)
-        else:
+        elif pattern == "mesh":
             return self._mesh_graph(operators)
+        else:
+            raise ValueError(
+                f"Unsupported flow pattern '{pattern}'. "
+                "Expected one of: 'sequential', 'parallel', 'recursive', 'mesh'."
+            )
     
     def _sequential_graph(self, operators: List[str]) -> Dict:
         """Create sequential flow: Op₁ → Op₂ → Op₃"""
