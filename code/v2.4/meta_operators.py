@@ -94,8 +94,14 @@ class META_FLOW:
     
     def _recursive_graph(self, operators: List[str]) -> Dict:
         """Create recursive flow with feedback loops"""
-        edges = [(operators[i], operators[i+1]) 
-                 for i in range(len(operators)-1)]
+        # Handle empty operator list explicitly to avoid IndexError on
+        # operators[-1] / operators[0] while preserving existing behavior
+        # for non-empty inputs.
+        if not operators:
+            return {"nodes": [], "edges": [], "type": "recursive"}
+
+        edges = [(operators[i], operators[i+1])
+                 for i in range(len(operators) - 1)]
         # Add feedback edge from last to first
         edges.append((operators[-1], operators[0]))
         return {"nodes": operators, "edges": edges, "type": "recursive"}
