@@ -7,7 +7,7 @@ Architecture (Phoenix, Hydrogenesi, The Third) into unified sovereignty.
 Capabilities:
 - Pattern validation against 12 Universal Laws
 - Cross-pillar transitions via LifeLightBifurcation
-- Pattern integration via ThreeFingerWaltz
+- Pattern integration via ThreeFingerWaltz (with caching & telemetry)
 - Sovereignty verification
 - Full integration cycle execution
 """
@@ -15,11 +15,14 @@ Capabilities:
 from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Dict, List, Any, Optional
+import logging
 
 from code.universal.operators import LifeLightBifurcation, BifurcationVector
 from .universal_laws import UniversalLaws, LawStatus
 from .meta_operators import ThreeFingerWaltz, WaltzPhase
 from .validator import IntegrationValidator, ValidationReport
+from .cache import CachedThreeFingerWaltz
+from .telemetry import InstrumentedThreeFingerWaltz
 
 
 @dataclass
@@ -87,7 +90,7 @@ class IntegrationEngine:
     Core Functions:
     1. Validate patterns against 12 Universal Laws
     2. Execute cross-pillar transitions via LifeLightBifurcation
-    3. Integrate patterns via ThreeFingerWaltz
+    3. Integrate patterns via ThreeFingerWaltz (with optional caching & telemetry)
     4. Verify system sovereignty
     5. Execute complete integration cycles
     
@@ -95,12 +98,46 @@ class IntegrationEngine:
     all patterns conform to Universal Laws.
     """
     
-    def __init__(self):
-        """Initialize Integration Engine with all subsystems."""
+    def __init__(
+        self, 
+        enable_cache: bool = True, 
+        enable_telemetry: bool = True,
+        cache_size: int = 128,
+        log_level: int = logging.INFO
+    ):
+        """
+        Initialize Integration Engine with all subsystems.
+        
+        Args:
+            enable_cache: Enable pattern caching for performance
+            enable_telemetry: Enable logging and metrics collection
+            cache_size: Maximum cache size (if caching enabled)
+            log_level: Logging level (if telemetry enabled)
+        """
         self.universal_laws = UniversalLaws()
         self.validator = IntegrationValidator()
         self._sovereign = False
         self._integrated_patterns: List[Dict[str, Any]] = []
+        
+        # Initialize meta-operator based on configuration
+        if enable_telemetry and enable_cache:
+            self.meta_operator = InstrumentedThreeFingerWaltz(
+                cache_size=cache_size,
+                log_level=log_level
+            )
+        elif enable_cache:
+            self.meta_operator = CachedThreeFingerWaltz(cache_size=cache_size)
+        elif enable_telemetry:
+            # Telemetry without cache (cache_size=0 effectively disables it)
+            self.meta_operator = InstrumentedThreeFingerWaltz(
+                cache_size=0,
+                log_level=log_level
+            )
+        else:
+            self.meta_operator = ThreeFingerWaltz()
+        
+        self._cache_enabled = enable_cache
+        self._telemetry_enabled = enable_telemetry
         
     def validate(self, pattern: Dict[str, Any]) -> Dict[str, Any]:
         """
@@ -215,6 +252,7 @@ class IntegrationEngine:
         
         Executes the Three-Finger Waltz to integrate patterns across
         all three pillars into a unified sovereign whole.
+        Uses caching and telemetry if enabled.
         
         Args:
             patterns: List of patterns to integrate
@@ -228,12 +266,11 @@ class IntegrationEngine:
                 "message": "✗ No patterns provided for integration"
             }
         
-        # Create and execute waltz
-        waltz = ThreeFingerWaltz(patterns=patterns)
-        result = waltz.dance()
+        # Execute waltz via meta-operator (handles caching/telemetry internally)
+        result = self.meta_operator(patterns)
         
         # Store integrated pattern
-        if result["status"] == "WALTZ_COMPLETE":
+        if result.get("status") == "WALTZ_COMPLETE":
             self._integrated_patterns.append(result["pattern"])
         
         return result
@@ -389,14 +426,47 @@ class IntegrationEngine:
         Returns:
             Dict with engine status and statistics
         """
-        return {
+        status = {
             "sovereign": self._sovereign,
             "integrated_patterns": len(self._integrated_patterns),
             "subsystems": {
                 "universal_laws": self.universal_laws is not None,
-                "validator": self.validator is not None
+                "validator": self.validator is not None,
+                "meta_operator": self.meta_operator is not None
+            },
+            "features": {
+                "cache_enabled": self._cache_enabled,
+                "telemetry_enabled": self._telemetry_enabled
             }
         }
+        
+        # Add waltz status if available
+        if hasattr(self.meta_operator, 'get_status'):
+            status["waltz_status"] = self.meta_operator.get_status()
+        
+        return status
+    
+    def get_metrics(self) -> Dict[str, Any]:
+        """
+        Get telemetry metrics if available.
+        
+        Returns:
+            Metrics summary dictionary, or empty dict if telemetry disabled
+        """
+        if hasattr(self.meta_operator, 'metrics'):
+            return self.meta_operator.metrics.get_summary()
+        return {}
+    
+    def get_cache_stats(self) -> Dict[str, Any]:
+        """
+        Get cache statistics if available.
+        
+        Returns:
+            Cache stats dictionary, or empty dict if caching disabled
+        """
+        if hasattr(self.meta_operator, 'cache_stats'):
+            return self.meta_operator.cache_stats()
+        return {}
 
 
 def initialize_integration_engine() -> IntegrationEngine:
