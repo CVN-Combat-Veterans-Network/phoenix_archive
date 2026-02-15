@@ -751,18 +751,18 @@ class META_COMPOSE:
         op_name = getattr(composed_operator, '__name__', 'ComposedOp')
         
         # Parse composition from name
-        if '⊕' in op_name:
-            mode = CompositionMode.SEQUENTIAL
-            components = op_name.split('⊕')
-        elif '⊗' in op_name:
-            mode = CompositionMode.PARALLEL
-            components = op_name.split('⊗')
-        elif '⊕?' in op_name:
+        if '⊕?' in op_name:
             mode = CompositionMode.CONDITIONAL
             components = op_name.split('⊕?')
         elif '⊕*' in op_name:
             mode = CompositionMode.ITERATIVE
             components = op_name.split('⊕*')
+        elif '⊗' in op_name:
+            mode = CompositionMode.PARALLEL
+            components = op_name.split('⊗')
+        elif '⊕' in op_name:
+            mode = CompositionMode.SEQUENTIAL
+            components = op_name.split('⊕')
         else:
             mode = None
             components = [op_name]
