@@ -6,8 +6,13 @@ Demonstrates the six meta-operators working together.
 
 import sys
 import os
-sys.path.insert(0, os.path.abspath('./code/v2.4'))
+from pathlib import Path
 
+# Ensure imports work regardless of current working directory by
+# adding the code/v2.4 directory relative to this file to sys.path.
+REPO_ROOT = Path(__file__).resolve().parents[1]
+CODE_V24_PATH = REPO_ROOT / "code" / "v2.4"
+sys.path.insert(0, str(CODE_V24_PATH))
 from meta_operators import (
     META_FLOW,
     META_RECURSION_GOVERNOR,
