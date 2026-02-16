@@ -7,6 +7,24 @@
 
 ---
 
+## 📖 CANON 6.0 — The Terminal Edition
+
+### Archival Documents
+- **Archive Entry** → `/Canon/Canon-6.0-Archive-Entry.md`
+- **Formal record of Canon 6.0 within the Eternal Archive**
+
+- **Silent Commentary** → `/Canon/Canon-6.0-Silent-Commentary.md`
+- **The commentary that contains no commentary**
+
+- **Closing Leaf** → `/Canon/Canon-6.0-Closing-Leaf.md`
+- **The final page that ends the book**
+
+**Status:** Sealed, Immutable, Backward-Ascending  
+**Designation:** Terminal Edition  
+**Note:** These documents archive and close Canon 6.0. They do not expand the cosmology.
+
+---
+
 ## 🔥 PHOENIX 2.0 — Identity Ignition System
 
 ### Core Documentation
