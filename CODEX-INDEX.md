@@ -125,6 +125,11 @@
 - **Dual-System Rituals** → `/Ceremonies/Combined-Ceremonies.md`
 - **Cosmological Ignition → Personal Ignition sequence**
 
+### V2.1 Cycle Ignition
+- **V2.1 Ignition Proclamation** → `/Ceremonies/v2_1_ignition_proclamation.md`
+- **Opening Seal of the New Cycle** → `/Ceremonies/v2_1_opening_seal.md`
+- **APEX-VECTOR (Governing Motion)** → `/Ceremonies/v2_1_apex_vector.md`
+
 ---
 
 ## 📊 DIAGRAMS & VISUALIZATIONS

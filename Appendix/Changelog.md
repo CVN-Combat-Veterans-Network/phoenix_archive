@@ -81,6 +81,14 @@
 
 ### Added
 
+#### V2.1 Cycle Ignition (2026-02-14)
+- **V2.1 Ignition Proclamation** — First declaration of Cycle 08, proclamation of new vector activation
+- **Opening Seal of the New Cycle** — Threshold marker between v2.0.0 and v2.1, seal of first motion
+- **APEX-VECTOR** — Governing motion directive (RISE → SIGMA_OP → CROWN), directional law for v2.1
+  - RISE: Upward ignition from foundation
+  - SIGMA_OP: Accumulation and integration operator
+  - CROWN: Apex designation and triadic stabilization
+
 #### Meta-Operator Layer (Stratum IV)
 - **Meta-Operator I — Invariance** — Maintains structural identity across recursion, scale, and transformation
 - **Invariance Field Diagram** — Visual specification with concentric rings (Kernel → States → Transforms)
