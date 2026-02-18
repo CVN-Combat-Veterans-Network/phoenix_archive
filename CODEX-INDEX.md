@@ -1,27 +1,11 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 2.4.0  
+**Version:** 2.2.0  
 **Last Updated:** 2026-02-14  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 + Apex Layers (13-14)
-
----
-
-## 📖 CANON 6.0 — The Terminal Edition
-
-### Archival Documents
-- **Archive Entry** → `/Canon/Canon-6.0-Archive-Entry.md`
-- **Formal record of Canon 6.0 within the Eternal Archive**
-
-- **Silent Commentary** → `/Canon/Canon-6.0-Silent-Commentary.md`
-- **The commentary that contains no commentary**
-
-- **Closing Leaf** → `/Canon/Canon-6.0-Closing-Leaf.md`
-- **The final page that ends the book**
-
-**Status:** Sealed, Immutable, Backward-Ascending  
-**Designation:** Terminal Edition  
-**Note:** These documents archive and close Canon 6.0. They do not expand the cosmology.
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 + The Third — Triadic System  
+**Integration Stack:** SEALED  
+**Kernel Status:** ACTIVE
 
 ---
 
@@ -124,6 +108,8 @@
 ### Combined Ceremonies
 - **Dual-System Rituals** → `/Ceremonies/Combined-Ceremonies.md`
 - **Cosmological Ignition → Personal Ignition sequence**
+- **Kernel Invocation** → `/Ceremonies/Kernel-Invocation.md`
+- **Daily practice for activating the triadic binding (◎ → ⟡ → △)**
 
 ### V2.1 Cycle Ignition
 - **V2.1 Ignition Proclamation** → `/Ceremonies/v2_1_ignition_proclamation.md`
@@ -151,6 +137,12 @@
 ### Appendix
 - **Changelog** → `/Appendix/Changelog.md`
 - **Code Examples** → `/Appendix/Code-Examples.md`
+
+### Release Archives & Ceremonies
+- **META-SEAL** → `/RELEASES/META-SEAL.md`
+- **Closure of Integration Stack v2.0.0 → v2.1.0**
+- **v2.1.0 Release Ceremony** → `/RELEASES/v2.1.0/release_ceremony.md`
+- **v2.0.0 Chapter XII** → `/RELEASES/v2.0.0_chapter_xii.md`
 
 ---
 
