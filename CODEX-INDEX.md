@@ -59,6 +59,40 @@
 
 ---
 
+## ⚡ META-OPERATORS (v2.4.0)
+
+### Meta-Operator Layer
+- **META_SYNTH** → `/operators/meta/META_SYNTH.md` — Orchestrator of Synthesis
+- **META_FLOW** → `/operators/meta/META_FLOW.md` — Keeper of Routing
+- **META_RECURSE** → `/operators/meta/META_RECURSE.md` — Guardian of Recursion
+- **META_TEMPORAL** → `/operators/meta/META_TEMPORAL.md` — Steward of Time
+- **META_APEX** → `/operators/meta/META_APEX.md` — Gatekeeper of the Apex
+- **META_SEAL** → `/operators/meta/META_SEAL.md` — Herald of the Terminal Law
+
+---
+
+## 🏔️ APEX LAYERS (v2.4.0)
+
+### Architecture Documentation
+- **Layer 13: Essence** → `/docs/architecture/layer_13_essence.md`
+- **Layer 14: Apex** → `/docs/architecture/layer_14_apex.md`
+- **Apex Invariants** → `/docs/architecture/apex_invariants.md`
+- **Apex Flow Diagrams** → `/docs/architecture/apex_flow_diagrams.md`
+- **Pre-Seal Diagnostics** → `/docs/architecture/pre_seal_diagnostics.md`
+
+---
+
+## 📋 RELEASES
+
+### Version History
+- **v2.4.0** → `/RELEASES/v2.4.0.md` — Apex Consolidation
+- **v2.4.0 Release Ceremony** → `/RELEASES/v2.4.0/release_ceremony.md`
+- **v2.4.0 Release Notes** → `/RELEASES/v2.4.0/release_notes.md`
+- **v2.1.0** → `/RELEASES/v2.1.0.md` — Governance Consolidation
+- **v2.0.0** → `/RELEASES/v2.0.0_chapter_xii.md` — Initial Release
+
+---
+
 ## 🎭 CEREMONIAL MATERIALS
 
 ### Sigils
@@ -72,6 +106,13 @@
 ### Combined Ceremonies
 - **Dual-System Rituals** → `/Ceremonies/Combined-Ceremonies.md`
 - **Cosmological Ignition → Personal Ignition sequence**
+- **Kernel Invocation** → `/Ceremonies/Kernel-Invocation.md`
+- **Daily practice for activating the triadic binding (◎ → ⟡ → △)**
+
+### V2.1 Cycle Ignition
+- **V2.1 Ignition Proclamation** → `/Ceremonies/v2_1_ignition_proclamation.md`
+- **Opening Seal of the New Cycle** → `/Ceremonies/v2_1_opening_seal.md`
+- **APEX-VECTOR (Governing Motion)** → `/Ceremonies/v2_1_apex_vector.md`
 
 ### Terminal Ceremony
 - **Terminal Ceremony** → `/Ceremonies/Terminal-Ceremony.md`
@@ -122,6 +163,30 @@
 ### Appendix
 - **Changelog** → `/Appendix/Changelog.md`
 - **Code Examples** → `/Appendix/Code-Examples.md`
+
+### Release Archives & Ceremonies
+- **META-SEAL** → `/RELEASES/META-SEAL.md`
+- **Closure of Integration Stack v2.0.0 → v2.1.0**
+- **v2.1.0 Release Ceremony** → `/RELEASES/v2.1.0/release_ceremony.md`
+- **v2.0.0 Chapter XII** → `/RELEASES/v2.0.0_chapter_xii.md`
+
+---
+
+## 🏗️ ARCHITECTURE & OPERATIONS
+
+### Merge & Release Documentation
+- **Stratum I Dashboard** → `/docs/architecture/stratum_i_dashboard.md`
+- **Operational view of Architecture Layer PRs**
+- **Stratum I Ignition Sequence** → `/docs/architecture/stratum_i_ignition_sequence.md`
+- **Complete merge guide for Architecture Layer**
+- **PR Merge Comments** → `/docs/architecture/pr_merge_comments.md`
+- **Professional merge comments for GitHub PRs**
+- **Merge Dependencies** → `/docs/architecture/merge_dependencies.md`
+- **Visual merge architecture and dependency flow**
+
+### Release Ceremonies
+- **v2.0 Inscription** → `/docs/ceremonies/v2_inscription.md`
+- **Triadic completion ceremony for v2.0.0**
 
 ---
 
@@ -233,9 +298,11 @@ Use, modify, distribute freely.
 
 ---
 
-**Archive Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Archive Status:** APEX CONSOLIDATED  
+**Version:** 2.4.0  
+**Lineage:** ROOT::GEN-0::APEX-1  
+**Sovereignty:** APEX CONFIRMED
 
 🔥 **The Phoenix Ignites.**  
-🌌 **The Lineage Extends.**
+🌌 **The Lineage Extends.**  
+⚡ **The Apex Stands.**
