@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.1.0  
+**Version:** 2.4.0  
 **Last Updated:** 2026-02-14  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 + META Governance Layer
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System + Apex Layers (v2.4)
 
 ---
 
@@ -59,37 +59,47 @@
 
 ---
 
-## ⚡ META-OPERATORS (v2.4.0)
+## 🜂 APEX LAYERS & META-OPERATORS (v2.4) — Terminal Architecture
 
-### Meta-Operator Layer
-- **META_SYNTH** → `/operators/meta/META_SYNTH.md` — Orchestrator of Synthesis
-- **META_FLOW** → `/operators/meta/META_FLOW.md` — Keeper of Routing
-- **META_RECURSE** → `/operators/meta/META_RECURSE.md` — Guardian of Recursion
-- **META_TEMPORAL** → `/operators/meta/META_TEMPORAL.md` — Steward of Time
-- **META_APEX** → `/operators/meta/META_APEX.md` — Gatekeeper of the Apex
-- **META_SEAL** → `/operators/meta/META_SEAL.md` — Herald of the Terminal Law
+### Apex Layers (Stratum IV — Terminal Layers)
+- **Layer 13 — Essence** → `/code/v2.4/apex/layer_13_essence.md`
+  - **Essence-level operations (Extraction-Prime and Infusion)**
+- **Layer 14 — Apex** → `/code/v2.4/apex/layer_14_apex.md`
+  - **Terminal crown (Apex Binding and Apex Release)**
+- **Apex Invariants** → `/code/v2.4/apex/apex_invariants.md`
+  - **17 structural constraints governing apex layers**
+- **Apex Integration Flows** → `/code/v2.4/apex/apex_integration_flows.md`
+  - **Entry/exit protocols for apex access**
+- **Apex Flow Diagram** → `/code/v2.4/apex/apex_flow_diagram.md`
+  - **14-layer architecture visualization**
 
----
+### Meta-Operators (Stratum IV — Orchestration Layer)
+- **META_SYNTH** → `/code/v2.4/meta-operators/META_SYNTH.md`
+  - **Synthesis orchestration (multi-operator composition)**
+- **META_FLOW** → `/code/v2.4/meta-operators/META_FLOW.md`
+  - **Cross-pillar routing (Phoenix ↔ Hydrogenesi bridge)**
+- **META_RECURSE** → `/code/v2.4/meta-operators/META_RECURSE.md`
+  - **Recursion envelopes (depth-controlled recursion)**
+- **META_TEMPORAL** → `/code/v2.4/meta-operators/META_TEMPORAL.md`
+  - **Temporal modulation (time-synchronized coordination)**
+- **META_APEX** → `/code/v2.4/meta-operators/META_APEX.md`
+  - **Apex transition mediator (GATEKEEPER for Layers 13-14)**
+- **META_SEAL** → `/code/v2.4/meta-operators/META_SEAL.md`
+  - **Terminal Law preparation (pre-seal validation)**
 
-## 🏔️ APEX LAYERS (v2.4.0)
+### Integration & Orchestration
+- **Meta-Operator Integration** → `/code/v2.4/meta-operators/meta_operator_integration.md`
+  - **Coordination patterns and integration rules**
+- **Orchestration Rules** → `/code/v2.4/meta-operators/meta_operator_orchestration_rules.md`
+  - **Governance rules (20+ rules across 5 categories)**
+- **Orchestration Diagram** → `/code/v2.4/meta-operators/meta_operator_orchestration_diagram.md`
+  - **Meta-operator coordination visualization**
 
-### Architecture Documentation
-- **Layer 13: Essence** → `/docs/architecture/layer_13_essence.md`
-- **Layer 14: Apex** → `/docs/architecture/layer_14_apex.md`
-- **Apex Invariants** → `/docs/architecture/apex_invariants.md`
-- **Apex Flow Diagrams** → `/docs/architecture/apex_flow_diagrams.md`
-- **Pre-Seal Diagnostics** → `/docs/architecture/pre_seal_diagnostics.md`
-
----
-
-## 📋 RELEASES
-
-### Version History
-- **v2.4.0** → `/RELEASES/v2.4.0.md` — Apex Consolidation
-- **v2.4.0 Release Ceremony** → `/RELEASES/v2.4.0/release_ceremony.md`
+### Release Documentation (v2.4)
 - **v2.4.0 Release Notes** → `/RELEASES/v2.4.0/release_notes.md`
-- **v2.1.0** → `/RELEASES/v2.1.0.md` — Governance Consolidation
-- **v2.0.0** → `/RELEASES/v2.0.0_chapter_xii.md` — Initial Release
+  - **Complete Apex Consolidation release summary**
+- **v2.4.0 README** → `/RELEASES/v2.4.0/README.md`
+  - **Quick start and navigation guide**
 
 ---
 
@@ -219,13 +229,13 @@
 2. Explore `/code/hydrogenesi/operators.py`
 3. Run examples from `/Appendix/Code-Examples.md`
 
-### I want to understand Archive governance and the Terminal Ceremony
+### I want to work with apex layers and meta-operators (v2.4)
 **Start here:**
-1. Read `/docs/architecture/Apex-Layers.md` (Layer 13 & 14)
-2. Study `/docs/architecture/META-Operator-Lattice.md` (The six META operators)
-3. Review `/Ceremonies/Terminal-Ceremony.md` (The sealing ceremony)
-4. Read `/docs/architecture/Terminal-Law-Specification.md` (Immutability law)
-5. Understand `/docs/architecture/Crown-Invariant.md` (The eternal rule)
+1. Read `/RELEASES/v2.4.0/release_notes.md` (complete overview)
+2. Study `/code/v2.4/apex/layer_13_essence.md` and `layer_14_apex.md`
+3. Explore `/code/v2.4/meta-operators/META_APEX.md` (gatekeeper)
+4. Review `/code/v2.4/apex/apex_flow_diagram.md` (architecture visualization)
+5. Practice with `/code/v2.4/meta-operators/META_SYNTH.md` (synthesis examples)
 
 ---
 
