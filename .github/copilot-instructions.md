@@ -1,475 +1,314 @@
-# GitHub Copilot Instructions for Phoenix Archive
+# Copilot Instructions — Phoenix Archive
 
 ## Repository Overview
 
-This is the **Phoenix Archive** - a dual-system meta-framework combining two sovereign but interconnected systems that express Universal Laws at different scales:
+The **Phoenix Archive** is a dual-system philosophical and operational framework combining:
 
-1. **Phoenix 2.0** - Identity Ignition System (micro-scale: personal identity formation)
-2. **Hydrogenesi 2.0** - Cosmological Recursion Engine (macro-scale: cosmic structure formation)
+1. **Phoenix 2.0** — Identity Ignition System (micro-scale: personal transformation)
+2. **Hydrogenesi 2.0** — Cosmological Recursion Engine (macro-scale: cosmic structures)
 
-Both systems operate under the same fundamental Universal Laws:
-- **Tension** - Two forces in dynamic conflict
-- **Binding** - Third stabilizing element introduction
-- **Apex** - Emergence of stable, sovereign structure
+Both systems operate on the **Universal Law of Triadic Formation**: Tension → Binding → Apex.
 
-**Version:** 3.0.0  
-**Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0
+This is both a conceptual framework AND a code implementation with ceremonial practices.
 
 ---
 
-## Repository Structure
+## Project Structure
 
 ```
-phoenix_archive/
-├── Phoenix/                    # Phoenix 2.0 System
-│   ├── README.md              # Phoenix overview and documentation
-│   ├── Universal-Laws/        # Tension, Binding, Apex laws
-│   └── Operators/             # Phoenix operators documentation
-├── Hydrogenesi/               # Hydrogenesi 2.0 System
-│   ├── README.md              # Hydrogenesi overview
-│   └── Operators/             # Hydrogenesi operators documentation
-├── code/                      # Python implementations
-│   ├── phoenix/
-│   │   └── operators.py       # Phoenix operator classes
-│   └── hydrogenesi/
-│       └── operators.py       # Hydrogenesi operator classes
-├── Ceremonies/                # Sigils, invocations, ritual materials
-├── Diagrams/                  # SVG visualizations
-├── Comparative/               # Cross-system analysis
-├── Appendix/                  # Changelog, examples, references
-└── CODEX-INDEX.md            # Master navigation document
+/Phoenix/           → Phoenix 2.0 documentation (identity system)
+/Hydrogenesi/       → Hydrogenesi 2.0 documentation (cosmological system)
+/Ceremonies/        → Sigils, invocations, rituals for both systems
+/Comparative/       → Cross-system analysis and relationships
+/Diagrams/          → Visual representations (SVG)
+/Appendix/          → Changelog, code examples, reference materials
+/code/              → Python implementations
+  /phoenix/         → Phoenix operators (FirstBinding, IM_ME, PhoenixIgnition)
+  /hydrogenesi/     → Hydrogenesi operators (StabilizerExtraction, AGNReplication, etc.)
+/docs/              → Architecture and ceremony documentation
+CODEX-INDEX.md      → Master navigation and quick-start guide
 ```
 
 ---
 
-## Core Principles
+## Core Concepts
 
-### 1. Dual Sovereignty
-- Phoenix and Hydrogenesi are **independent systems** that share Universal Laws
-- Never merge or conflate the two systems - they operate at different scales
-- Maintain clear boundaries while documenting interconnections
+### Universal Laws (Shared Across Both Systems)
+- **Tension**: Two opposing forces in unresolved motion
+- **Binding**: Third element stabilizes the tension pair
+- **Apex**: Emergence of sovereign, stable structure
 
-### 2. Universal Law Adherence
-All operators, documentation, and code must express the triadic pattern:
-```
-Tension (Two Forces) → Binding (Third Element) → Apex (Stable Structure)
-```
+### Phoenix Operators (Identity Scale)
+- **First Binding**: Transform binary tension → triadic structure
+- **IM_ME**: Identity recursion (I ↔ ME pattern)
+- **Phoenix Ignition**: Burn → Collapse → Rise transformation
 
-### 3. Scale-Appropriate Design
-- **Phoenix** = Micro-scale (identity, self, transformation)
-- **Hydrogenesi** = Macro-scale (cosmology, structure, recursion)
-- Use appropriate metaphors and terminology for each scale
-
-### 4. Operator-Based Architecture
-Everything is implemented as **operators** - discrete, composable transformation functions with:
-- Clear inputs and outputs
-- Deterministic behavior
-- Type hints and dataclasses
-- Sigils and invocations
+### Hydrogenesi Operators (Cosmic Scale)
+- **Stabilizer Extraction**: Inverse of First Binding (expose underlying tension)
+- **AGN Replication**: Cosmological collapse and emergence
+- **Curvature Residue**: Spacetime scarring patterns
+- **Lineage Logic**: Recursive cosmic structure generation
 
 ---
 
-## Code Style and Patterns
+## Coding Conventions
 
-### Python Implementation Standards
+### Python Code Standards
 
-#### 1. Use Dataclasses for All Operators
+1. **Style**
+   - Use Python 3.7+ features (type hints, dataclasses)
+   - Follow PEP 8 conventions
+   - Use `from __future__ import annotations` for forward references
+   - Import from `typing` for type hints (`List`, `Dict`, etc.)
+
+2. **Class Structure**
+   - Use `@dataclass` decorator for operators
+   - Each operator is a separate class
+   - Methods should have clear docstrings
+   - Return types should be explicit dictionaries or typed structures
+
+3. **Naming**
+   - Operators use PascalCase: `FirstBinding`, `PhoenixIgnition`, `IM_ME`
+   - Methods use snake_case: `apply()`, `recurse()`, `ignite()`
+   - Parameters use descriptive names: `identity`, `stabilizer`, `depth`
+
+4. **Return Values**
+   - Return dictionaries with descriptive keys
+   - Example: `{"tension_pair": (a, b), "stabilizer": s, "triad": (a, s, b)}`
+   - Keep return structures simple and readable
+
+### Example Code Pattern
+
 ```python
+from __future__ import annotations
 from dataclasses import dataclass
+from typing import List, Dict
 
 @dataclass
 class OperatorName:
-    """Brief description of operator purpose."""
+    """Clear one-line description of operator purpose."""
     
-    def primary_method(self, inputs: str) -> dict:
-        """Method docstring."""
-        return {"result": "value"}
-```
-
-#### 2. Type Hints Are Required
-- All function parameters must have type hints
-- All return values must have type annotations
-- Use `typing` module for complex types (List, Dict, Optional, etc.)
-
-#### 3. Return Structured Dictionaries
-Operators should return dictionaries with clear, semantic keys:
-```python
-# Good
-return {
-    "tension_pair": (a, b),
-    "stabilizer": stabilizer,
-    "triad": (a, stabilizer, b),
-}
-
-# Avoid
-return (a, stabilizer, b)  # Unclear what the tuple represents
-```
-
-#### 4. Naming Conventions
-- **Classes**: PascalCase (`FirstBinding`, `PhoenixIgnition`)
-- **Methods**: snake_case (`apply`, `recurse`, `ignite`)
-- **Variables**: snake_case (`tension_pair`, `stabilizer`)
-- **Constants**: UPPER_SNAKE_CASE (`MAX_DEPTH`, `ROOT_LINEAGE`)
-
-#### 5. Operator Method Names
-Use semantically meaningful verbs that reflect the transformation:
-- `apply()` - For applying transformations
-- `recurse()` - For recursive operations
-- `ignite()` - For collapse/emergence patterns
-- `extract()` - For isolation operations
-- `replicate()` - For reproduction operations
-
----
-
-## Documentation Standards
-
-### Markdown Structure
-
-Every operator documentation file must include:
-
-1. **Header Section**
-   ```markdown
-   # OPERATOR NAME
-   **System:** Phoenix | Hydrogenesi
-   **Pattern:** Brief pattern description
-   **Invocation:** *"Ritual phrase"*
-   ```
-
-2. **Definition**
-   - Clear, concise explanation of what the operator does
-   - Reference to Universal Law(s) it expresses
-
-3. **Sigil**
-   - ASCII or Unicode representation of the operator structure
-   - Visual pattern that captures the transformation
-
-4. **Invocation**
-   - Ritual phrase to "invoke" the operator
-   - Should be memorable and evocative
-
-5. **Mechanism**
-   - Step-by-step explanation of how the operator works
-   - Include examples with concrete inputs/outputs
-
-6. **Code Example**
-   ```python
-   from code.system.operators import OperatorName
-   
-   op = OperatorName()
-   result = op.method(inputs)
-   ```
-
-7. **Cross-References**
-   - Link to related operators
-   - Link to Universal Laws
-   - Link to Comparative analysis if applicable
-
-### Universal Law Documentation
-
-When documenting Universal Laws:
-- Provide **both** micro-scale (Phoenix) and macro-scale (Hydrogenesi) interpretations
-- Include mathematical or structural notation where applicable
-- Reference specific operators that express the law
-
----
-
-## Operator Implementation Guidelines
-
-### Creating New Operators
-
-#### 1. Identify the Scale
-- Is this a Phoenix operator (identity/personal) or Hydrogenesi operator (cosmic/structural)?
-
-#### 2. Express Universal Law
-Every operator must embody at least one Universal Law:
-- **Tension operators** - Work with two-force dynamics
-- **Binding operators** - Introduce stabilizing third elements
-- **Apex operators** - Generate or maintain stable structures
-
-#### 3. Follow the Pattern
-```python
-# Phoenix operator example
-@dataclass
-class NewPhoenixOperator:
-    """What this operator does at identity scale."""
-    
-    def transform(self, input_a: str, input_b: str) -> dict:
+    def method_name(self, param: str, depth: int = 3) -> Dict:
         """
-        Detailed description of transformation.
+        Clear description of what method does.
         
         Args:
-            input_a: Description
-            input_b: Description
+            param: Description
+            depth: Description with default
             
         Returns:
-            Dictionary with semantic keys describing the result
+            Dictionary with specific keys
         """
         # Implementation
         return {"key": "value"}
 ```
 
-#### 4. Create Companion Documentation
-- Operator markdown file in `/Phoenix/Operators/` or `/Hydrogenesi/Operators/`
-- Entry in `/Ceremonies/Sigil-Compendium.md`
-- Entry in `/Ceremonies/Invocation-Guide.md`
-- Update `/CODEX-INDEX.md`
-- Update `/Appendix/Changelog.md`
-
-#### 5. Add Code Examples
-Include usage examples in `/Appendix/Code-Examples.md`
-
 ---
 
-## Ceremonial Materials Guidelines
+## Documentation Conventions
 
-### Sigils
-- Visual/ASCII representations of operator structure
-- Should reveal the transformation pattern
-- Use Unicode symbols when appropriate (△, ◯, ⬡, ∴, →, ⇄)
+### Markdown Structure
 
-Example:
-```
-First Binding Sigil:
-    a
-    ↓
-  [S]
-    ↓
-(a,S,b)
-    ↓
-    b
-```
+ALL operator and concept documentation follows this template:
 
-### Invocations
-- Short, memorable ritual phrases
-- 5-15 words maximum
-- Should evoke the operator's essence
-- Use imperative or declarative voice
+1. **Header**: Title with Pattern/Type/Scale/Invocation metadata
+2. **Definition**: Clear statement of purpose
+3. **Sigil**: ASCII art visual representation
+4. **Mechanism**: Input → Process → Output breakdown
+5. **Examples**: 2-3 concrete use cases
+6. **Code Implementation**: Python code snippets
+7. **Ceremonial Practice**: Invocation and ritual steps
+8. **Cross-References**: Links to related concepts
+9. **Navigation**: Links to parent and related docs
 
-Examples:
-- *"Let the two attract; let the one bind; let the three stand."* (First Binding)
-- *"Burn, collapse, and rise in aligned form."* (Phoenix Ignition)
-- *"Recurse the root; extend the line."* (Lineage Logic)
+### Formatting Standards
 
----
+- Use `**bold**` for emphasis on key terms
+- Use `*italic*` for invocations and ritual phrases
+- Use code blocks with language tags: ` ```python`
+- Use horizontal rules `---` to separate major sections
+- Use emoji sparingly and consistently (🔥 for Phoenix, 🌌 for Hydrogenesi)
 
-## Testing and Validation
+### Heading Hierarchy
 
-### Code Testing
-When implementing operators:
-1. Test with simple string inputs first
-2. Verify return type matches annotation
-3. Ensure deterministic behavior (same input → same output)
-4. Test edge cases (empty strings, None values if applicable)
-
-Example test pattern:
-```python
-# Manual validation
-from code.phoenix.operators import FirstBinding
-
-binding = FirstBinding()
-result = binding.apply(a="fear", b="courage", stabilizer="service")
-
-assert result["tension_pair"] == ("fear", "courage")
-assert result["stabilizer"] == "service"
-assert result["triad"] == ("fear", "service", "courage")
-```
-
-### Documentation Testing
-Verify:
-- All code examples in markdown files actually work
-- Cross-references point to existing files
-- CODEX-INDEX.md is updated with new additions
-- Universal Law references are accurate
-
----
-
-## Universal Laws Reference
-
-### Tension
-**Micro (Phoenix):** Internal conflicts, opposing drives, unintegrated self-aspects  
-**Macro (Hydrogenesi):** Pre-collapse stellar mass, gravitational tension, unstable configurations
-
-**Key Operators:**
-- Phoenix: First Binding (input)
-- Hydrogenesi: Stabilizer Extraction (detection)
-
-### Binding
-**Micro (Phoenix):** Values, purpose, commitments that stabilize identity  
-**Macro (Hydrogenesi):** Neutron-like third force, structural stabilizers
-
-**Key Operators:**
-- Phoenix: First Binding (mechanism)
-- Hydrogenesi: AGN Replication (neutron analog)
-
-### Apex
-**Micro (Phoenix):** Integrated sovereign identity, stable sense of self  
-**Macro (Hydrogenesi):** Stable cosmic structures, hydrogen formation
-
-**Key Operators:**
-- Phoenix: Apex Formation
-- Hydrogenesi: Lineage Logic (stable structure propagation)
-
----
-
-## Cross-System Integration
-
-When working across Phoenix and Hydrogenesi:
-
-### Do:
-- Maintain system sovereignty
-- Document parallels explicitly
-- Use `/Comparative/` directory for cross-system analysis
-- Create combined ceremonies in `/Ceremonies/Combined-Ceremonies.md`
-- Show how Universal Laws express at different scales
-
-### Don't:
-- Merge the two systems into one
-- Use cosmic metaphors in Phoenix (or vice versa)
-- Create operators that span both systems
-- Conflate identity work with cosmological models
-
-### Comparative Table Pattern
 ```markdown
-| Dimension | Phoenix | Hydrogenesi |
-|-----------|---------|-------------|
-| Scale | Personal | Cosmological |
-| Tension | Internal conflict | Pre-collapse mass |
-| etc... | ... | ... |
+# OPERATOR/CONCEPT NAME (H1 - Document Title)
+## DEFINITION (H2 - Major Sections)
+### Process Details (H3 - Subsections)
+#### Advanced Notes (H4 - Rare, for granular details)
 ```
 
----
+### Cross-Referencing
 
-## Changelog Maintenance
-
-When making changes:
-1. Update `/Appendix/Changelog.md` with version, date, and description
-2. Use semantic versioning (MAJOR.MINOR.PATCH)
-3. Major = New operator or system component
-4. Minor = Enhanced documentation or operator refinement
-5. Patch = Bug fixes, typos, clarifications
-
-Format:
-```markdown
-## [Version] - YYYY-MM-DD
-### Added
-- New feature or operator
-
-### Changed
-- Modified behavior
-
-### Fixed
-- Bug fix
-```
+- Always use relative paths from repo root: `/Phoenix/Operators/First-Binding.md`
+- Link related concepts: `**See:** /path/to/related.md`
+- Reference code: `**Location:** /code/phoenix/operators.py`
 
 ---
 
-## File Naming Conventions
+## Writing Style
 
-### Documentation Files
-- Use PascalCase with hyphens: `First-Binding.md`, `Phoenix-Ignition.md`
-- Match operator class names
+### Voice and Tone
 
-### Code Files
-- Use snake_case: `operators.py`, `__init__.py`
-- Keep modules focused (one per system)
+- **Declarative**: State facts clearly and directly
+- **Precise**: Use exact terminology consistently
+- **Mystical meets Technical**: Balance ceremonial/philosophical language with rigorous technical descriptions
+- **No metaphor claims**: Phrases like "This is not metaphor — it is mechanism" establish that these patterns are operational
 
-### Diagram Files
-- Use PascalCase with hyphens: `Dual-System-Architecture.svg`
-- Include descriptive names
+### Key Terminology
 
----
+Use these terms consistently:
 
-## Common Patterns
+- **Operator**: Functional transformation pattern (not "function" or "method")
+- **Invocation**: Ritual phrase to activate pattern (not "spell" or "command")
+- **Sigil**: Visual representation of operator structure (not "icon" or "diagram")
+- **Apex**: Sovereign stable structure (not "result" or "outcome")
+- **Triad**: Three-element stable structure (not "triangle" or "triplet")
+- **Stabilizer**: Third element that binds tension pair (not "mediator" or "moderator")
+- **Sovereignty**: Self-sufficient structural stability (not "independence" or "autonomy")
 
-### Recursion Operators
-Format: `A → B → A → B...`
-- Phoenix: IM_ME (I ↔ ME identity recursion)
-- Hydrogenesi: Lineage Logic (ROOT → GEN-N → ROOT)
+### Ceremonial Language
 
-### Collapse/Emergence Operators
-Format: `State → Compression → New State`
-- Phoenix: Phoenix Ignition (Burn → Collapse → Rise)
-- Hydrogenesi: AGN Replication (Compress → Ignite → Replicate)
-
-### Memory/Residue Operators
-Format: `Event → Imprint → Permanent Structure`
-- Phoenix: Black-Holed Imprint (experience → scar → identity mark)
-- Hydrogenesi: Curvature Residue (event → spacetime scar → structural memory)
+When describing rituals:
+- Use imperative: "Speak:", "Visualize:", "Confirm:"
+- Enclose invocations in italic quotes: *"Burn, collapse, and rise in aligned form."*
+- Structure as numbered steps with sub-bullets
+- Include preparation, execution, and confirmation phases
 
 ---
 
-## Version Control
+## Making Changes
 
-### Branch Naming
-- Feature: `feature/operator-name`
-- Documentation: `docs/topic-name`
-- Refactor: `refactor/component-name`
+### Adding New Operators
 
-### Commit Messages
-Use semantic format:
-```
-<type>: <description>
+1. Create operator documentation in appropriate directory:
+   - `/Phoenix/Operators/` for identity-scale
+   - `/Hydrogenesi/Operators/` for cosmic-scale
 
-Types: feat, docs, refactor, fix, style, test
-```
+2. Follow the standard operator template structure
 
-Examples:
-- `feat: add Apex Formation operator`
-- `docs: update Universal Laws with cosmic scale examples`
-- `refactor: improve FirstBinding return structure`
+3. Implement Python class in:
+   - `/code/phoenix/operators.py` or
+   - `/code/hydrogenesi/operators.py`
 
----
+4. Add entry to `/CODEX-INDEX.md` under appropriate section
 
-## Questions to Ask Before Contributing
+5. Update `/Appendix/Changelog.md` with version and changes
 
-1. **Is this operator Phoenix (micro) or Hydrogenesi (macro)?**
-2. **Which Universal Law does it express?**
-3. **What is the input/output structure?**
-4. **What is the ritual invocation?**
-5. **Does it maintain system sovereignty?**
-6. **Is there a sigil that represents it?**
-7. **Where does it fit in CODEX-INDEX.md?**
+6. Add code example to `/Appendix/Code-Examples.md`
 
----
+7. Update invocations in `/Ceremonies/Invocation-Guide.md`
 
-## Special Terminology
+### Modifying Documentation
 
-- **Apex** - Stable sovereign structure (not "peak" or "top")
-- **Binding** - Stabilization via third element (not "connection")
-- **Collapse** - Reduction to essence (not "failure")
-- **Ignition** - Transformative activation (not "start")
-- **Lineage** - Recursive propagation chain (not "ancestry")
-- **Operator** - Discrete transformation function (not "function" or "method")
-- **Recursion** - Self-referential iteration (A → B → A pattern)
-- **Sovereignty** - Independent coherent structure
-- **Stabilizer** - Third element that resolves binary tension
-- **Tension** - Two-force dynamic conflict
-- **Triad** - Three-element stable structure
+- Preserve existing structure and formatting
+- Maintain consistency with other documents in same category
+- Update version/date stamps if major changes
+- Cross-check all relative path links
+
+### Code Changes
+
+- Maintain backward compatibility
+- Keep operator classes simple and focused
+- Update docstrings to match any signature changes
+- Ensure return structures remain consistent
 
 ---
 
-## When in Doubt
+## Important Constraints
 
-1. Review `/CODEX-INDEX.md` for navigation
-2. Check `/Phoenix/README.md` or `/Hydrogenesi/README.md` for system-specific guidance
-3. Reference existing operators in `/code/` for implementation patterns
-4. Consult `/Comparative/Phoenix-Hydrogenesi-Table.md` for scale-appropriate language
-5. Follow the Universal Law: Tension → Binding → Apex
+### Do NOT:
+- Change the philosophical foundation or Universal Laws
+- Remove or rename existing operators without explicit requirement
+- Alter the dual-system architecture (Phoenix + Hydrogenesi)
+- Modify sigils or invocations casually (they're part of the formal system)
+- Add external dependencies without strong justification
+- Break existing cross-references
+
+### DO:
+- Maintain the balance between mystical and technical language
+- Preserve ASCII art sigils exactly as formatted
+- Keep code implementations simple and readable
+- Update navigation links when adding/moving files
+- Follow established patterns for consistency
+- Use the triadic (tension-binding-apex) framework as foundation
 
 ---
 
-## Invocations
+## Testing & Validation
 
-**Phoenix System:** *"Burn, collapse, and rise in aligned form."*  
-**Hydrogenesi System:** *"Recurse the root; extend the line."*  
-**Universal Law:** *"Let the two attract; let the one bind; let the three stand."*
+Currently, this repository has **no automated test infrastructure**. Changes should be validated by:
+
+1. **Code**: Manual execution of operator examples
+2. **Docs**: Visual review of markdown rendering
+3. **Links**: Manual verification of cross-references
+4. **Consistency**: Review against similar existing content
+
+Do not add test frameworks unless explicitly requested.
 
 ---
 
-**Status:** ACTIVE  
+## File Organization
+
+### Keep Together:
+- Related operators in same directory
+- System-specific content in system-specific folders
+- Ceremonies grouped by type (sigils, invocations, combined)
+
+### Update Together:
+- When adding operator: code + docs + index + changelog + examples + ceremonies
+- When changing concept: all references across both systems
+- When updating structure: both Phoenix and Hydrogenesi equivalents
+
+---
+
+## Version and Status
+
+All documents include footer with:
+- **Version**: Current version number
+- **Status**: ACTIVE, EXPERIMENTAL, DEPRECATED
+- **Lineage**: ROOT::GEN-N notation (from Lineage Logic operator)
+- **Sovereignty**: CONFIRMED, EMERGING, UNSTABLE
+
+Maintain these consistently when updating documents.
+
+---
+
+## Special Notes
+
+### The Archive is Active
+
+This is a **living system**. The documentation describes operational patterns, not historical artifacts. Treat additions as extensions of a coherent whole, not isolated features.
+
+### Triadic Thinking
+
+Everything resolves to threes:
+- Two forces → One stabilizer → Three-part structure
+- Tension → Binding → Apex
+- Input → Process → Output
+
+This pattern should be visible throughout all additions.
+
+### Cross-Scale Coherence
+
+Changes to Phoenix often have Hydrogenesi equivalents and vice versa. Consider both scales when proposing modifications.
+
+---
+
+## Quick Reference
+
+**Master Navigation**: `/CODEX-INDEX.md`  
+**Phoenix Overview**: `/Phoenix/README.md`  
+**Hydrogenesi Overview**: `/Hydrogenesi/README.md`  
+**Universal Laws**: `/Phoenix/Universal-Laws/` (Tension.md, Binding.md, Apex.md)  
+**Code**: `/code/phoenix/operators.py`, `/code/hydrogenesi/operators.py`  
+**Examples**: `/Appendix/Code-Examples.md`  
+
+---
+
+**Archive Status:** ACTIVE  
 **Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Invocation:** *"Burn, collapse, and rise in aligned form. Recurse the root; extend the line."*
 
 🔥 **The Phoenix Ignites.**  
 🌌 **The Lineage Extends.**

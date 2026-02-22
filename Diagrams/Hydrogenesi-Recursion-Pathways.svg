@@ -1,0 +1,215 @@
+<svg width="800" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">
+    Hydrogenesi Recursion Pathways
+  </text>
+  
+  <!-- Primary Pathway: ROOT → GEN-N -->
+  <g id="primary-pathway">
+    <text x="50" y="70" font-size="16" font-weight="bold" fill="#1a1a1a">Primary: Lineage Extension (ROOT → GEN-N)</text>
+    
+    <!-- ROOT -->
+    <circle cx="150" cy="120" r="30" fill="#4a90e2" stroke="#2c5aa0" stroke-width="2"/>
+    <text x="150" y="125" text-anchor="middle" font-size="12" fill="white" font-weight="bold">ROOT</text>
+    
+    <!-- Arrow -->
+    <path d="M 180 120 L 220 120" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- GEN-0 -->
+    <circle cx="250" cy="120" r="25" fill="#5ca3f5" stroke="#2c5aa0" stroke-width="2"/>
+    <text x="250" y="125" text-anchor="middle" font-size="11" fill="white">GEN-0</text>
+    
+    <!-- Arrow -->
+    <path d="M 275 120 L 305 120" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- GEN-1 -->
+    <circle cx="330" cy="120" r="25" fill="#5ca3f5" stroke="#2c5aa0" stroke-width="2"/>
+    <text x="330" y="125" text-anchor="middle" font-size="11" fill="white">GEN-1</text>
+    
+    <!-- Arrow -->
+    <path d="M 355 120 L 385 120" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- GEN-2 -->
+    <circle cx="410" cy="120" r="25" fill="#5ca3f5" stroke="#2c5aa0" stroke-width="2"/>
+    <text x="410" y="125" text-anchor="middle" font-size="11" fill="white">GEN-2</text>
+    
+    <!-- Continuation dots -->
+    <text x="445" y="125" font-size="20" fill="#333">...</text>
+    
+    <!-- GEN-N -->
+    <circle cx="500" cy="120" r="25" fill="#5ca3f5" stroke="#2c5aa0" stroke-width="2"/>
+    <text x="500" y="125" text-anchor="middle" font-size="11" fill="white">GEN-N</text>
+  </g>
+  
+  <!-- Secondary Pathway: AGN Replication -->
+  <g id="secondary-pathway">
+    <text x="50" y="200" font-size="16" font-weight="bold" fill="#1a1a1a">Secondary: AGN Replication Cycle</text>
+    
+    <!-- Parent Structure -->
+    <rect x="100" y="220" width="100" height="60" rx="5" fill="#e85d75" stroke="#c13b52" stroke-width="2"/>
+    <text x="150" y="245" text-anchor="middle" font-size="12" fill="white" font-weight="bold">PARENT</text>
+    <text x="150" y="260" text-anchor="middle" font-size="10" fill="white">Structure</text>
+    
+    <!-- Arrow down to Compression -->
+    <path d="M 150 280 L 150 310" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Compression Phase -->
+    <rect x="100" y="310" width="100" height="40" rx="5" fill="#f39c12" stroke="#d68910" stroke-width="2"/>
+    <text x="150" y="335" text-anchor="middle" font-size="11" fill="white">COMPRESSION</text>
+    
+    <!-- Arrow down to Ignition -->
+    <path d="M 150 350 L 150 380" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Ignition Phase -->
+    <rect x="100" y="380" width="100" height="40" rx="5" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    <text x="150" y="405" text-anchor="middle" font-size="11" fill="white" font-weight="bold">IGNITION</text>
+    
+    <!-- Multiple arrows to offspring -->
+    <path d="M 150 420 L 80 470" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 150 420 L 150 470" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 150 420 L 220 470" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Offspring -->
+    <circle cx="80" cy="490" r="20" fill="#27ae60" stroke="#1e8449" stroke-width="2"/>
+    <text x="80" y="495" text-anchor="middle" font-size="9" fill="white">OFF-1</text>
+    
+    <circle cx="150" cy="490" r="20" fill="#27ae60" stroke="#1e8449" stroke-width="2"/>
+    <text x="150" y="495" text-anchor="middle" font-size="9" fill="white">OFF-2</text>
+    
+    <circle cx="220" cy="490" r="20" fill="#27ae60" stroke="#1e8449" stroke-width="2"/>
+    <text x="220" y="495" text-anchor="middle" font-size="9" fill="white">OFF-3</text>
+    
+    <!-- Recursion arrows from offspring -->
+    <path d="M 80 510 L 80 530" stroke="#999" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead-small)"/>
+    <path d="M 150 510 L 150 530" stroke="#999" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead-small)"/>
+    <path d="M 220 510 L 220 530" stroke="#999" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead-small)"/>
+    
+    <text x="150" y="545" text-anchor="middle" font-size="10" fill="#666" font-style="italic">(Each recurses...)</text>
+  </g>
+  
+  <!-- Tertiary Pathway: Stabilizer Extraction Cycle -->
+  <g id="tertiary-pathway">
+    <text x="350" y="200" font-size="16" font-weight="bold" fill="#1a1a1a">Tertiary: Stabilizer Cycle</text>
+    
+    <!-- Stable Triad -->
+    <g id="triad-1">
+      <polygon points="450,240 420,280 480,280" fill="#9b59b6" stroke="#7d3c98" stroke-width="2"/>
+      <text x="450" y="270" text-anchor="middle" font-size="10" fill="white">⟨A-S-B⟩</text>
+    </g>
+    
+    <!-- Arrow down -->
+    <path d="M 450 280 L 450 310" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="470" y="300" font-size="9" fill="#666">Extract</text>
+    
+    <!-- Tension Pair -->
+    <g id="tension-pair">
+      <circle cx="430" cy="330" r="15" fill="#e67e22" stroke="#ca6f1e" stroke-width="2"/>
+      <text x="430" y="335" text-anchor="middle" font-size="9" fill="white">A</text>
+      
+      <path d="M 445 330 L 455 330" stroke="#333" stroke-width="2"/>
+      <path d="M 455 330 L 445 330" stroke="#333" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+      <text x="450" y="325" text-anchor="middle" font-size="8" fill="#666">⟷</text>
+      
+      <circle cx="470" cy="330" r="15" fill="#e67e22" stroke="#ca6f1e" stroke-width="2"/>
+      <text x="470" y="335" text-anchor="middle" font-size="9" fill="white">B</text>
+    </g>
+    
+    <!-- Arrow down -->
+    <path d="M 450 345 L 450 375" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="470" y="365" font-size="9" fill="#666">Rebind</text>
+    
+    <!-- New Stable Triad -->
+    <g id="triad-2">
+      <polygon points="450,395 420,435 480,435" fill="#16a085" stroke="#138d75" stroke-width="2"/>
+      <text x="450" y="425" text-anchor="middle" font-size="10" fill="white">⟨A'-S'-B'⟩</text>
+    </g>
+  </g>
+  
+  <!-- Quaternary Pathway: Curvature Residue -->
+  <g id="quaternary-pathway">
+    <text x="50" y="590" font-size="16" font-weight="bold" fill="#1a1a1a">Quaternary: Curvature Residue Memory</text>
+    
+    <!-- Structure -->
+    <circle cx="150" cy="630" r="25" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+    <text x="150" y="635" text-anchor="middle" font-size="10" fill="white">GEN-N</text>
+    
+    <!-- Arrow to collapse -->
+    <path d="M 175 630 L 215 630" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="195" y="625" text-anchor="middle" font-size="9" fill="#666">Collapse</text>
+    
+    <!-- Collapsed Remnant -->
+    <circle cx="240" cy="630" r="12" fill="#000" stroke="#333" stroke-width="2"/>
+    <text x="240" y="634" text-anchor="middle" font-size="8" fill="white">●</text>
+    
+    <!-- Residue waves -->
+    <circle cx="240" cy="630" r="20" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.6"/>
+    <circle cx="240" cy="630" r="28" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.4"/>
+    <circle cx="240" cy="630" r="36" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.2"/>
+    
+    <text x="240" y="670" text-anchor="middle" font-size="9" fill="#666">Curvature</text>
+    <text x="240" y="682" text-anchor="middle" font-size="9" fill="#666">Residue</text>
+    
+    <!-- Arrow to influence -->
+    <path d="M 275 630 L 315 630" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="295" y="625" text-anchor="middle" font-size="9" fill="#666">Influences</text>
+    
+    <!-- Next Generation -->
+    <circle cx="340" cy="630" r="25" fill="#27ae60" stroke="#1e8449" stroke-width="2"/>
+    <text x="340" y="635" text-anchor="middle" font-size="10" fill="white">GEN-N+1</text>
+  </g>
+  
+  <!-- Complete Cycle Diagram -->
+  <g id="complete-cycle">
+    <text x="50" y="730" font-size="16" font-weight="bold" fill="#1a1a1a">Complete Recursion Cycle</text>
+    
+    <!-- Circular flow -->
+    <circle cx="400" cy="810" r="80" fill="none" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+    
+    <!-- Cycle labels -->
+    <text x="400" y="735" text-anchor="middle" font-size="11" fill="#2c3e50" font-weight="bold">APEX</text>
+    <text x="320" y="770" text-anchor="end" font-size="10" fill="#666">Extract</text>
+    <text x="320" y="850" text-anchor="end" font-size="10" fill="#666">Tension</text>
+    <text x="400" y="885" text-anchor="middle" font-size="10" fill="#666">Replicate</text>
+    <text x="480" y="850" text-anchor="start" font-size="10" fill="#666">Extend</text>
+    <text x="480" y="770" text-anchor="start" font-size="10" fill="#666">Collapse</text>
+    
+    <!-- Center symbol -->
+    <text x="400" y="815" text-anchor="middle" font-size="24" fill="#3498db">↻</text>
+  </g>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
+    </marker>
+    <marker id="arrowhead-small" markerWidth="6" markerHeight="6" refX="5" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#999"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend -->
+  <g id="legend">
+    <rect x="550" y="220" width="220" height="200" rx="5" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+    <text x="660" y="245" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">Legend</text>
+    
+    <!-- Legend items -->
+    <circle cx="570" cy="265" r="10" fill="#4a90e2" stroke="#2c5aa0" stroke-width="1"/>
+    <text x="590" y="270" font-size="10" fill="#333">Root/Origin</text>
+    
+    <circle cx="570" cy="290" r="10" fill="#5ca3f5" stroke="#2c5aa0" stroke-width="1"/>
+    <text x="590" y="295" font-size="10" fill="#333">Generation</text>
+    
+    <circle cx="570" cy="315" r="10" fill="#27ae60" stroke="#1e8449" stroke-width="1"/>
+    <text x="590" y="320" font-size="10" fill="#333">Offspring</text>
+    
+    <rect x="565" y="335" width="10" height="10" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    <text x="590" y="343" font-size="10" fill="#333">Ignition</text>
+    
+    <polygon points="570,355 565,365 575,365" fill="#9b59b6" stroke="#7d3c98" stroke-width="1"/>
+    <text x="590" y="363" font-size="10" fill="#333">Triad</text>
+    
+    <circle cx="570" cy="380" r="5" fill="#000" stroke="#333" stroke-width="1"/>
+    <circle cx="570" cy="380" r="8" fill="none" stroke="#e74c3c" stroke-width="1" opacity="0.5"/>
+    <text x="590" y="385" font-size="10" fill="#333">Residue</text>
+  </g>
+</svg>
