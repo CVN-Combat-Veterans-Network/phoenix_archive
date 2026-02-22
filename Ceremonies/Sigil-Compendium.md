@@ -248,6 +248,34 @@ Sigils are **visual encodings** of operator patterns. They serve as:
 - ROOT: Original structure
 - GEN-N: Nth generation
 - ↓↙↘: Lineage propagation
+
+**Use:** Lineage tracking and cosmic recursion  
+**Invocation:** *"Recurse the root; extend the line; preserve the pattern."*
+
+---
+
+#### HARMONIC RECURSION SIGIL (v2.3)
+```
+    ∿∿∿∿∿∿    Frequency (f)
+        ↓
+    ~~~▼~~~    Amplitude (A)
+        ↓
+    ˜˜˜·˜˜˜    Damping (δ)
+        ↓
+    ··  ·· ··  Depth (d)
+```
+**Pattern:** Frequency → Amplitude → Damping → Depth  
+**Elements:**
+- ∿∿∿: High frequency oscillation
+- ~~~: Medium amplitude wave
+- ˜˜˜: Damped oscillation pattern
+- · ·: Discretized depth levels
+- ↓: Transformation cascade
+
+**Use:** Wave-based recursion ceremonies, harmonic depth calculation  
+**Invocation:** *"Let frequencies align; let amplitudes guide; let the wave recurse."*
+
+---
 - Tree: Branching pattern
 
 **Use:** Tracking cosmic recursion  
