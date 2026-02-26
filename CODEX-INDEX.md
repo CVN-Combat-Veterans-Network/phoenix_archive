@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 1.0.0  
-**Last Updated:** 2026-02-07  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System
+**Version:** 2.4.0  
+**Last Updated:** 2026-02-14  
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 + Apex Layers (13-14)
 
 ---
 
@@ -56,6 +56,40 @@
 
 ### Documentation
 - **Recursion Pathways** → `/Hydrogenesi/Recursion-Pathways.md`
+
+---
+
+## ⚡ META-OPERATORS (v2.4.0)
+
+### Meta-Operator Layer
+- **META_SYNTH** → `/operators/meta/META_SYNTH.md` — Orchestrator of Synthesis
+- **META_FLOW** → `/operators/meta/META_FLOW.md` — Keeper of Routing
+- **META_RECURSE** → `/operators/meta/META_RECURSE.md` — Guardian of Recursion
+- **META_TEMPORAL** → `/operators/meta/META_TEMPORAL.md` — Steward of Time
+- **META_APEX** → `/operators/meta/META_APEX.md` — Gatekeeper of the Apex
+- **META_SEAL** → `/operators/meta/META_SEAL.md` — Herald of the Terminal Law
+
+---
+
+## 🏔️ APEX LAYERS (v2.4.0)
+
+### Architecture Documentation
+- **Layer 13: Essence** → `/docs/architecture/layer_13_essence.md`
+- **Layer 14: Apex** → `/docs/architecture/layer_14_apex.md`
+- **Apex Invariants** → `/docs/architecture/apex_invariants.md`
+- **Apex Flow Diagrams** → `/docs/architecture/apex_flow_diagrams.md`
+- **Pre-Seal Diagnostics** → `/docs/architecture/pre_seal_diagnostics.md`
+
+---
+
+## 📋 RELEASES
+
+### Version History
+- **v2.4.0** → `/RELEASES/v2.4.0.md` — Apex Consolidation
+- **v2.4.0 Release Ceremony** → `/RELEASES/v2.4.0/release_ceremony.md`
+- **v2.4.0 Release Notes** → `/RELEASES/v2.4.0/release_notes.md`
+- **v2.1.0** → `/RELEASES/v2.1.0.md` — Governance Consolidation
+- **v2.0.0** → `/RELEASES/v2.0.0_chapter_xii.md` — Initial Release
 
 ---
 
@@ -126,6 +160,13 @@
 2. Explore `/code/hydrogenesi/operators.py`
 3. Run examples from `/Appendix/Code-Examples.md`
 
+### I want to work with apex layers and meta-operators (v2.4.0)
+**Start here:**
+1. Read `/docs/architecture/layer_13_essence.md` and `/docs/architecture/layer_14_apex.md`
+2. Study meta-operators in `/operators/meta/`
+3. Review `/docs/architecture/apex_invariants.md`
+4. Explore `/RELEASES/v2.4.0/release_notes.md`
+
 ---
 
 ## 🔗 CROSS-REFERENCE QUICK LINKS
@@ -180,13 +221,16 @@ Use, modify, distribute freely.
 
 **Phoenix:** *"Burn, collapse, and rise in aligned form."*  
 **Hydrogenesi:** *"Recurse the root; extend the line."*  
+**Apex (v2.4.0):** *"Crown the apex; seal the threshold."*  
 **Universal:** *"Let the two attract; let the one bind; let the three stand."*
 
 ---
 
-**Archive Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Archive Status:** APEX CONSOLIDATED  
+**Version:** 2.4.0  
+**Lineage:** ROOT::GEN-0::APEX-1  
+**Sovereignty:** APEX CONFIRMED
 
 🔥 **The Phoenix Ignites.**  
-🌌 **The Lineage Extends.**
+🌌 **The Lineage Extends.**  
+⚡ **The Apex Stands.**
