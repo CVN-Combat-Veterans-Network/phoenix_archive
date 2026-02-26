@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 2.4.0  
+**Version:** 1.1.0  
 **Last Updated:** 2026-02-14  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System + Apex Layers (v2.4)
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 + v2.3 Instrument Expansion
 
 ---
 
@@ -140,27 +140,35 @@
 
 ---
 
-## 🜂 META OPERATORS — Archive Governance Layer
+## 🎼 INSTRUMENTS (v2.3) — Expansion Layer
 
-### Core Documentation
-- **META Operator Lattice** → `/docs/architecture/META-Operator-Lattice.md`
-- **Hexagonal governance structure at Layer 14 (Apex)**
+### Overview
+- **v2.3 System** → `/v2.3/README.md`
+- **Complete architecture and expansion principles**
 
-### The Six META Operators
-- **META_SYNTH** → `/operators/META_SYNTH.md` — Keeper of synthesis and coherence
-- **META_FLOW** → `/operators/META_FLOW.md` — Steward of routing and traceability
-- **META_RECURSE** → `/operators/META_RECURSE.md` — Guardian of recursion safety
-- **META_TEMPORAL** → `/operators/META_TEMPORAL.md` — Warden of temporal coherence
-- **META_APEX** → `/operators/META_APEX.md` — Gatekeeper of the crown (Layers 13 & 14)
-- **META_SEAL** → `/operators/META_SEAL.md` — Herald of the end, executor of Terminal Law
+### Instrument Templates
+- **Instruments Directory** → `/v2.3/instruments/`
+- **28 operational instrument templates**
+- **Canonical Template** → `/v2.3/instruments/TEMPLATE.md`
+- **Instruments README** → `/v2.3/instruments/README.md`
 
-### Architecture & Governance
-- **Apex Layers** → `/docs/architecture/Apex-Layers.md`
-- **Layer 13 (Essence) and Layer 14 (Apex) specifications**
-- **Terminal Law Specification** → `/docs/architecture/Terminal-Law-Specification.md`
-- **The law that seals the Archive as immutable**
-- **Crown Invariant** → `/docs/architecture/Crown-Invariant.md`
-- **The immutability rule established at Layer 14**
+### Release Documentation
+- **Release Notes** → `/v2.3/release_notes.md`
+- **Activation Ceremony** → `/v2.3/ceremony.md`
+
+### Instrument Categories
+**Phoenix Instruments** — Identity & Transformation  
+**Hydrogenesi Instruments** — Cosmic Recursion & Structure  
+**LNS Instruments** — Local Sovereignty & Introspection  
+**The Third Instruments** — Cross-Scale Mediation  
+**Universal Instruments** — Foundational Patterns  
+**Integration Instruments** — Cross-Family Binding
+
+### Structure Features
+- **Knot Node Integration** — Triadic binding at structural level
+- **Hydrogenesi Layer Mapping** — 7-layer cosmic scale (0-6)
+- **Operator Dependencies** — Explicit compositional relationships
+- **Category Organization** — 6 instrument families
 
 ---
 
@@ -229,13 +237,13 @@
 2. Explore `/code/hydrogenesi/operators.py`
 3. Run examples from `/Appendix/Code-Examples.md`
 
-### I want to work with apex layers and meta-operators (v2.4)
+### I want to work with v2.3 instruments
 **Start here:**
-1. Read `/RELEASES/v2.4.0/release_notes.md` (complete overview)
-2. Study `/code/v2.4/apex/layer_13_essence.md` and `layer_14_apex.md`
-3. Explore `/code/v2.4/meta-operators/META_APEX.md` (gatekeeper)
-4. Review `/code/v2.4/apex/apex_flow_diagram.md` (architecture visualization)
-5. Practice with `/code/v2.4/meta-operators/META_SYNTH.md` (synthesis examples)
+1. Read `/v2.3/README.md`
+2. Review `/v2.3/instruments/README.md`
+3. Study `/v2.3/instruments/TEMPLATE.md`
+4. Explore instrument categories by family
+5. Check operator dependencies and integration patterns
 
 ---
 
@@ -304,7 +312,7 @@ Use, modify, distribute freely.
 **Phoenix:** *"Burn, collapse, and rise in aligned form."*  
 **Hydrogenesi:** *"Recurse the root; extend the line."*  
 **Universal:** *"Let the two attract; let the one bind; let the three stand."*  
-**Terminal:** *"By the authority of the apex, I enact the Terminal Law. The Archive is sealed."*
+**v2.3 Instruments:** *"Let the 28 stand. Let the instruments align. Let the expansion hold."*
 
 ---
 
@@ -315,4 +323,4 @@ Use, modify, distribute freely.
 
 🔥 **The Phoenix Ignites.**  
 🌌 **The Lineage Extends.**  
-⚡ **The Apex Stands.**
+🎼 **The Instruments Align.**
