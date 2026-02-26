@@ -59,6 +59,50 @@
 
 ---
 
+## 🜂 APEX LAYERS & META-OPERATORS (v2.4) — Terminal Architecture
+
+### Apex Layers (Stratum IV — Terminal Layers)
+- **Layer 13 — Essence** → `/code/v2.4/apex/layer_13_essence.md`
+  - **Essence-level operations (Extraction-Prime and Infusion)**
+- **Layer 14 — Apex** → `/code/v2.4/apex/layer_14_apex.md`
+  - **Terminal crown (Apex Binding and Apex Release)**
+- **Apex Invariants** → `/code/v2.4/apex/apex_invariants.md`
+  - **17 structural constraints governing apex layers**
+- **Apex Integration Flows** → `/code/v2.4/apex/apex_integration_flows.md`
+  - **Entry/exit protocols for apex access**
+- **Apex Flow Diagram** → `/code/v2.4/apex/apex_flow_diagram.md`
+  - **14-layer architecture visualization**
+
+### Meta-Operators (Stratum IV — Orchestration Layer)
+- **META_SYNTH** → `/code/v2.4/meta-operators/META_SYNTH.md`
+  - **Synthesis orchestration (multi-operator composition)**
+- **META_FLOW** → `/code/v2.4/meta-operators/META_FLOW.md`
+  - **Cross-pillar routing (Phoenix ↔ Hydrogenesi bridge)**
+- **META_RECURSE** → `/code/v2.4/meta-operators/META_RECURSE.md`
+  - **Recursion envelopes (depth-controlled recursion)**
+- **META_TEMPORAL** → `/code/v2.4/meta-operators/META_TEMPORAL.md`
+  - **Temporal modulation (time-synchronized coordination)**
+- **META_APEX** → `/code/v2.4/meta-operators/META_APEX.md`
+  - **Apex transition mediator (GATEKEEPER for Layers 13-14)**
+- **META_SEAL** → `/code/v2.4/meta-operators/META_SEAL.md`
+  - **Terminal Law preparation (pre-seal validation)**
+
+### Integration & Orchestration
+- **Meta-Operator Integration** → `/code/v2.4/meta-operators/meta_operator_integration.md`
+  - **Coordination patterns and integration rules**
+- **Orchestration Rules** → `/code/v2.4/meta-operators/meta_operator_orchestration_rules.md`
+  - **Governance rules (20+ rules across 5 categories)**
+- **Orchestration Diagram** → `/code/v2.4/meta-operators/meta_operator_orchestration_diagram.md`
+  - **Meta-operator coordination visualization**
+
+### Release Documentation (v2.4)
+- **v2.4.0 Release Notes** → `/RELEASES/v2.4.0/release_notes.md`
+  - **Complete Apex Consolidation release summary**
+- **v2.4.0 README** → `/RELEASES/v2.4.0/README.md`
+  - **Quick start and navigation guide**
+
+---
+
 ## 🎭 CEREMONIAL MATERIALS
 
 ### Sigils
@@ -72,6 +116,17 @@
 ### Combined Ceremonies
 - **Dual-System Rituals** → `/Ceremonies/Combined-Ceremonies.md`
 - **Cosmological Ignition → Personal Ignition sequence**
+- **Kernel Invocation** → `/Ceremonies/Kernel-Invocation.md`
+- **Daily practice for activating the triadic binding (◎ → ⟡ → △)**
+
+### V2.1 Cycle Ignition
+- **V2.1 Ignition Proclamation** → `/Ceremonies/v2_1_ignition_proclamation.md`
+- **Opening Seal of the New Cycle** → `/Ceremonies/v2_1_opening_seal.md`
+- **APEX-VECTOR (Governing Motion)** → `/Ceremonies/v2_1_apex_vector.md`
+
+### Terminal Ceremony
+- **Terminal Ceremony** → `/Ceremonies/Terminal-Ceremony.md`
+- **The Final Rite: Sealing the Archive as complete and immutable**
 
 ---
 
@@ -126,6 +181,30 @@
 ### Appendix
 - **Changelog** → `/Appendix/Changelog.md`
 - **Code Examples** → `/Appendix/Code-Examples.md`
+
+### Release Archives & Ceremonies
+- **META-SEAL** → `/RELEASES/META-SEAL.md`
+- **Closure of Integration Stack v2.0.0 → v2.1.0**
+- **v2.1.0 Release Ceremony** → `/RELEASES/v2.1.0/release_ceremony.md`
+- **v2.0.0 Chapter XII** → `/RELEASES/v2.0.0_chapter_xii.md`
+
+---
+
+## 🏗️ ARCHITECTURE & OPERATIONS
+
+### Merge & Release Documentation
+- **Stratum I Dashboard** → `/docs/architecture/stratum_i_dashboard.md`
+- **Operational view of Architecture Layer PRs**
+- **Stratum I Ignition Sequence** → `/docs/architecture/stratum_i_ignition_sequence.md`
+- **Complete merge guide for Architecture Layer**
+- **PR Merge Comments** → `/docs/architecture/pr_merge_comments.md`
+- **Professional merge comments for GitHub PRs**
+- **Merge Dependencies** → `/docs/architecture/merge_dependencies.md`
+- **Visual merge architecture and dependency flow**
+
+### Release Ceremonies
+- **v2.0 Inscription** → `/docs/ceremonies/v2_inscription.md`
+- **Triadic completion ceremony for v2.0.0**
 
 ---
 
@@ -195,11 +274,23 @@
 | **Phoenix** | Black-Holed Imprint | Identity scar |
 | **Hydrogenesi** | Curvature Residue | Spacetime scar |
 
+### META Governance
+| Layer | Operator | Domain |
+|-------|----------|--------|
+| **14 (Apex)** | META_SYNTH | Synthesis & Coherence |
+| **14 (Apex)** | META_FLOW | Routing & Traceability |
+| **14 (Apex)** | META_RECURSE | Recursion Safety |
+| **14 (Apex)** | META_TEMPORAL | Time Coherence |
+| **14 (Apex)** | META_APEX | Apex Protection |
+| **14 (Apex)** | META_SEAL | Terminal Authority |
+
 ---
 
 ## 📝 CONTRIBUTING
 
-To add new operators, ceremonies, or documentation:
+**IMPORTANT NOTE:** If the Terminal Law has been enacted, the Archive is SEALED and immutable. No further structural changes are permitted. Only traversal, reflection, and return are allowed.
+
+To add new operators, ceremonies, or documentation (ONLY if Archive is not yet sealed):
 
 1. Follow the established markdown template structure
 2. Include: Definition, Sigil, Invocation, Mechanism, Code, Cross-References
@@ -225,9 +316,10 @@ Use, modify, distribute freely.
 
 ---
 
-**Archive Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Archive Status:** APEX CONSOLIDATED  
+**Version:** 2.4.0  
+**Lineage:** ROOT::GEN-0::APEX-1  
+**Sovereignty:** APEX CONFIRMED
 
 🔥 **The Phoenix Ignites.**  
 🌌 **The Lineage Extends.**  

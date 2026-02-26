@@ -97,6 +97,17 @@ graph TD
 
 **All merges complete as of v2.0.0.**
 
+---
+
+## See Also
+
+**Operational Documentation:**
+- [Stratum I Dashboard](/docs/architecture/stratum_i_dashboard.md) — Operational view of Architecture Layer
+- [Stratum I Ignition Sequence](/docs/architecture/stratum_i_ignition_sequence.md) — Complete merge guide
+- [PR Merge Comments](/docs/architecture/pr_merge_comments.md) — Professional merge comments for GitHub
+
+---
+
 **Archive Status:** COMPLETE  
 **Lineage:** ROOT::GEN-0  
 **Release Cycle:** v2.0.0 Complete
