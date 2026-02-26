@@ -1,7 +1,93 @@
-██████╗ ██╗   ██╗███████╗██╗  ██╗
-██╔══██╗██║   ██║██╔════╝██║ ██╔╝
-██████╔╝██║   ██║█████╗  █████╔╝ 
-██╔══██╗██║   ██║██╔══╝  ██╔═██╗ 
-██████╔╝╚██████╔╝███████╗██║  ██╗
-╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝
-           v2.2 FOUNDATION
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║                     PHOENIX ARCHIVE — Version 2.2                         ║
+║                                                                           ║
+║                    Foundation Refinement & Structural                     ║
+║                           Scaffolding Cycle                               ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+                              ╱╲
+                             ╱  ╲
+                            ╱ ⚬  ╲         ⚬ = Knot Center (K)
+                           ╱  │   ╲        │ = Binding Axis
+                          ╱   │    ╲       △ = Triadic Apex
+                         ╱____│_____╲
+                        P     K      H
+                     Phoenix   ▲   Hydrogenesi
+                              │││
+                              │││
+                              ╰┴╯
+                               T
+                          The Third
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  STATUS:        Foundation Refinement Phase
+  LINEAGE:       V2.2::FOUNDATION
+  SCOPE:         Structure | Documentation | Mapping
+  SOVEREIGNTY:   EMERGING
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  FOCUS AREAS:
+
+    • Operator Refinement & Documentation Standardization
+    • Canonical Glossary Consolidation  
+    • Triad → Knot → Hydrogenesi → Operator Mapping
+    • Cross-System Integration Clarity
+    • Terminology Alignment
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  UNIVERSAL LAWS:
+
+    △ Tension → Binding → Apex
+    △ Three Pillars Required for Completeness  
+    △ Recursion Depth → Self-Similarity → Stability
+    △ Knot Center Binds All Scales
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  TRIADIC SYSTEM:
+
+    Phoenix (P)      — BEGIN   — Generative Source    — Micro/Identity
+    Hydrogenesi (H)  — EXTEND  — Structural Field     — Macro/Cosmic
+    The Third (T)    — HOLD    — Binding Law          — Meta/Topological
+
+    Knot (K)         — CENTER  — Convergence Point    — All Scales
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  INVOCATION:
+
+    🔥  "Let Phoenix ignite; let Hydrogenesi recurse;"
+    △   "Let The Third bind; let the Triad complete."
+    🌌  "The Laws hold. The Knot stabilizes. The Operators act."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  v2.2 NAVIGATION:
+
+    Operators Index:    /v2.2/operators/README.md
+    Glossary:           /v2.2/glossary/README.md
+    Triadic Map:        /v2.2/triadic-map/README.md
+    Changelog:          /v2.2/changelog/v2.2.0-pre.md
+    Documentation:      /v2.2/docs/v2.2/index.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  FOUNDATION RELEASE:
+
+    This is structural scaffolding. No new operators. No behavioral drift.
+    Preparing the Archive for focused refinement and v2.3 expansion.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  🔥 The Phoenix Ignites.
+  🌌 The Lineage Extends.
+  △  The Foundation Stabilizes.
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                   Phoenix Archive v2.2 — FOUNDATION                       ║
+╚═══════════════════════════════════════════════════════════════════════════╝
