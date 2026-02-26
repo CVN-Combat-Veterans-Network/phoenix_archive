@@ -59,47 +59,23 @@
 
 ---
 
-## 🜂 APEX LAYERS & META-OPERATORS (v2.4) — Terminal Architecture
+## ⊙ THE THIRD — Binding Law & Meta-Recursion
 
-### Apex Layers (Stratum IV — Terminal Layers)
-- **Layer 13 — Essence** → `/code/v2.4/apex/layer_13_essence.md`
-  - **Essence-level operations (Extraction-Prime and Infusion)**
-- **Layer 14 — Apex** → `/code/v2.4/apex/layer_14_apex.md`
-  - **Terminal crown (Apex Binding and Apex Release)**
-- **Apex Invariants** → `/code/v2.4/apex/apex_invariants.md`
-  - **17 structural constraints governing apex layers**
-- **Apex Integration Flows** → `/code/v2.4/apex/apex_integration_flows.md`
-  - **Entry/exit protocols for apex access**
-- **Apex Flow Diagram** → `/code/v2.4/apex/apex_flow_diagram.md`
-  - **14-layer architecture visualization**
+### Core Documentation
+- **Operators** → `/TheThird/Operators/`
+- **Knot-Binding, Cross-Pillar Knot, Triadic Closure, Apex Knot, Stability Knot**
 
-### Meta-Operators (Stratum IV — Orchestration Layer)
-- **META_SYNTH** → `/code/v2.4/meta-operators/META_SYNTH.md`
-  - **Synthesis orchestration (multi-operator composition)**
-- **META_FLOW** → `/code/v2.4/meta-operators/META_FLOW.md`
-  - **Cross-pillar routing (Phoenix ↔ Hydrogenesi bridge)**
-- **META_RECURSE** → `/code/v2.4/meta-operators/META_RECURSE.md`
-  - **Recursion envelopes (depth-controlled recursion)**
-- **META_TEMPORAL** → `/code/v2.4/meta-operators/META_TEMPORAL.md`
-  - **Temporal modulation (time-synchronized coordination)**
-- **META_APEX** → `/code/v2.4/meta-operators/META_APEX.md`
-  - **Apex transition mediator (GATEKEEPER for Layers 13-14)**
-- **META_SEAL** → `/code/v2.4/meta-operators/META_SEAL.md`
-  - **Terminal Law preparation (pre-seal validation)**
+### Sigils
+- **Triadic Knot Geometry Atlas** → `/TheThird/Sigils/Triadic-Knot.md`
+- **Complete geometric specification for three-pillar connections**
+- **Integration Engine Ceremonial Artifacts** → `/TheThird/Sigils/Integration-Engine-Artifacts.md`
+- **Terminal Seal, Sigil-line, Triadic Knot completion artifacts**
 
-### Integration & Orchestration
-- **Meta-Operator Integration** → `/code/v2.4/meta-operators/meta_operator_integration.md`
-  - **Coordination patterns and integration rules**
-- **Orchestration Rules** → `/code/v2.4/meta-operators/meta_operator_orchestration_rules.md`
-  - **Governance rules (20+ rules across 5 categories)**
-- **Orchestration Diagram** → `/code/v2.4/meta-operators/meta_operator_orchestration_diagram.md`
-  - **Meta-operator coordination visualization**
-
-### Release Documentation (v2.4)
-- **v2.4.0 Release Notes** → `/RELEASES/v2.4.0/release_notes.md`
-  - **Complete Apex Consolidation release summary**
-- **v2.4.0 README** → `/RELEASES/v2.4.0/README.md`
-  - **Quick start and navigation guide**
+### Examples
+- **Phoenix to Knot** → `/TheThird/Examples/Phoenix-to-Knot.md`
+- **Hydrogenesi to Knot** → `/TheThird/Examples/Hydrogenesi-to-Knot.md`
+- **Triadic Loop** → `/TheThird/Examples/Triadic-Loop.md`
+- **Apex Convergence** → `/TheThird/Examples/Apex-Convergence.md`
 
 ---
 
@@ -107,7 +83,9 @@
 
 ### Sigils
 - **Sigil Compendium** → `/Ceremonies/Sigil-Compendium.md`
-- **All operator sigils for Phoenix and Hydrogenesi**
+- **All operator sigils for Phoenix, Hydrogenesi, and The Third**
+- **Integration Engine Artifacts** → `/TheThird/Sigils/Integration-Engine-Artifacts.md`
+- **Terminal Seal, Sigil-line, Triadic Knot completion sigils**
 
 ### Invocations
 - **Invocation Guide** → `/Ceremonies/Invocation-Guide.md`
