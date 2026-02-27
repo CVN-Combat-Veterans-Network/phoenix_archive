@@ -59,47 +59,38 @@
 
 ---
 
-## 🜂 APEX LAYERS & META-OPERATORS (v2.4) — Terminal Architecture
+## 🔗 INTEGRATION WORK — Unified System Layer
 
-### Apex Layers (Stratum IV — Terminal Layers)
-- **Layer 13 — Essence** → `/code/v2.4/apex/layer_13_essence.md`
-  - **Essence-level operations (Extraction-Prime and Infusion)**
-- **Layer 14 — Apex** → `/code/v2.4/apex/layer_14_apex.md`
-  - **Terminal crown (Apex Binding and Apex Release)**
-- **Apex Invariants** → `/code/v2.4/apex/apex_invariants.md`
-  - **17 structural constraints governing apex layers**
-- **Apex Integration Flows** → `/code/v2.4/apex/apex_integration_flows.md`
-  - **Entry/exit protocols for apex access**
-- **Apex Flow Diagram** → `/code/v2.4/apex/apex_flow_diagram.md`
-  - **14-layer architecture visualization**
+### Core Documentation
+- **README** → `/Integration/README.md`
+- **Overview of the integration meta-layer**
 
-### Meta-Operators (Stratum IV — Orchestration Layer)
-- **META_SYNTH** → `/code/v2.4/meta-operators/META_SYNTH.md`
-  - **Synthesis orchestration (multi-operator composition)**
-- **META_FLOW** → `/code/v2.4/meta-operators/META_FLOW.md`
-  - **Cross-pillar routing (Phoenix ↔ Hydrogenesi bridge)**
-- **META_RECURSE** → `/code/v2.4/meta-operators/META_RECURSE.md`
-  - **Recursion envelopes (depth-controlled recursion)**
-- **META_TEMPORAL** → `/code/v2.4/meta-operators/META_TEMPORAL.md`
-  - **Temporal modulation (time-synchronized coordination)**
-- **META_APEX** → `/code/v2.4/meta-operators/META_APEX.md`
-  - **Apex transition mediator (GATEKEEPER for Layers 13-14)**
-- **META_SEAL** → `/code/v2.4/meta-operators/META_SEAL.md`
-  - **Terminal Law preparation (pre-seal validation)**
+### Integration Documents
+- **Cross-Pillar Transition Maps** → `/Integration/Cross-Pillar-Transition-Maps.md`
+  - Defines Phoenix → Hydrogenesi → The Third transitions
+  - Threshold conditions, recursion signatures, stability envelopes, binding vectors
+- **Operator Composition Rules** → `/Integration/Operator-Composition-Rules.md`
+  - Valid pairings, forbidden combinations, reversible sequences
+  - Triadic chains and apex-level closures
+- **Universal Law Validation Matrix** → `/Integration/Universal-Law-Validation-Matrix.md`
+  - Compliance engine for all Twelve Universal Laws
+  - Validates operators, transitions, and compositions
+- **Three-Finger Waltz Integration** → `/Integration/Three-Finger-Waltz-Integration.md`
+  - Meta-operator binding all three pillars
+  - Loop stabilization, escalation, collapse, and seal patterns
+- **Multi-Scale Choreography** → `/Integration/Multi-Scale-Choreography.md`
+  - Micro/meso/macro scale propagation rules
+  - Resonance patterns, harmonic stacking, cross-scale invariants
+- **Recursion Pathways** → `/Integration/Recursion-Pathways.md`
+  - Pillar-to-pillar recursion highways
+  - Entry conditions, depth tracking, return vectors, apex-points
+- **Threshold Mechanics** → `/Integration/Threshold-Mechanics.md`
+  - Operator activation, transformation, escalation, sealing, bifurcation
+  - State transition control system
 
-### Integration & Orchestration
-- **Meta-Operator Integration** → `/code/v2.4/meta-operators/meta_operator_integration.md`
-  - **Coordination patterns and integration rules**
-- **Orchestration Rules** → `/code/v2.4/meta-operators/meta_operator_orchestration_rules.md`
-  - **Governance rules (20+ rules across 5 categories)**
-- **Orchestration Diagram** → `/code/v2.4/meta-operators/meta_operator_orchestration_diagram.md`
-  - **Meta-operator coordination visualization**
-
-### Release Documentation (v2.4)
-- **v2.4.0 Release Notes** → `/RELEASES/v2.4.0/release_notes.md`
-  - **Complete Apex Consolidation release summary**
-- **v2.4.0 README** → `/RELEASES/v2.4.0/README.md`
-  - **Quick start and navigation guide**
+### Code
+- **Python Implementation** → `/code/integration/operators.py`
+- **Integration Tests** → `/tests/integration/`
 
 ---
 
@@ -229,13 +220,13 @@
 2. Explore `/code/hydrogenesi/operators.py`
 3. Run examples from `/Appendix/Code-Examples.md`
 
-### I want to work with apex layers and meta-operators (v2.4)
+### I want to integrate all three pillars into a unified system
 **Start here:**
-1. Read `/RELEASES/v2.4.0/release_notes.md` (complete overview)
-2. Study `/code/v2.4/apex/layer_13_essence.md` and `layer_14_apex.md`
-3. Explore `/code/v2.4/meta-operators/META_APEX.md` (gatekeeper)
-4. Review `/code/v2.4/apex/apex_flow_diagram.md` (architecture visualization)
-5. Practice with `/code/v2.4/meta-operators/META_SYNTH.md` (synthesis examples)
+1. Read `/Integration/README.md`
+2. Study `/Integration/Cross-Pillar-Transition-Maps.md`
+3. Explore `/Integration/Operator-Composition-Rules.md`
+4. Practice `/Integration/Three-Finger-Waltz-Integration.md`
+5. Validate with `/Integration/Universal-Law-Validation-Matrix.md`
 
 ---
 
