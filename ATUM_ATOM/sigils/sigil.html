@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Master Sigil — S + 3 ATUAM Atoms</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #020208;
+    color: #f0f0f0;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+  }
+  h1 { color: #e8cc80; letter-spacing: 0.2em; font-size: 1.3em; margin-bottom: 6px; text-align: center; }
+  .sub { color: #444; font-size: 0.8em; margin-bottom: 36px; text-align: center; }
+  canvas { cursor: pointer; display: block; }
+  .hint { color: #333; font-size: 0.75em; margin-top: 12px; font-style: italic; text-align: center; }
+  .footer { margin-top: 28px; text-align: center; color: #333; font-size: 0.75em; line-height: 1.8; }
+  .sigils-row { display: flex; gap: 24px; justify-content: center; margin: 20px 0; }
+  .sbox { text-align: center; }
+  .ssym { font-size: 1.8em; }
+  .snm { color: #555; font-size: 0.72em; margin-top: 3px; }
+</style>
+</head>
+<body>
+<h1>MASTER SIGIL</h1>
+<div class="sub">S + 3 ATUAM atoms · dynamic · click to ripple</div>
+
+<canvas id="c" width="500" height="500"></canvas>
+
+<div class="hint">click to create a ripple</div>
+
+<div class="sigils-row">
+  <div class="sbox"><div class="ssym" style="color:#e8cc80">▱</div><div class="snm">Polarity</div></div>
+  <div class="sbox"><div class="ssym" style="color:#4a8fff">⟐</div><div class="snm">Identity</div></div>
+  <div class="sbox"><div class="ssym" style="color:#50d890">⟒</div><div class="snm">Continuity</div></div>
+</div>
+
+<div class="footer">
+  ATUM_ATOM · Sealed March 1 2026<br>
+  G0=1 · N=3 · TUA Holds
+</div>
+
+<script>
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+const W = 500, H = 500, cx = W/2, cy = H/2;
+
+let ripples = [];
+canvas.addEventListener('click', e => {
+  const rect = canvas.getBoundingClientRect();
+  ripples.push({ x: e.clientX - rect.left, y: e.clientY - rect.top, r: 0, max: 160, a: 0.7 });
+});
+
+// Atom definition
+function makeAtom(x, y, rx, ry, angle) {
+  return { x, y, rx, ry, angle, t: Math.random() * Math.PI * 2 };
+}
+
+const atoms = [
+  makeAtom(cx, cy, 0, 0, 0),                            // center (S)
+  makeAtom(cx - 130, cy - 70, 55, 28, Math.PI / 5),     // top-left atom
+  makeAtom(cx + 130, cy - 70, 55, 28, -Math.PI / 5),    // top-right atom
+  makeAtom(cx, cy + 130, 55, 28, 0),                     // bottom atom
+];
+
+const electrons = atoms.map(() => ({ t: Math.random() * Math.PI * 2 }));
+
+// Rotating "S" glyph lines
+function drawS(x, y, size, alpha) {
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.globalAlpha = alpha;
+  ctx.strokeStyle = '#e8cc80';
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.arc(0, -size*0.3, size*0.35, Math.PI, -Math.PI/2, false);
+  ctx.moveTo(0, 0);
+  ctx.arc(0, size*0.3, size*0.35, 0, Math.PI, false);
+  ctx.stroke();
+  ctx.restore();
+}
+
+function drawAtomRing(x, y, rx, ry, rotation, electronAngle, color) {
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.rotate(rotation);
+  ctx.beginPath();
+  ctx.ellipse(0, 0, rx, ry, 0, 0, Math.PI * 2);
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 1;
+  ctx.globalAlpha = 0.5;
+  ctx.stroke();
+  // electron
+  const ex = Math.cos(electronAngle) * rx;
+  const ey = Math.sin(electronAngle) * ry;
+  ctx.beginPath();
+  ctx.arc(ex, ey, 3, 0, Math.PI * 2);
+  ctx.fillStyle = color;
+  ctx.globalAlpha = 0.9;
+  ctx.fill();
+  ctx.restore();
+}
+
+let frame = 0;
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+  frame++;
+
+  // Connecting lines from center to outer atoms
+  [1, 2, 3].forEach(i => {
+    const a = atoms[i];
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.lineTo(a.x, a.y);
+    ctx.strokeStyle = 'rgba(74,143,255,0.12)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  });
+
+  // Center nucleus
+  const coreGlow = ctx.createRadialGradient(cx, cy, 0, cx, cy, 36);
+  coreGlow.addColorStop(0, 'rgba(200,168,75,0.35)');
+  coreGlow.addColorStop(1, 'rgba(200,168,75,0)');
+  ctx.beginPath();
+  ctx.arc(cx, cy, 36, 0, Math.PI * 2);
+  ctx.fillStyle = coreGlow;
+  ctx.fill();
+
+  // S glyph
+  drawS(cx, cy, 18, 0.9);
+
+  // Center atom rings
+  const t0 = frame * 0.008;
+  drawAtomRing(cx, cy, 52, 20, 0,             t0,           '#4a8fff');
+  drawAtomRing(cx, cy, 52, 20, Math.PI/3,     t0 + Math.PI, '#e8cc80');
+  drawAtomRing(cx, cy, 52, 20, -Math.PI/3,    t0 + Math.PI/2, '#50d890');
+
+  // Outer atoms
+  const colors = ['#4a8fff', '#e8cc80', '#50d890'];
+  [1, 2, 3].forEach((i, idx) => {
+    const a = atoms[i];
+    electrons[i].t += 0.018;
+    // nucleus
+    ctx.beginPath();
+    ctx.arc(a.x, a.y, 10, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(10,10,30,0.8)';
+    ctx.strokeStyle = colors[idx];
+    ctx.lineWidth = 1;
+    ctx.globalAlpha = 0.7;
+    ctx.fill();
+    ctx.stroke();
+    ctx.globalAlpha = 1;
+    // rings
+    drawAtomRing(a.x, a.y, a.rx, a.ry, a.angle, electrons[i].t, colors[idx]);
+    drawAtomRing(a.x, a.y, a.ry, a.rx, a.angle + Math.PI/2, electrons[i].t + Math.PI, colors[idx]);
+  });
+
+  // Ripples
+  ripples = ripples.filter(r => r.r < r.max);
+  ripples.forEach(r => {
+    r.r += 2.5;
+    const alpha = r.a * (1 - r.r / r.max);
+    ctx.beginPath();
+    ctx.arc(r.x, r.y, r.r, 0, Math.PI * 2);
+    ctx.strokeStyle = `rgba(200,168,75,${alpha})`;
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  });
+
+  requestAnimationFrame(draw);
+}
+draw();
+</script>
+</body>
+</html>

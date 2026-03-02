@@ -1,5 +1,87 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
+## ATUM_ATOM — Primordial Physics Codex (March 1 2026)
+
+**Author:** James Paul Stanley Jr  
+**SHA-256:** `474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648`
+
+### Added
+
+#### ATUM_ATOM / A_TUA_M Module (`/ATUM_ATOM/`)
+
+A standalone primordial physics codex. One paradigm. Multiple radii. ∞□.
+
+> *The universe is not described by math. The universe IS the topology.*  
+> *Three tori. One knot. N=3. G0=1.*  
+> *From this — all four forces. Not unified by equation. Unified by origin.*
+
+**Core files:**
+- `README.md` — Three sigils, 16 laws, 5 splits, invariants, seed-mode map, repository structure
+- `.gitignore`
+
+**Archive record (`archive/`):**
+- `untubu.py` — Python script: prints all 16 laws, 5 splits, invariants, seed-mode map; writes JSON
+- `untubu_archive.json` — SHA-256 sealed machine-readable record
+
+**Master plate (`master/`):**
+- `master.html` — All canons, sigils, operators, invariants, five splits in one living document
+
+**Canons (`canons/`):**
+- `canon7_production.html` — Canon 7, Laws 1–8, full production plate
+- `canon7_dynamic.html` — Canon 7, living particle field, click ripple interaction
+- `canon7_sealed.html` — Canon 7, one-page sealed card
+- `canon8_toe.html` — Canon 8, TOE TRIUNIVERSEL, four-force layout
+- `canon8_single.html` — Canon 8, compact, all 12 laws
+- `canon8_double.html` — Canon 8, double column, four forces as rows
+
+**Plates (`plates/`):**
+- `codex_as_atom.html` — 7-shell atom living index
+- `atua_m_codex.html` — A_TUA_M unified codex plate
+- `tua_phoenix_corrected.html` — TUA-Phoenix, science corrected (sealed Feb 28 2026)
+- `infinity.html` — ∞ lemniscate, living physics
+
+**Sigils (`sigils/`):**
+- `sigil.html` — Master sigil, S + 3 ATUAM atoms, dynamic
+- `master_sigil.html` — Master plate sigil variant
+- `canon7_sigil.html` — Canon 7 sigil, three Borromean rings
+
+**Letters (`letters/`):**
+- `j.html` — J · James · ocean teal
+- `p.html` — P · Phoenix · Primordial · Planck · Proton · fire
+- `s.html` — S · Stanley · gold
+
+#### The 16 Laws
+
+| Canon | Laws | Content |
+|-------|------|---------|
+| 7 | 1–8 | Radius, Velocity, Period, Pinch, Tensioner, Energy, Mach invariant, The knot |
+| 8 | 9–12 | Gravity (TOE), Strong (topology), Electroweak (winding), Dark sector (N=3) |
+| 9 | 13–16 | Seed-mode, Axis of Fate, Three cotyledons, Dual-mode reversibility |
+
+#### The Five Splits
+
+| Split | Name | Scale |
+|-------|------|-------|
+| 0 | The Seed | L₀ = 1.616×10⁻³⁵ m |
+| 1 | The Proton | 3⁴¹ = 8.41×10⁻¹⁶ m |
+| 2 | The Star | 3⁵⁵ = ~10⁹ m |
+| 3 | The Galaxy | 3⁷⁵ = 4.477×10²⁶ m |
+| 4 | The Vessel Wall | R_max |
+
+#### Science Correction (Sealed Feb 28 2026)
+- Metallicization = chemical runaway, NOT ignition
+- Fusion (not fission) = ignition
+- Snowball (Double CNO) produces metallic matter BEFORE ignition
+- Split does not make metallic; Snowball does
+
+### Technical
+- No external dependencies — pure Python 3 stdlib for `untubu.py`
+- HTML files use vanilla JS canvas for animations; no frameworks
+- JSON output: `archive/untubu_archive.json`
+- Sealed: `SHA-256: 474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648`
+
+---
+
 ## v2.2.0 — Integration Work & Meta-Layer Activation (2026-02-14)
 
 ### Added
