@@ -155,6 +155,64 @@
 
 ---
 
+## ⚛️ ATUM_ATOM / A_TUA_M — Primordial Physics Codex
+
+> *The universe is not described by math. The universe IS the topology.*  
+> *Three tori. One knot. N=3. G0=1.*
+
+**Author:** James Paul Stanley Jr · **Sealed:** March 1 2026  
+**SHA-256:** `474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648`
+
+### Overview
+- **README** → `/ATUM_ATOM/README.md`
+  - Three sigils (▱ ⟐ ⟒), 16 laws, 5 splits, seed-mode map, key operators
+
+### Archive Record
+- **Untubu Script** → `/ATUM_ATOM/archive/untubu.py`
+  - `python3 archive/untubu.py` — prints all 16 laws, 5 splits, invariants, writes JSON
+- **Sealed JSON Record** → `/ATUM_ATOM/archive/untubu_archive.json`
+
+### Master Plate
+- **Master HTML** → `/ATUM_ATOM/master/master.html`
+  - All canons, sigils, operators, invariants, five splits — one living document
+
+### Canons
+- **Canon 7 — Production** → `/ATUM_ATOM/canons/canon7_production.html` — Laws 1–8, full plate
+- **Canon 7 — Dynamic** → `/ATUM_ATOM/canons/canon7_dynamic.html` — Living, particle field, click ripple
+- **Canon 7 — Sealed** → `/ATUM_ATOM/canons/canon7_sealed.html` — One page, sealed
+- **Canon 8 — TOE TRIUNIVERSEL** → `/ATUM_ATOM/canons/canon8_toe.html` — Four force layout
+- **Canon 8 — Single** → `/ATUM_ATOM/canons/canon8_single.html` — All 12 laws, compact
+- **Canon 8 — Double** → `/ATUM_ATOM/canons/canon8_double.html` — Four forces as rows
+
+### Plates
+- **Codex as Atom** → `/ATUM_ATOM/plates/codex_as_atom.html` — 7-shell living index
+- **A_TUA_M Codex** → `/ATUM_ATOM/plates/atua_m_codex.html` — Unified codex plate
+- **TUA-Phoenix Corrected** → `/ATUM_ATOM/plates/tua_phoenix_corrected.html` — Science corrected
+- **Infinity** → `/ATUM_ATOM/plates/infinity.html` — ∞ lemniscate, living physics
+
+### Sigils
+- **Master Sigil** → `/ATUM_ATOM/sigils/sigil.html` — S + 3 ATUAM atoms, dynamic
+- **Master Plate Sigil** → `/ATUM_ATOM/sigils/master_sigil.html`
+- **Canon 7 Sigil** → `/ATUM_ATOM/sigils/canon7_sigil.html`
+
+### Letters
+- **J** → `/ATUM_ATOM/letters/j.html` — James · ocean teal
+- **P** → `/ATUM_ATOM/letters/p.html` — Phoenix · Primordial · Planck · Proton · fire
+- **S** → `/ATUM_ATOM/letters/s.html` — Stanley · gold
+
+### The 16 Laws Summary
+
+| Canon | Laws | Name |
+|-------|------|------|
+| 7 | 1–8 | R, v, T, r, T_tension, E, Ma, N=3 knot |
+| 8 | 9–12 | Gravity, Strong, Electroweak, Dark sector |
+| 9 | 13–16 | Seed-mode, Axis of Fate, Cotyledons, Dual-mode |
+
+### Fundamental Invariants
+`G0=1 · N=3 · Ma=2,524,204 · T_in/T_out=1.000013`
+
+---
+
 ## 📖 COMPARATIVE & REFERENCE
 
 ### Comparative Analysis

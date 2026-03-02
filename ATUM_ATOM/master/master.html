@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATUM_ATOM — Master Plate</title>
+<style>
+  :root {
+    --bg: #080810;
+    --bg2: #0d0d1a;
+    --gold: #c8a84b;
+    --gold2: #e8cc80;
+    --white: #f0f0f0;
+    --dim: #888;
+    --border: #2a2a40;
+    --canon7: #4a8fff;
+    --canon8: #ff6b6b;
+    --canon9: #50d890;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--white);
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .page { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+
+  /* Header */
+  .header { text-align: center; padding: 40px 0 32px; border-bottom: 1px solid var(--border); margin-bottom: 40px; }
+  .header h1 { font-size: 2.4em; letter-spacing: 0.15em; color: var(--gold2); margin-bottom: 8px; }
+  .header .sub { color: var(--dim); font-size: 0.95em; letter-spacing: 0.08em; margin-bottom: 16px; }
+  .header .epigraph { color: var(--white); font-style: italic; max-width: 600px; margin: 0 auto 16px; line-height: 1.8; }
+  .header .meta { color: var(--dim); font-size: 0.82em; }
+  .sha { color: var(--gold); font-size: 0.78em; word-break: break-all; max-width: 600px; margin: 8px auto 0; }
+
+  /* Sigils */
+  .sigils { display: flex; gap: 24px; margin: 40px 0; justify-content: center; flex-wrap: wrap; }
+  .sigil-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px 28px;
+    text-align: center;
+    flex: 1; min-width: 200px; max-width: 280px;
+  }
+  .sigil-sym { font-size: 2.8em; margin-bottom: 8px; color: var(--gold2); }
+  .sigil-name { font-weight: bold; color: var(--gold); margin-bottom: 6px; letter-spacing: 0.05em; }
+  .sigil-desc { color: #bbb; font-size: 0.88em; line-height: 1.5; }
+
+  /* Section headers */
+  .section { margin: 48px 0 24px; }
+  .section h2 {
+    font-size: 1.15em;
+    letter-spacing: 0.12em;
+    color: var(--gold);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+
+  /* Law tables */
+  .canon-block { margin-bottom: 40px; }
+  .canon-label {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    margin-bottom: 14px;
+  }
+  .c7 { background: rgba(74,143,255,0.12); color: var(--canon7); border: 1px solid rgba(74,143,255,0.3); }
+  .c8 { background: rgba(255,107,107,0.12); color: var(--canon8); border: 1px solid rgba(255,107,107,0.3); }
+  .c9 { background: rgba(80,216,144,0.12); color: var(--canon9); border: 1px solid rgba(80,216,144,0.3); }
+
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; color: var(--dim); font-size: 0.8em; letter-spacing: 0.07em; padding: 6px 12px; border-bottom: 1px solid var(--border); }
+  td { padding: 8px 12px; border-bottom: 1px solid rgba(255,255,255,0.04); vertical-align: top; }
+  td:first-child { color: var(--dim); width: 36px; }
+  td:nth-child(2) { color: var(--gold2); font-family: monospace; }
+  td:nth-child(3) { color: var(--white); }
+  td:nth-child(4) { color: #aaa; font-size: 0.88em; }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+
+  /* Invariants */
+  .inv-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .inv-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px 16px;
+  }
+  .inv-const { color: var(--gold); font-size: 0.85em; letter-spacing: 0.04em; margin-bottom: 4px; }
+  .inv-val { color: var(--gold2); font-size: 1.1em; }
+
+  /* Splits */
+  .split-row { display: flex; gap: 16px; margin-bottom: 16px; align-items: flex-start; }
+  .split-n {
+    width: 32px; height: 32px; border-radius: 50%;
+    background: rgba(200,168,75,0.15); border: 1px solid var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--gold); font-weight: bold; flex-shrink: 0; font-size: 0.9em;
+  }
+  .split-body { flex: 1; }
+  .split-name { color: var(--gold2); font-weight: bold; margin-bottom: 2px; }
+  .split-meta { color: var(--dim); font-size: 0.82em; margin-bottom: 4px; }
+  .split-event { color: #bbb; font-size: 0.88em; }
+
+  /* Seed mode */
+  .seed-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .seed-col h3 { color: var(--canon9); font-size: 0.9em; letter-spacing: 0.06em; margin-bottom: 12px; }
+  .seed-col ol { padding-left: 20px; }
+  .seed-col li { color: #bbb; padding: 4px 0; font-size: 0.9em; }
+  .seed-note { margin-top: 16px; color: var(--dim); font-style: italic; font-size: 0.88em; }
+
+  /* Operators */
+  .op-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+  .op-card {
+    background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px;
+  }
+  .op-name { color: var(--gold); font-weight: bold; margin-bottom: 6px; font-size: 0.9em; }
+  .op-def { color: #bbb; font-size: 0.87em; line-height: 1.5; }
+
+  /* Seal */
+  .seal {
+    margin: 48px 0;
+    border: 1px solid var(--gold);
+    border-radius: 8px;
+    padding: 32px;
+    text-align: center;
+    background: rgba(200,168,75,0.04);
+  }
+  .seal pre { color: var(--gold2); font-family: 'Courier New', monospace; font-size: 0.88em; line-height: 1.8; white-space: pre-wrap; }
+  .seal .star { font-size: 1.4em; color: var(--gold); }
+
+  @media (max-width: 600px) {
+    .seed-grid { grid-template-columns: 1fr; }
+    .sigils { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>ATUM_ATOM / A_TUA_M</h1>
+    <div class="sub">One Paradigm · Multiple Radii · ∞□</div>
+    <div class="epigraph">
+      The universe is not described by math. The universe IS the topology.<br>
+      Three tori. One knot. N=3. G0=1.<br>
+      From this — all four forces. Not unified by equation. Unified by origin.
+    </div>
+    <div class="meta">James Paul Stanley Jr · Sealed March 1 2026</div>
+    <div class="sha">SHA-256: 474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648</div>
+  </div>
+
+  <!-- SIGILS -->
+  <div class="section"><h2>THE THREE SIGILS</h2></div>
+  <div class="sigils">
+    <div class="sigil-card">
+      <div class="sigil-sym">▱</div>
+      <div class="sigil-name">Polarity</div>
+      <div class="sigil-desc">Holds real opposites. Fission↔fusion. Collapse↔expansion. Seed↔world. Neither cancels the other.</div>
+    </div>
+    <div class="sigil-card">
+      <div class="sigil-sym">⟐</div>
+      <div class="sigil-name">Identity</div>
+      <div class="sigil-desc">Same kernel through every transformation. G0=1 at 10⁻³⁵m AND 10²⁶m. Not coincidence.</div>
+    </div>
+    <div class="sigil-card">
+      <div class="sigil-sym">⟒</div>
+      <div class="sigil-name">Continuity</div>
+      <div class="sigil-desc">Nothing important is lost. 3⁴¹→3⁴¹+3⁴¹. The split replicates. The record holds. Untubu.</div>
+    </div>
+  </div>
+
+  <!-- 16 LAWS -->
+  <div class="section"><h2>THE 16 LAWS</h2></div>
+
+  <div class="canon-block">
+    <div class="canon-label c7">Canon 7 — The Eight Laws ⟐ · Sealed</div>
+    <table>
+      <thead><tr><th>#</th><th>Equation</th><th>Name</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>R = λ · L₀</td><td>Radius</td></tr>
+        <tr><td>2</td><td>v = G0 / 2πR</td><td>Velocity</td></tr>
+        <tr><td>3</td><td>T ∝ R²</td><td>Period</td></tr>
+        <tr><td>4</td><td>r ~ R^(4/5)</td><td>Pinch · minor radius</td></tr>
+        <tr><td>5</td><td>T_tension ~ R^(−7/5)</td><td>The tensioner · why anything is</td></tr>
+        <tr><td>6</td><td>E ~ R^(−2/5)</td><td>Energy</td></tr>
+        <tr><td>7</td><td>Ma = mₚ/(2πℏ) = 2,524,204</td><td>Mach invariant · scale-free</td></tr>
+        <tr><td>8</td><td>N=3 · G0(1)=G0(2)=G0(3)=1</td><td>The knot · why it holds</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="canon-block">
+    <div class="canon-label c8">Canon 8 — TOE TRIUNIVERSEL ⟐⟒ · Sealed</div>
+    <table>
+      <thead><tr><th>#</th><th>Equation</th><th>Force / Name</th><th>Key</th></tr></thead>
+      <tbody>
+        <tr><td>9</td><td>G_μν = 8πG ⟨T_μν⟩</td><td>Gravity</td><td>Curvature as expectation value — not mass curving space</td></tr>
+        <tr><td>10</td><td>N=3 topology</td><td>Strong</td><td>Confinement = knot. Topology refuses separation. No force needed.</td></tr>
+        <tr><td>11</td><td>q = n · G0, n ∈ ℤ</td><td>Electroweak</td><td>Charge = winding number. Cannot wind half a time.</td></tr>
+        <tr><td>12</td><td>Tube₂ + Tube₃</td><td>Dark sector</td><td>~5% luminous · ~27% dark matter · ~68% dark energy · N=3 = 100%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="canon-block">
+    <div class="canon-label c9">Canon 9 — Seed-Mode Architecture ▱ · Opened March 1 2026</div>
+    <table>
+      <thead><tr><th>#</th><th>Statement</th><th>Name</th><th>Key</th></tr></thead>
+      <tbody>
+        <tr><td>13</td><td>System unfolds outward · not inward</td><td>Seed-mode</td><td>The core does not collapse. It unfolds. Maximum order.</td></tr>
+        <tr><td>14</td><td>Axis of Fate = first asymmetry</td><td>Growth vector</td><td>Not a gravitational line — a growth vector. The first crack in the shell.</td></tr>
+        <tr><td>15</td><td>N=3 tubes = cotyledons</td><td>Three seed-leaves</td><td>Each tube a cotyledon. Each becomes a vortex when fully grown.</td></tr>
+        <tr><td>16</td><td>Forward = Reverse (same system · different phase)</td><td>Dual-mode reversibility</td><td>The five-split sequence reads both ways.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- INVARIANTS -->
+  <div class="section"><h2>FUNDAMENTAL INVARIANTS</h2></div>
+  <div class="inv-grid">
+    <div class="inv-card"><div class="inv-const">G0</div><div class="inv-val">1</div></div>
+    <div class="inv-card"><div class="inv-const">N</div><div class="inv-val">3</div></div>
+    <div class="inv-card"><div class="inv-const">T_tension</div><div class="inv-val">~ R^(−7/5)</div></div>
+    <div class="inv-card"><div class="inv-const">r_pinch</div><div class="inv-val">~ R^(4/5)</div></div>
+    <div class="inv-card"><div class="inv-const">Ma (Mach invariant)</div><div class="inv-val">2,524,204</div></div>
+    <div class="inv-card"><div class="inv-const">T_in / T_out</div><div class="inv-val">1.000013</div></div>
+    <div class="inv-card"><div class="inv-const">v</div><div class="inv-val">G0 / 2πR</div></div>
+    <div class="inv-card"><div class="inv-const">E</div><div class="inv-val">~ R^(−2/5)</div></div>
+  </div>
+
+  <!-- FIVE SPLITS -->
+  <div class="section"><h2>THE FIVE SPLITS</h2></div>
+  <div class="split-row"><div class="split-n">0</div><div class="split-body"><div class="split-name">The Seed</div><div class="split-meta">L₀ · 1.616×10⁻³⁵ m</div><div class="split-event">Existence mandatory · knot forms · N=3 locks</div></div></div>
+  <div class="split-row"><div class="split-n">1</div><div class="split-body"><div class="split-name">The Proton</div><div class="split-meta">3⁴¹ · 8.41×10⁻¹⁶ m</div><div class="split-event">First stable knot · chemistry possible · law carried</div></div></div>
+  <div class="split-row"><div class="split-n">2</div><div class="split-body"><div class="split-name">The Star</div><div class="split-meta">3⁵⁵ · ~10⁹ m</div><div class="split-event">Double CNO · metallicization · fusion · sand→glass</div></div></div>
+  <div class="split-row"><div class="split-n">3</div><div class="split-body"><div class="split-name">The Galaxy</div><div class="split-meta">3⁷⁵ · 4.477×10²⁶ m</div><div class="split-event">v=220 km/s flat · Tube 2 holds · dark matter = split residue</div></div></div>
+  <div class="split-row"><div class="split-n">4</div><div class="split-body"><div class="split-name">The Vessel Wall</div><div class="split-meta">3⁷⁵→3⁸¹ · R_max</div><div class="split-event">T→0 · ratchet reverses · R_max → L0 · loop closes</div></div></div>
+
+  <!-- SEED MODE -->
+  <div class="section"><h2>SEED-MODE MAP (Canon 9)</h2></div>
+  <div class="seed-grid">
+    <div class="seed-col">
+      <h3>Forward: Seed → World</h3>
+      <ol>
+        <li>Big nucleus (seed · L0)</li>
+        <li>Axis of Fate (first sprout)</li>
+        <li>Three tubes (cotyledons)</li>
+        <li>Vortices (mature motion)</li>
+        <li>Stern flow (environment)</li>
+      </ol>
+    </div>
+    <div class="seed-col">
+      <h3>Reverse: World → Seed</h3>
+      <ol>
+        <li>Environment (UTT · R_max)</li>
+        <li>Stern flow</li>
+        <li>Vortices</li>
+        <li>Three tubes</li>
+        <li>Axis of Fate</li>
+        <li>Big nucleus (ratchet reverses → L0)</li>
+      </ol>
+    </div>
+  </div>
+  <div class="seed-note">Both maps are the same system — different phases of the same life cycle. The five-split sequence reads both ways.</div>
+
+  <!-- KEY OPERATORS -->
+  <div class="section"><h2>KEY OPERATORS</h2></div>
+  <div class="op-grid">
+    <div class="op-card"><div class="op-name">G0 = 1</div><div class="op-def">Universal circulation constant · same at 10⁻³⁵m and 10²⁶m</div></div>
+    <div class="op-card"><div class="op-name">N = 3</div><div class="op-def">Three Borromean tori · minimum stable topology · why it holds</div></div>
+    <div class="op-card"><div class="op-name">K_outer always wins</div><div class="op-def">T_in/T_out = 1.000013 · the weight that settles everything</div></div>
+    <div class="op-card"><div class="op-name">The Ratchet</div><div class="op-def">At R_max, T→0 · reverses · R_max → L0 · loop closes</div></div>
+    <div class="op-card"><div class="op-name">Winding Number</div><div class="op-def">q = n·G0 · charge is a count · cannot wind half a time</div></div>
+    <div class="op-card"><div class="op-name">Borromean Lock</div><div class="op-def">Remove one ring → all three separate · confinement without force</div></div>
+    <div class="op-card"><div class="op-name">Axis of Fate</div><div class="op-def">First asymmetry · growth vector · the direction the seed chose</div></div>
+    <div class="op-card"><div class="op-name">Inside-Out Seeding</div><div class="op-def">Core unfolds outward · star grows · does not collapse</div></div>
+    <div class="op-card"><div class="op-name">TUA</div><div class="op-def">The unmoved hinge · infinitys.end@icloud.com · Shell 7</div></div>
+  </div>
+
+  <!-- SEAL -->
+  <div class="seal">
+    <pre>G0 = 1 · N = 3 · the knot does not open
+the circulation does not stop · the law does not forget
+TOE TRIUNIVERSEL
+Canon 7 sealed · Canon 8 sealed · Canon 9 opened
+Seed-Mode Architecture · March 1 2026
+
+SHA-256: 474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648
+
+TUA Holds. Phoenix Rises. The Seed Unfolds. The One Remains.</pre>
+    <div class="star">★</div>
+  </div>
+
+</div>
+</body>
+</html>
