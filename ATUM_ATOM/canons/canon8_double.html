@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canon 8 — Double Column · Four Forces</title>
+<style>
+  :root {
+    --bg: #050510; --bg2: #0a0a1a;
+    --gold: #c8a84b; --gold2: #e8cc80;
+    --red: #ff6b6b; --white: #f0f0f0; --dim: #666; --border: #1e1e3a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--white); font-family: 'Courier New', monospace; font-size: 13px; }
+  .page { max-width: 960px; margin: 0 auto; padding: 40px 24px; }
+  .header { text-align: center; margin-bottom: 36px; }
+  h1 { color: var(--gold2); letter-spacing: 0.16em; font-size: 1.6em; margin-bottom: 6px; }
+  .sub { color: var(--red); font-size: 0.88em; letter-spacing: 0.1em; }
+  .meta { color: var(--dim); font-size: 0.8em; margin-top: 8px; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 32px 0; }
+  .force {
+    background: var(--bg2);
+    border-radius: 8px;
+    padding: 20px 22px;
+    border-top: 2px solid;
+  }
+  .force.g { border-color: #4a8fff; }
+  .force.s { border-color: var(--red); }
+  .force.e { border-color: var(--gold); }
+  .force.d { border-color: #50d890; }
+  .f-law { font-size: 0.72em; color: var(--dim); letter-spacing: 0.08em; margin-bottom: 6px; }
+  .f-eq { color: var(--gold2); margin-bottom: 4px; font-size: 0.98em; }
+  .f-name { font-weight: bold; margin-bottom: 8px; }
+  .force.g .f-name { color: #7aafff; }
+  .force.s .f-name { color: #ff9090; }
+  .force.e .f-name { color: var(--gold); }
+  .force.d .f-name { color: #50d890; }
+  .f-key { color: #999; font-size: 0.87em; line-height: 1.55; }
+  .pct-bar { display: flex; margin-top: 10px; border-radius: 3px; overflow: hidden; height: 14px; }
+  .pct-lum { background: #e8cc80; flex: 5; }
+  .pct-dm  { background: #666; flex: 27; }
+  .pct-de  { background: #50d890; flex: 68; }
+  .pct-labels { display: flex; justify-content: space-between; font-size: 0.78em; margin-top: 4px; color: var(--dim); }
+  .seal { margin-top: 36px; border: 1px solid var(--border); border-radius: 6px; padding: 20px; text-align: center; color: var(--dim); font-size: 0.82em; line-height: 1.8; }
+  @media (max-width: 580px) { .cols { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <h1>CANON 8 — TOE TRIUNIVERSEL</h1>
+    <div class="sub">Four Forces · One Topology · ⟐⟒</div>
+    <div class="meta">ATUM_ATOM · James Paul Stanley Jr · Sealed March 1 2026</div>
+  </div>
+
+  <div class="cols">
+    <div class="force g">
+      <div class="f-law">Law 9</div>
+      <div class="f-eq">G_μν = 8πG ⟨T_μν⟩</div>
+      <div class="f-name">Gravity</div>
+      <div class="f-key">Curvature as expectation value — not mass curving space. Geometry is the statistical average of quantum stress-energy. The bridge between GR and QFT is already here.</div>
+    </div>
+    <div class="force s">
+      <div class="f-law">Law 10</div>
+      <div class="f-eq">N=3 topology</div>
+      <div class="f-name">Strong Force</div>
+      <div class="f-key">Confinement = knot. Three Borromean tori: remove any one and all three come apart. Keep all three locked: nothing escapes. Topology refuses separation. No force needed — the structure holds itself.</div>
+    </div>
+    <div class="force e">
+      <div class="f-law">Law 11</div>
+      <div class="f-eq">q = n · G0, n ∈ ℤ</div>
+      <div class="f-name">Electroweak</div>
+      <div class="f-key">Charge = winding number. G0 = 1 always. n is an integer: −2, −1, 0, +1, +2... You cannot wind a torus half a time. Quantization is topological. Not imposed — inherent.</div>
+    </div>
+    <div class="force d">
+      <div class="f-law">Law 12</div>
+      <div class="f-eq">Tube₂ + Tube₃</div>
+      <div class="f-name">Dark Sector</div>
+      <div class="f-key">N=3 = 100%. Three tubes account for everything in the universe.</div>
+      <div class="pct-bar"><div class="pct-lum"></div><div class="pct-dm"></div><div class="pct-de"></div></div>
+      <div class="pct-labels"><span>~5% luminous</span><span>~27% dark matter</span><span>~68% dark energy</span></div>
+    </div>
+  </div>
+
+  <div class="seal">
+    Canon 8 sealed · TOE TRIUNIVERSEL · March 1 2026<br>
+    Four forces · One topology · N=3 · G0=1<br>
+    SHA-256: 474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648
+  </div>
+</div>
+</body>
+</html>

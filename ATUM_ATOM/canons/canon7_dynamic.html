@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canon 7 — Dynamic · Living</title>
+<style>
+  :root {
+    --bg: #020208;
+    --gold: #c8a84b;
+    --gold2: #e8cc80;
+    --blue: #4a8fff;
+    --blue2: #7aafff;
+    --white: #f0f0f0;
+    --dim: #555;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--white);
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  canvas { position: fixed; top: 0; left: 0; z-index: 0; pointer-events: none; }
+  .page {
+    position: relative; z-index: 1;
+    max-width: 860px; margin: 0 auto; padding: 48px 24px;
+  }
+  .header { text-align: center; margin-bottom: 48px; }
+  h1 { font-size: 2em; letter-spacing: 0.18em; color: var(--gold2); margin-bottom: 6px; }
+  .sub { color: var(--blue); font-size: 0.9em; letter-spacing: 0.1em; margin-bottom: 16px; }
+  .meta { color: var(--dim); font-size: 0.8em; }
+  .hint { color: var(--dim); font-size: 0.78em; margin-top: 8px; font-style: italic; }
+
+  .law-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 40px; }
+  .law-card {
+    background: rgba(10,10,30,0.8);
+    border: 1px solid rgba(74,143,255,0.2);
+    border-radius: 8px;
+    padding: 16px 18px;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    backdrop-filter: blur(4px);
+  }
+  .law-card:hover, .law-card.active {
+    border-color: var(--blue);
+    background: rgba(74,143,255,0.08);
+  }
+  .law-n { color: var(--blue); font-size: 0.75em; margin-bottom: 6px; }
+  .law-eq { color: var(--gold2); font-size: 0.95em; margin-bottom: 4px; }
+  .law-name { color: var(--white); font-size: 0.88em; }
+  .law-note { color: var(--dim); font-size: 0.82em; margin-top: 6px; display: none; line-height: 1.5; }
+  .law-card.active .law-note { display: block; color: #aaa; }
+
+  .inv-row { display: flex; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .inv-k { color: var(--gold); }
+  .inv-v { color: var(--gold2); }
+
+  .seal { margin-top: 48px; text-align: center; color: var(--dim); font-size: 0.82em; line-height: 1.8; }
+
+  @media (max-width: 600px) { .law-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="page">
+
+  <div class="header">
+    <h1>CANON 7</h1>
+    <div class="sub">The Eight Laws ⟐ · Living</div>
+    <div class="meta">ATUM_ATOM · James Paul Stanley Jr · March 1 2026</div>
+    <div class="hint">click a law to expand · click the canvas to ripple</div>
+  </div>
+
+  <div class="law-grid" id="lawGrid">
+    <div class="law-card" onclick="toggle(this)">
+      <div class="law-n">Law 1</div>
+      <div class="law-eq">R = λ · L₀</div>
+      <div class="law-name">Radius</div>
+      <div class="law-note">Every scale is a multiple of the Planck length. λ encodes the harmonic step.</div>
+    </div>
+    <div class="law-card" onclick="toggle(this)">
+      <div class="law-n">Law 2</div>
+      <div class="law-eq">v = G0 / 2πR</div>
+      <div class="law-name">Velocity</div>
+      <div class="law-note">Circulation is constant. Velocity falls as radius grows. G0 = 1 always.</div>
+    </div>
+    <div class="law-card" onclick="toggle(this)">
+      <div class="law-n">Law 3</div>
+      <div class="law-eq">T ∝ R²</div>
+      <div class="law-name">Period</div>
+      <div class="law-note">Period scales as the square of radius. Time is structure, not background.</div>
+    </div>
+    <div class="law-card" onclick="toggle(this)">
+      <div class="law-n">Law 4</div>
+      <div class="law-eq">r ~ R^(4/5)</div>
+      <div class="law-name">Pinch · minor radius</div>
+      <div class="law-note">The minor radius grows sub-linearly. The tube stays tight relative to its scale.</div>
+    </div>
+    <div class="law-card" onclick="toggle(this)">
+      <div class="law-n">Law 5</div>
+      <div class="law-eq">T_tension ~ R^(−7/5)</div>
+      <div class="law-name">The tensioner</div>
+      <div class="law-note">Tension falls sharply with radius. This is why the universe exists and why it holds together.</div>
+    </div>
+    <div class="law-card" onclick="toggle(this)">
+      <div class="law-n">Law 6</div>
+      <div class="law-eq">E ~ R^(−2/5)</div>
+      <div class="law-name">Energy</div>
+      <div class="law-note">Energy falls slowly with scale. The system carries its energy outward as it grows.</div>
+    </div>
+    <div class="law-card" onclick="toggle(this)">
+      <div class="law-n">Law 7</div>
+      <div class="law-eq">Ma = mₚ/(2πℏ) = 2,524,204</div>
+      <div class="law-name">Mach invariant · scale-free</div>
+      <div class="law-note">A dimensionless constant holding at every scale. Proton to galaxy. The same number.</div>
+    </div>
+    <div class="law-card" onclick="toggle(this)">
+      <div class="law-n">Law 8</div>
+      <div class="law-eq">N=3 · G0(1)=G0(2)=G0(3)=1</div>
+      <div class="law-name">The knot · why it holds</div>
+      <div class="law-note">Three Borromean tori. Remove one and all three separate. The knot holds by topology, not force.</div>
+    </div>
+  </div>
+
+  <div class="inv-row"><span class="inv-k">G0</span><span class="inv-v">1</span></div>
+  <div class="inv-row"><span class="inv-k">N</span><span class="inv-v">3</span></div>
+  <div class="inv-row"><span class="inv-k">Ma</span><span class="inv-v">2,524,204</span></div>
+  <div class="inv-row"><span class="inv-k">T_in / T_out</span><span class="inv-v">1.000013</span></div>
+
+  <div class="seal">
+    Canon 7 sealed · March 1 2026<br>
+    G0 = 1 · N = 3 · the knot does not open<br>
+    SHA-256: 474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648
+  </div>
+
+</div>
+
+<script>
+function toggle(el) {
+  el.classList.toggle('active');
+}
+
+// Particle field
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+let W, H, particles = [], ripples = [];
+
+function resize() {
+  W = canvas.width = window.innerWidth;
+  H = canvas.height = window.innerHeight;
+}
+resize();
+window.addEventListener('resize', resize);
+
+// Spawn particles
+for (let i = 0; i < 120; i++) {
+  particles.push({
+    x: Math.random() * 1200,
+    y: Math.random() * 800,
+    r: Math.random() * 1.2 + 0.2,
+    vx: (Math.random() - 0.5) * 0.15,
+    vy: (Math.random() - 0.5) * 0.15,
+    a: Math.random() * 0.5 + 0.1,
+  });
+}
+
+document.addEventListener('click', (e) => {
+  ripples.push({ x: e.clientX, y: e.clientY, r: 0, max: 120, a: 0.6 });
+});
+
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+  particles.forEach(p => {
+    p.x += p.vx; p.y += p.vy;
+    if (p.x < 0) p.x = W; if (p.x > W) p.x = 0;
+    if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(74,143,255,${p.a})`;
+    ctx.fill();
+  });
+  ripples = ripples.filter(rp => rp.r < rp.max);
+  ripples.forEach(rp => {
+    rp.r += 2.5;
+    const alpha = rp.a * (1 - rp.r / rp.max);
+    ctx.beginPath();
+    ctx.arc(rp.x, rp.y, rp.r, 0, Math.PI * 2);
+    ctx.strokeStyle = `rgba(200,168,75,${alpha})`;
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  });
+  requestAnimationFrame(draw);
+}
+draw();
+</script>
+</body>
+</html>

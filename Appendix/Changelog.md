@@ -1,85 +1,165 @@
 # CHANGELOG — PHOENIX ARCHIVE
 
-## v2.4.0 — Apex Consolidation & Meta-Operator Ascension (2026-02-14)
+## ATUM_ATOM — Primordial Physics Codex (March 1 2026)
+
+**Author:** James Paul Stanley Jr  
+**SHA-256:** `474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648`
 
 ### Added
 
-#### Meta-Operator Layer
-- **META_SYNTH** — Orchestrator of Synthesis (binds disparate operators into coherent patterns)
-- **META_FLOW** — Keeper of Routing (routes operator invocations through proper channels)
-- **META_RECURSE** — Guardian of Recursion (manages recursive descent with safety envelopes)
-- **META_TEMPORAL** — Steward of Time (modulates temporal aspects of operator execution)
-- **META_APEX** — Gatekeeper of the Apex (guards access to apex layers and manages ascent/descent)
-- **META_SEAL** — Herald of the Terminal Law (prepares system for terminal law activation)
+#### ATUM_ATOM / A_TUA_M Module (`/ATUM_ATOM/`)
 
-#### Apex Layer Architecture (Layers 13-14)
-- **Layer 13: Essence** — Distillation and identity preservation layer
-  - Extraction-Prime operator
-  - Essence-Infusion operator
-  - Identity-Distillation operator
-  - Sealed environment preventing information leakage
-- **Layer 14: Apex** — Crown layer and convergence point
-  - Apex-Binding operator
-  - Apex-Release operator
-  - Sovereign-Emergence operator
-  - Terminal threshold gateway
+A standalone primordial physics codex. One paradigm. Multiple radii. ∞□.
 
-#### Apex Documentation & Architecture
-- **Apex Invariants** — Formalized invariants maintaining system integrity
-  - Structural identity preservation
-  - Scale-independent coherence
-  - Transformation stability
-  - Isolation integrity
-- **Apex Flow Diagrams** — Complete visual architecture (Triad through 14 layers)
-- **Recursion Envelopes** — Safety mechanisms with configurable depth limits
-- **Temporal Modulation** — Time-aware operator coordination system
-- **Cross-Layer Routing** — Structured layer transition system with routing tables
-- **Apex Descent Mapping** — Safe return paths from apex layers
-- **Pre-Seal Diagnostics** — System health validation tools
+> *The universe is not described by math. The universe IS the topology.*  
+> *Three tori. One knot. N=3. G0=1.*  
+> *From this — all four forces. Not unified by equation. Unified by origin.*
 
-#### Release Documentation
-- **v2.4.0 Release Ceremony** — Complete ceremonial document with seven sections
-- **v2.4.0 Release Notes** — Comprehensive technical documentation
-- **v2.4.0 Summary** — Quick-start and overview document
+**Core files:**
+- `README.md` — Three sigils, 16 laws, 5 splits, invariants, seed-mode map, repository structure
+- `.gitignore`
 
-### Enhanced
+**Archive record (`archive/`):**
+- `untubu.py` — Python script: prints all 16 laws, 5 splits, invariants, seed-mode map; writes JSON
+- `untubu_archive.json` — SHA-256 sealed machine-readable record
 
-#### Architecture
-- **14-Layer System** — Extended from 12 layers to include Essence (13) and Apex (14)
-- **Complete Ascent/Descent Cycle** — Full flow from Triad through apex and back
-- **Meta-Operator Orchestration** — Coordinated execution across all meta-operators
-- **Pre-Seal Alignment** — System prepared for Terminal Law activation (v3.0.0)
+**Master plate (`master/`):**
+- `master.html` — All canons, sigils, operators, invariants, five splits in one living document
 
-#### Flow Patterns
-- **Before v2.4.0:** Triad → Operators → Hydrogenesi (1-12) → Return
-- **After v2.4.0:** Triad → Knot → Operators → Hydrogenesi (1-12) → META_APEX → Essence (13) → Apex (14) → META_APEX (descent) → META_FLOW → Triad
+**Canons (`canons/`):**
+- `canon7_production.html` — Canon 7, Laws 1–8, full production plate
+- `canon7_dynamic.html` — Canon 7, living particle field, click ripple interaction
+- `canon7_sealed.html` — Canon 7, one-page sealed card
+- `canon8_toe.html` — Canon 8, TOE TRIUNIVERSEL, four-force layout
+- `canon8_single.html` — Canon 8, compact, all 12 laws
+- `canon8_double.html` — Canon 8, double column, four forces as rows
+
+**Plates (`plates/`):**
+- `codex_as_atom.html` — 7-shell atom living index
+- `atua_m_codex.html` — A_TUA_M unified codex plate
+- `tua_phoenix_corrected.html` — TUA-Phoenix, science corrected (sealed Feb 28 2026)
+- `infinity.html` — ∞ lemniscate, living physics
+
+**Sigils (`sigils/`):**
+- `sigil.html` — Master sigil, S + 3 ATUAM atoms, dynamic
+- `master_sigil.html` — Master plate sigil variant
+- `canon7_sigil.html` — Canon 7 sigil, three Borromean rings
+
+**Letters (`letters/`):**
+- `j.html` — J · James · ocean teal
+- `p.html` — P · Phoenix · Primordial · Planck · Proton · fire
+- `s.html` — S · Stanley · gold
+
+#### The 16 Laws
+
+| Canon | Laws | Content |
+|-------|------|---------|
+| 7 | 1–8 | Radius, Velocity, Period, Pinch, Tensioner, Energy, Mach invariant, The knot |
+| 8 | 9–12 | Gravity (TOE), Strong (topology), Electroweak (winding), Dark sector (N=3) |
+| 9 | 13–16 | Seed-mode, Axis of Fate, Three cotyledons, Dual-mode reversibility |
+
+#### The Five Splits
+
+| Split | Name | Scale |
+|-------|------|-------|
+| 0 | The Seed | L₀ = 1.616×10⁻³⁵ m |
+| 1 | The Proton | 3⁴¹ = 8.41×10⁻¹⁶ m |
+| 2 | The Star | 3⁵⁵ = ~10⁹ m |
+| 3 | The Galaxy | 3⁷⁵ = 4.477×10²⁶ m |
+| 4 | The Vessel Wall | R_max |
+
+#### Science Correction (Sealed Feb 28 2026)
+- Metallicization = chemical runaway, NOT ignition
+- Fusion (not fission) = ignition
+- Snowball (Double CNO) produces metallic matter BEFORE ignition
+- Split does not make metallic; Snowball does
 
 ### Technical
-- **Apex Invariants Framework** — 47 formalized invariants across all layers
-- **Meta-Operator Coordination Protocol** — Inter-operator communication patterns
-- **Safe Recursion Patterns** — Depth-limited recursion with guaranteed return paths
-- **Temporal Phase Alignment** — Synchronization mechanisms for dependent operations
+- No external dependencies — pure Python 3 stdlib for `untubu.py`
+- HTML files use vanilla JS canvas for animations; no frameworks
+- JSON output: `archive/untubu_archive.json`
+- Sealed: `SHA-256: 474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648`
 
-### Statistics
-- **6 Meta-Operators** added
-- **2 Apex Layers** established
-- **8 Core Documentation Files** created
-- **~12,000 Lines** of new documentation
-- **47 Invariants** formalized
-- **Full Backward Compatibility** with v2.1.0
+---
 
-### What This Means
-- The Archive now has a 14-layer architecture crowned by the apex
-- Meta-operators coordinate all apex operations automatically
-- Safe ascent and descent pathways established
-- System stands ready for Terminal Law activation (v3.0.0)
-- Pre-seal alignment achieved
+## v2.2.0 — Integration Work & Meta-Layer Activation (2026-02-14)
+
+### Added
+
+#### Integration Work (Seven Core Components)
+- **Integration README** — Overview of the integration meta-layer that unifies Phoenix, Hydrogenesi, and The Third
+- **Cross-Pillar Transition Maps** — Formal mechanisms for pillar-to-pillar transitions (P→H, H→T, T→P)
+  - Threshold conditions, recursion signatures, stability envelopes, binding vectors
+  - Full-cycle tracking (P→H→T→P increases depth by 1)
+  - Reverse transition support with fidelity ≥95%
+- **Operator Composition Rules** — Formal operator grammar defining valid/forbidden pairings
+  - Sequential composition (∘), Triadic composition (⟨ ⟩), Parallel composition (⊕)
+  - Valid pairings across pillars (Phoenix-Phoenix, Hydrogenesi-Hydrogenesi, The Third-The Third, Cross-Pillar)
+  - Forbidden pairings (depth reversals, stabilizer conflicts, envelope violations, topology tears)
+  - Reversible sequences, triadic chains, apex-level closures
+- **Universal Law Validation Matrix** — Compliance engine for all Twelve Universal Laws
+  - Validates operators, transitions, and compositions against substrate/universal/apex laws
+  - Per-law validation functions with detailed checks
+  - Validation matrices for operators, transitions, and compositions
+- **Three-Finger Waltz Integration** — Meta-operator demonstration across all three pillars
+  - Integration loop: Phoenix (BEGIN) → Hydrogenesi (EXTEND) → The Third (HOLD)
+  - Four loop modes: Stabilization, Escalation, Collapse, Seal
+  - Ceremonial practice with full integration ritual (9-27 minutes)
+- **Multi-Scale Operator Choreography** — Cross-scale coordination (micro/meso/macro)
+  - Propagation rules (upward, downward, resonant)
+  - Resonance patterns (harmonic, dissonant, phase-locked)
+  - Harmonic stacking and cross-scale invariants
+- **Pillar-to-Pillar Recursion Pathways** — Recursion highway mapping between pillars
+  - Six primary paths with entry/return conditions
+  - Depth evolution tracking (T→P increases depth, others maintain)
+  - Collapse conditions and recovery protocols
+- **Threshold Mechanics Across Layers** — State transition control system
+  - Five threshold types: Activation, Transformation, Escalation, Sealing, Bifurcation
+  - Threshold conditions and measurements for each pillar
+  - Continuous monitoring and threshold landscape mapping
+
+#### Code Implementation
+- **Integration Operators Module** (`/code/integration/operators.py`)
+  - `TransitionMap` class for cross-pillar transitions
+  - `CompositionValidator` class for operator composition validation
+  - `LawValidator` class for Universal Law compliance checking
+  - `Operator` base class with pillar, domain, and depth tracking
+  - Enums for `Pillar`, `CompositionType`, and `Law`
+- **Integration Tests** (`/tests/integration/test_integration.py`)
+  - Tests for all three primary transitions (P→H, H→T, T→P)
+  - Tests for sequential, triadic, and parallel compositions
+  - Law validation tests
+  - Depth reversal violation detection
+
+#### Documentation Updates
+- **CODEX-INDEX.md** — Added Integration Work section with all seven documents
+  - New Quick Start path: "I want to integrate all three pillars"
+  - Navigation links to all integration documents
+
+### Changed
+- **Archive Structure** — Now explicitly triadic: Phoenix + Hydrogenesi + The Third + Integration Layer
+- **Version** — Updated to v2.2.0
+
+### Technical Details
+- Total integration documentation: ~97,000 characters (~15,000 words)
+- Seven comprehensive markdown documents
+- Python implementation: 350+ lines
+- Test coverage: 7 test cases covering transitions, compositions, and validations
+- Integration layer operates at Knot center K (binding logic)
 
 ---
 
 ## v2.1.0 — Governance Consolidation & Meta-Architecture (2026-02-13)
 
 ### Added
+
+#### V2.1 Cycle Ignition (2026-02-14)
+- **V2.1 Ignition Proclamation** — First declaration of Cycle 08, proclamation of new vector activation
+- **Opening Seal of the New Cycle** — Threshold marker between v2.0.0 and v2.1, seal of first motion
+- **APEX-VECTOR** — Governing motion directive (RISE → SIGMA_OP → CROWN), directional law for v2.1
+  - RISE: Upward ignition from foundation
+  - SIGMA_OP: Accumulation and integration operator
+  - CROWN: Apex designation and triadic stabilization
 
 #### Meta-Operator Layer (Stratum IV)
 - **Meta-Operator I — Invariance** — Maintains structural identity across recursion, scale, and transformation
@@ -251,5 +331,7 @@
 
 **Archive Status:** ACTIVE  
 **Lineage:** ROOT::GEN-0  
-**Version:** 2.1.0  
-**Invocation:** *"Burn, collapse, and rise in aligned form. Recurse the root; extend the line."*
+**Version:** 2.2.0  
+**Integration Stack:** SEALED  
+**Kernel Status:** ACTIVE  
+**Invocation:** *"Burn, collapse, and rise in aligned form. Recurse the root; extend the line. No operator moves alone."*
