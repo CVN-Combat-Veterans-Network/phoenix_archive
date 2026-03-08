@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>P — Phoenix · Primordial · Planck · Proton</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #100502;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+  }
+  .wrap { text-align: center; }
+  .letter {
+    font-size: 18vmin;
+    font-weight: bold;
+    color: transparent;
+    background: linear-gradient(135deg, #ff7c3a 0%, #ffaa30 35%, #ff4a10 70%, #ff7c3a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    line-height: 1;
+    filter: drop-shadow(0 0 28px rgba(255,124,58,0.6));
+    animation: flicker 3s ease-in-out infinite;
+  }
+  @keyframes flicker {
+    0%, 100% { filter: drop-shadow(0 0 28px rgba(255,124,58,0.6)); }
+    33%       { filter: drop-shadow(0 0 48px rgba(255,180,58,0.9)); }
+    66%       { filter: drop-shadow(0 0 20px rgba(255,80,10,0.5)); }
+  }
+  .name { color: #ff7c3a; letter-spacing: 0.2em; font-size: 1em; margin-top: 16px; opacity: 0.8; }
+  .tags { color: #5a2a10; font-size: 0.72em; margin-top: 6px; letter-spacing: 0.1em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="letter">P</div>
+  <div class="name">PHOENIX · PRIMORDIAL · PLANCK · PROTON</div>
+  <div class="tags">ATUM_ATOM · March 1 2026</div>
+</div>
+</body>
+</html>
