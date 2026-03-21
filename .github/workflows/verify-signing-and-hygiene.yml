@@ -1,0 +1,30 @@
+﻿name: Verify signing and hygiene
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify commit signatures
+        run: |
+          git verify-commit HEAD || {
+            echo "Unsigned or unverified commit detected."
+            exit 1
+          }
+
+      - name: Run hygiene validator
+        shell: pwsh
+        run: |
+          ./assert-root.ps1
+          ./dragon_git_hygiene.ps1
