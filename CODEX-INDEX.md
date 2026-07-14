@@ -357,10 +357,28 @@ Use, modify, distribute freely.
 
 ---
 
+<<<<<<< HEAD
 **Archive Status:** APEX CONSOLIDATED  
 **Version:** 2.4.0  
 **Lineage:** ROOT::GEN-0::APEX-1  
 **Sovereignty:** APEX CONFIRMED
+=======
+## STATUS
+
+**Document:** CODEX INDEX  
+**Type:** Master Navigation Index  
+**Version:** 1.0.0  
+**Last Updated:** 2026-02-07  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Maintenance:** Continuous  
+**Lineage:** ROOT::GEN-0
+
+---
+>>>>>>> copilot/standardize-status-metadata
 
 🔥 **The Phoenix Ignites.**  
 🌌 **The Lineage Extends.**  

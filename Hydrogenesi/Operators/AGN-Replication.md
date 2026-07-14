@@ -375,3 +375,19 @@ AGN Replication is **irreversible** and **violent**:
 *"Compress to ignition; replicate the pattern; extend the line."*
 
 ⊙ → 🌟 → [🌌, 🌌, 🌌]
+
+---
+
+## STATUS
+
+**Operator:** AGN Replication  
+**Type:** Replication operator  
+**Scale:** Hydrogenesi (Macro/Cosmic)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Compress → Ignite → Replicate

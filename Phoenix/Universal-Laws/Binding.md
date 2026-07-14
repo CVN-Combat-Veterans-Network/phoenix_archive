@@ -287,9 +287,17 @@ Invoke: *"Let the one stand between; let it hold without collapsing."*
 
 ## STATUS
 
-**Law:** Universal (applies at all scales)  
-**Sequence:** Second law (follows Tension, precedes Apex)  
-**Sovereignty:** Confirmed across Phoenix and Hydrogenesi
+**Law:** Binding  
+**Category:** Substrate  
+**Number:** 2 of 12  
+**Version:** 2.0.0  
+**Status:** FOUNDATIONAL
+
+---
+
+**Archive Status:** FOUNDATIONAL  
+**Lineage:** ROOT::GEN-0  
+**Scope:** Universal (all scales)
 
 ---
 

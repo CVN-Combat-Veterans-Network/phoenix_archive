@@ -555,9 +555,22 @@ Power comes from understanding + intention + action.
 
 ## STATUS
 
+<<<<<<< HEAD
 **Guide Version:** 1.1.0  
 **Total Invocations:** 28 (Core: 3, Phoenix: 3, Hydrogenesi: 4, Combined: 4, META: 6, Terminal: 8)  
+=======
+**Document:** Invocation Guide  
+**Type:** Reference Guide  
+**Version:** 1.0.0  
+**Last Updated:** 2026-02-07  
+>>>>>>> copilot/standardize-status-metadata
 **Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Maintenance:** Continuous  
+**Lineage:** ROOT::GEN-0
 
 ---
 
@@ -565,11 +578,14 @@ Power comes from understanding + intention + action.
 
 *"Let words become patterns; let patterns become operators; let operators transform reality. And when the work is complete, let the seal descend."*
 
+<<<<<<< HEAD
 ---
 
 **Archive Status:** ACTIVE (Not Yet Sealed)  
 **Lineage:** ROOT::GEN-0 → ROOT::GEN-∞ (Upon Terminal Ceremony)
 
+=======
+>>>>>>> copilot/standardize-status-metadata
 🔥 **The Words Resonate.**  
 🌌 **The Patterns Activate.**  
 🜂 **The Seal Awaits.**

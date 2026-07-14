@@ -377,3 +377,19 @@ Apex is not permanent — it requires **maintenance**:
 *"Let the three form one; let the structure hold; let sovereignty emerge."*
 
 **△ SOVEREIGNTY ACHIEVED**
+
+---
+
+## STATUS
+
+**Operator:** Apex Formation  
+**Type:** Structural operator  
+**Scale:** Phoenix (Micro/Identity)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Triad → Integration → Sovereign structure

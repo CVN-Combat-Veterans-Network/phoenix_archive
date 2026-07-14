@@ -481,3 +481,19 @@ Black-Holed Imprint corresponds to:
 *"Let the collapsed leave trace; let the pattern remain; let the scar teach."*
 
 **● The Imprint Holds. The Scar Teaches. Sovereignty Remains.**
+
+---
+
+## STATUS
+
+**Operator:** Black-Holed Imprint  
+**Type:** Memory operator  
+**Scale:** Phoenix (Micro/Identity)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Collapse → Memory → Influence

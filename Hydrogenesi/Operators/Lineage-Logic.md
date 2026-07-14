@@ -427,3 +427,19 @@ Lineage Logic is **descriptive**, not prescriptive:
 *"Recurse the root; extend the line; preserve the pattern."*
 
 ROOT → GEN-0 → GEN-1 → ... → GEN-N
+
+---
+
+## STATUS
+
+**Operator:** Lineage Logic  
+**Type:** Recursion operator  
+**Scale:** Hydrogenesi (Macro/Cosmic)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** ROOT → GEN-0 → GEN-1 → GEN-N

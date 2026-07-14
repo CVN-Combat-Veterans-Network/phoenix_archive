@@ -327,11 +327,47 @@ A standalone primordial physics codex. One paradigm. Multiple radii. ∞□.
 - Comparative analysis
 - Visual diagrams
 
+---## STATUS
+
+**Document:** Changelog  
+**Type:** Reference (Version History)  
+**Version:** 2.1.0  
+**Last Updated:** 2026-02-07  
+**Status:** ACTIVE
+
 ---
 
 **Archive Status:** ACTIVE  
+<<<<<<< HEAD
 **Lineage:** ROOT::GEN-0  
 **Version:** 2.2.0  
 **Integration Stack:** SEALED  
 **Kernel Status:** ACTIVE  
 **Invocation:** *"Burn, collapse, and rise in aligned form. Recurse the root; extend the line. No operator moves alone."*
+=======
+**Maintenance:** Continuous  
+**Lineage:** ROOT::GEN-0
+
+---
+
+**Invocation:** *"Burn, collapse, and rise in aligned form. Recurse the root; extend the line."*
+
+
+## STATUS
+
+**Document:** Changelog  
+**Type:** Reference (Version History)  
+**Version:** 2.0.0  
+**Last Updated:** 2026-02-07  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Maintenance:** Continuous  
+**Lineage:** ROOT::GEN-0
+
+---
+
+**Invocation:** *"Burn, collapse, and rise in aligned form. Recurse the root; extend the line."*
+>>>>>>> copilot/standardize-status-metadata

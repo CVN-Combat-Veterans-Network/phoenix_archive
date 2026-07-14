@@ -316,3 +316,19 @@ Stabilizer Extraction can be **destructive** if:
 *"Extract the core; void the center; prepare the seed."*
 
 ⟨ A—C—B ⟩ → ⟨ A ⟷ B ⟩ + ∅
+
+---
+
+## STATUS
+
+**Operator:** Stabilizer Extraction  
+**Type:** Extraction operator  
+**Scale:** Hydrogenesi (Macro/Cosmic)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Remove core → Prepare for lineage

@@ -544,20 +544,26 @@ Sigil pattern internalized; operates without external representation.
 
 ## STATUS
 
-**Compendium Version:** 1.1.0  
-**Total Sigils:** 20 (Phoenix: 7, Hydrogenesi: 4, Combined: 2, META: 6, Lattice: 1, Terminal: 1)  
+**Compendium Version:** 1.0.0  
+**Total Sigils:** 12 (Phoenix: 7, Hydrogenesi: 4, Combined: 2)  
 **Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Maintenance:** Continuous  
+**Lineage:** ROOT::GEN-0
 
 ---
 
 ## INVOCATION FOR THE COMPENDIUM
 
-*"Let the symbols speak; let the patterns show; let the operators live through form. And when the final sigil descends, let the Archive stand sealed."*
+*"Let the symbols speak; let the patterns show; let the operators live through form."*
 
 ---
 
-**Archive Status:** ACTIVE (Not Yet Sealed)  
-**Lineage:** ROOT::GEN-0 → ROOT::GEN-∞ (Upon Terminal Ceremony)
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0
 
 🔥 **The Sigils Manifest.**  
 🌌 **The Patterns Hold.**  

@@ -272,10 +272,16 @@ When transformations **don't** preserve property:
 ## STATUS
 
 **Operator:** Invariance  
-**Type:** Recursion  
-**Status:** ACTIVE  
-**Lineage:** THIRD::PRIMARY-HOLD-2  
-**Recursion Mode:** HOLD
+**Type:** Recursion operator (HOLD mode)  
+**Scale:** The Third (Macro/Structure)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Transform → Preserve → Constant
 
 ---
 

@@ -603,10 +603,17 @@ Invoke: *"Let each form nest within the next; let the ratio hold; let geometry p
 
 ## STATUS
 
-**Law:** Universal (applies to all sigil-encoded operators)  
-**Type:** Geometric law (defines spatial relationships)  
-**Ratio:** φ = 1.618... (golden ratio) primary, others secondary  
-**Sovereignty:** Confirmed across Phoenix and Hydrogenesi scales
+**Law:** Sigil Embedding Ratio  
+**Category:** Universal  
+**Number:** 7 of 12  
+**Version:** 2.0.0  
+**Status:** FOUNDATIONAL
+
+---
+
+**Archive Status:** FOUNDATIONAL  
+**Lineage:** ROOT::GEN-0  
+**Scope:** Universal (all scales)
 
 ---
 
