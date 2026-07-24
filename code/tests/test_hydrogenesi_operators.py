@@ -1,11 +1,13 @@
 """Tests for Hydrogenesi operators."""
 from __future__ import annotations
 import pytest
+import math
 from code.hydrogenesi.operators import (
     StabilizerExtraction,
     AGNReplication,
     CurvatureResidue,
     LineageLogic,
+    HarmonicRecursion,
 )
 
 
@@ -127,3 +129,175 @@ class TestLineageLogic:
         for gen in lineage:
             assert root in gen
             assert "::gen-" in gen
+
+
+class TestHarmonicRecursion:
+    """Test Harmonic Recursion operator (v2.3)."""
+
+    def test_harmonic_basic(self):
+        """Test basic harmonic recursion."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=1.0, damping=0.1)
+        result = harmonic.apply(n=5, max_depth=10)
+        
+        assert result["generation"] == 5
+        assert "normalized_depth" in result
+        assert 0 <= result["normalized_depth"] <= 10
+        assert result["pattern"] == "harmonic_recursion"
+        assert result["recursion_mode"] == "harmonic"
+
+    def test_harmonic_at_zero(self):
+        """Test harmonic recursion at generation 0."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=1.0, damping=0.1)
+        result = harmonic.apply(n=0, max_depth=10)
+        
+        # sin(0) = 0, so depth should be near zero
+        assert abs(result["raw_depth"]) < 0.001
+        assert result["normalized_depth"] >= 0
+
+    def test_harmonic_frequency_control(self):
+        """Test frequency parameter control."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=1.0, damping=0.1)
+        
+        # Test set_frequency
+        harmonic.set_frequency(2.0)
+        assert harmonic.frequency == 2.0
+        
+        # Test invalid frequency
+        with pytest.raises(ValueError):
+            harmonic.set_frequency(-1.0)
+        
+        with pytest.raises(ValueError):
+            harmonic.set_frequency(0.0)
+
+    def test_harmonic_amplitude_modulation(self):
+        """Test amplitude parameter control."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=1.0, damping=0.1)
+        
+        # Test set_amplitude
+        harmonic.set_amplitude(2.0)
+        assert harmonic.amplitude == 2.0
+        
+        # Test modulate_amplitude
+        new_amp = harmonic.modulate_amplitude(1.5)
+        assert new_amp == 3.0
+        assert harmonic.amplitude == 3.0
+        
+        # Test invalid amplitude
+        with pytest.raises(ValueError):
+            harmonic.set_amplitude(-1.0)
+        
+        with pytest.raises(ValueError):
+            harmonic.modulate_amplitude(0.0)
+
+    def test_harmonic_damping_control(self):
+        """Test damping parameter control."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=1.0, damping=0.1)
+        
+        # Test set_damping
+        harmonic.set_damping(0.2)
+        assert harmonic.damping == 0.2
+        
+        # Test invalid damping (negative)
+        with pytest.raises(ValueError):
+            harmonic.set_damping(-0.1)
+        
+        # Zero damping should be valid
+        harmonic.set_damping(0.0)
+        assert harmonic.damping == 0.0
+
+    def test_harmonic_damping_factor(self):
+        """Test damping factor calculation."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=1.0, damping=0.1)
+        
+        # At generation 0, damping factor should be 1.0
+        factor_0 = harmonic.calculate_damping_factor(0)
+        assert abs(factor_0 - 1.0) < 0.001
+        
+        # At later generations, should decay exponentially
+        factor_10 = harmonic.calculate_damping_factor(10)
+        expected = math.exp(-0.1 * 10)
+        assert abs(factor_10 - expected) < 0.001
+        assert factor_10 < factor_0
+
+    def test_harmonic_frequency_characteristics(self):
+        """Test frequency characteristics extraction."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=1.0, damping=0.1)
+        
+        chars = harmonic.get_frequency_characteristics()
+        assert "frequency" in chars
+        assert "period" in chars
+        assert "cycles_per_unit" in chars
+        assert "category" in chars
+        assert chars["frequency"] == 1.0
+
+    def test_harmonic_amplitude_characteristics(self):
+        """Test amplitude characteristics extraction."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=2.0, damping=0.1)
+        
+        chars = harmonic.get_amplitude_characteristics()
+        assert "amplitude" in chars
+        assert "max_potential_depth" in chars
+        assert "category" in chars
+        assert "energy_level" in chars
+        assert chars["amplitude"] == 2.0
+
+    def test_harmonic_damping_characteristics(self):
+        """Test damping characteristics extraction."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=1.0, damping=0.1)
+        
+        chars = harmonic.get_damping_characteristics()
+        assert "damping" in chars
+        assert "half_life" in chars
+        assert "decay_rate" in chars
+        assert "category" in chars
+        assert chars["damping"] == 0.1
+        
+        # Half-life should be ln(2)/damping
+        expected_half_life = math.log(2) / 0.1
+        assert abs(chars["half_life"] - expected_half_life) < 0.001
+
+    def test_harmonic_energy_conservation(self):
+        """Test that damping enforces energy conservation."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=5.0, damping=0.2)
+        
+        # Get depths at increasing generations
+        depths = []
+        for n in range(0, 20, 2):
+            result = harmonic.apply(n, max_depth=100)
+            depths.append(abs(result["raw_depth"]))
+        
+        # Check that amplitude generally decreases due to damping
+        # (accounting for oscillations, check trend)
+        later_avg = sum(depths[-3:]) / 3
+        earlier_avg = sum(depths[:3]) / 3
+        assert later_avg < earlier_avg
+
+    def test_harmonic_max_depth_clamping(self):
+        """Test that normalized depth is clamped to max_depth."""
+        # Use very high amplitude to test clamping
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=100.0, damping=0.01)
+        
+        max_depth = 5
+        result = harmonic.apply(n=2, max_depth=max_depth)
+        
+        # Normalized depth should never exceed max_depth
+        assert result["normalized_depth"] <= max_depth
+        assert result["normalized_depth"] >= 0
+
+    def test_harmonic_invalid_generation(self):
+        """Test that negative generation raises error."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=1.0, damping=0.1)
+        
+        with pytest.raises(ValueError):
+            harmonic.apply(n=-1, max_depth=10)
+
+    def test_harmonic_invalid_max_depth(self):
+        """Test that invalid max_depth raises error."""
+        harmonic = HarmonicRecursion(frequency=1.0, amplitude=1.0, damping=0.1)
+        
+        with pytest.raises(ValueError):
+            harmonic.apply(n=5, max_depth=0)
+        
+        with pytest.raises(ValueError):
+            harmonic.apply(n=5, max_depth=-5)
+
