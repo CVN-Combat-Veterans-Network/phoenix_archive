@@ -1,0 +1,138 @@
+:root {
+  --bg-dark: #0e0e0e;
+  --bg-light: #fafafa;
+  --text-light: #eaeaea;
+  --text-dark: #1a1a1a;
+  --accent-gold: #d4a857;
+  --accent-silver: #c0c0c0;
+  --font-body: "EB Garamond", "Crimson Pro", serif;
+  --font-head: "Cinzel", "Cormorant Garamond", serif;
+  --font-glyph: "Noto Sans Symbols 2", "Segoe UI Symbol", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.45;
+  background: var(--bg-dark);
+  color: var(--text-light);
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-head);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin: 0 0 0.9rem;
+}
+
+.glyph-line {
+  font-family: var(--font-glyph);
+  text-align: center;
+  color: var(--accent-silver);
+  margin: 1.5rem 0;
+}
+
+.glyph-line--nucleus {
+  letter-spacing: 0.3em;
+}
+
+.glyph-line--apex {
+  letter-spacing: 0.25em;
+}
+
+.quote {
+  font-style: italic;
+  text-align: center;
+  margin: 1.5rem 0;
+  color: var(--accent-silver);
+}
+
+.section-separator {
+  font-family: var(--font-glyph);
+  text-align: center;
+  margin: 2rem 0;
+  color: var(--accent-silver);
+}
+
+.section-separator--nucleus::before {
+  content: "⟡──────────⟡──────────⟡";
+}
+
+.section-separator--apex::before {
+  content: "▲──────────▲──────────▲";
+}
+
+.title-frame {
+  border-top: 1px solid var(--accent-silver);
+  border-bottom: 1px solid var(--accent-silver);
+  padding: 1.2rem 0;
+  margin: 2rem 0 1.5rem;
+  text-align: center;
+}
+
+.title-frame__glyph {
+  font-family: var(--font-glyph);
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--accent-gold);
+}
+
+.title-frame__text {
+  font-family: var(--font-head);
+  font-size: 1.4rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.nav-volume, .nav-book {
+  margin: 0.5rem 0;
+}
+
+.nav-volume a, .nav-book a {
+  color: var(--accent-gold);
+  text-decoration: none;
+}
+
+.nav-volume a:hover, .nav-book a:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: var(--bg-light);
+    color: var(--text-dark);
+  }
+  h1, h2, h3 {
+    color: #b3832f;
+  }
+  .glyph-line, .section-separator {
+    color: #777777;
+  }
+}

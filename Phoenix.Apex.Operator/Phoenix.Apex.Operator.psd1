@@ -1,0 +1,1 @@
+@{RootModule='Phoenix.Apex.Operator.psm1';ModuleVersion='1.0.0';GUID='00000000-0000-0000-0000-000000000000';Author='James';CompanyName='Phoenix';Description='Phoenix Apex Operator Loader';PowerShellVersion='5.1';FunctionsToExport=@('Invoke-PhoenixNod','Get-PhoenixNod')}
