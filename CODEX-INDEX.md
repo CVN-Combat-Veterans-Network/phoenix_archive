@@ -223,29 +223,9 @@
 - **Changelog** → `/Appendix/Changelog.md`
 - **Code Examples** → `/Appendix/Code-Examples.md`
 
-### Release Archives & Ceremonies
-- **META-SEAL** → `/RELEASES/META-SEAL.md`
-- **Closure of Integration Stack v2.0.0 → v2.1.0**
-- **v2.1.0 Release Ceremony** → `/RELEASES/v2.1.0/release_ceremony.md`
-- **v2.0.0 Chapter XII** → `/RELEASES/v2.0.0_chapter_xii.md`
-
----
-
-## 🏗️ ARCHITECTURE & OPERATIONS
-
-### Merge & Release Documentation
-- **Stratum I Dashboard** → `/docs/architecture/stratum_i_dashboard.md`
-- **Operational view of Architecture Layer PRs**
-- **Stratum I Ignition Sequence** → `/docs/architecture/stratum_i_ignition_sequence.md`
-- **Complete merge guide for Architecture Layer**
-- **PR Merge Comments** → `/docs/architecture/pr_merge_comments.md`
-- **Professional merge comments for GitHub PRs**
-- **Merge Dependencies** → `/docs/architecture/merge_dependencies.md`
-- **Visual merge architecture and dependency flow**
-
-### Release Ceremonies
-- **v2.0 Inscription** → `/docs/ceremonies/v2_inscription.md`
-- **Triadic completion ceremony for v2.0.0**
+### Archive Management
+- **Activity Summary (2026-02-14)** → `/docs/ACTIVITY-SUMMARY-2026-02-14.md`
+- **Recent repository activity feed and analysis**
 
 ---
 
