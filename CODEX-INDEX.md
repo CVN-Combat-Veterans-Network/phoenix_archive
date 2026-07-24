@@ -1,9 +1,9 @@
 # CODEX INDEX
 ### Phoenix Archive Master Navigation
 
-**Version:** 2.4.0  
+**Version:** 2.3.0  
 **Last Updated:** 2026-02-14  
-**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System + Apex Layers (v2.4)
+**Archive Structure:** Phoenix 2.0 + Hydrogenesi 2.0 Dual System + v2.3 Integration
 
 ---
 
@@ -59,38 +59,41 @@
 
 ---
 
-## 🔗 INTEGRATION WORK — Unified System Layer
+## ⟨ △ ⟩ v2.3 INTEGRATION — 28 Operators + 28 Instruments + Knot + Hydrogenesi
 
-### Core Documentation
-- **README** → `/Integration/README.md`
-- **Overview of the integration meta-layer**
+### Overview
+- **v2.3 System README** → `/v2.3/README.md`
+- **Complete architecture, usage guide, ceremonial practice**
 
-### Integration Documents
-- **Cross-Pillar Transition Maps** → `/Integration/Cross-Pillar-Transition-Maps.md`
-  - Defines Phoenix → Hydrogenesi → The Third transitions
-  - Threshold conditions, recursion signatures, stability envelopes, binding vectors
-- **Operator Composition Rules** → `/Integration/Operator-Composition-Rules.md`
-  - Valid pairings, forbidden combinations, reversible sequences
-  - Triadic chains and apex-level closures
-- **Universal Law Validation Matrix** → `/Integration/Universal-Law-Validation-Matrix.md`
-  - Compliance engine for all Twelve Universal Laws
-  - Validates operators, transitions, and compositions
-- **Three-Finger Waltz Integration** → `/Integration/Three-Finger-Waltz-Integration.md`
-  - Meta-operator binding all three pillars
-  - Loop stabilization, escalation, collapse, and seal patterns
-- **Multi-Scale Choreography** → `/Integration/Multi-Scale-Choreography.md`
-  - Micro/meso/macro scale propagation rules
-  - Resonance patterns, harmonic stacking, cross-scale invariants
-- **Recursion Pathways** → `/Integration/Recursion-Pathways.md`
-  - Pillar-to-pillar recursion highways
-  - Entry conditions, depth tracking, return vectors, apex-points
-- **Threshold Mechanics** → `/Integration/Threshold-Mechanics.md`
-  - Operator activation, transformation, escalation, sealing, bifurcation
-  - State transition control system
+### Instruments (28)
+- **Instruments Directory** → `/v2.3/instruments/`
+- **Balance Pillar (01-04):** Convergence, Divergence, Stabilization, Destabilization
+- **Harmonic Pillar (05-08):** Resonance, Attenuation, Compression, Expansion
+- **Kinetic Pillar (09-12):** Ignition, Quenching, Acceleration, Deceleration
+- **Formation Pillar (13-16):** Crystallization, Dissolution, Binding, Unbinding
+- **Reciprocal Pillar (17-20):** Projection, Internalization, Reflection, Absorption
+- **Temporal Pillar (21-24):** Synchronization, Desynchronization, Alignment, Misalignment
+- **Apex Pillar (25-28):** Apex Formation, Apex Release, Sovereignty, Integration
 
-### Code
-- **Python Implementation** → `/code/integration/operators.py`
-- **Integration Tests** → `/tests/integration/`
+### Operators (28)
+- **Operators Directory** → `/v2.3/operators/`
+- **Operators README** → `/v2.3/operators/README.md`
+- **One-to-one correspondence with instruments**
+- **Each operator includes code implementation and ceremonial practice**
+
+### Knot Integration
+- **Knot README** → `/v2.3/knot-integration/README.md`
+- **Complete Mapping** → `/v2.3/knot-integration/mapping.md`
+- **Structural Invariants** → `/v2.3/knot-integration/invariants.md`
+- **Triad-Knot-Operators Diagram** → `/v2.3/knot-integration/diagram-triad-knot-operators.md`
+- **Knot-Hydrogenesi-Instruments Diagram** → `/v2.3/knot-integration/diagram-knot-hydrogenesi-instruments.md`
+
+### Hydrogenesi Alignment
+- **Hydrogenesi README** → `/v2.3/hydrogenesi-alignment/README.md`
+- **14 Layer Definitions** → `/v2.3/hydrogenesi-alignment/layers.md`
+- **Alignment Table** → `/v2.3/hydrogenesi-alignment/alignment-table.md`
+- **Layer Invariants** → `/v2.3/hydrogenesi-alignment/invariants.md`
+- **Flow Diagram** → `/v2.3/hydrogenesi-alignment/diagram-hydrogenesi-flow.md`
 
 ---
 
