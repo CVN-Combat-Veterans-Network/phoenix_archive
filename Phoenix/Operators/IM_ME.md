@@ -320,3 +320,19 @@ IM_ME can be destabilizing if:
 *"I am the one who sees; I am the one who is seen."*
 
 I ⟷ ME
+
+---
+
+## STATUS
+
+**Operator:** IM_ME  
+**Type:** Recursion operator  
+**Scale:** Phoenix (Micro/Identity)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** I → ME → I → ME (recursive identity formation)

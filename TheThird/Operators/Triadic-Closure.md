@@ -600,10 +600,16 @@ Triadic Closure + Apex Knot → Maximum convergence enforcement
 ## STATUS
 
 **Operator:** Triadic Closure  
-**Type:** Unification  
-**Status:** ACTIVE  
+**Type:** Unification operator  
+**Scale:** The Third (Triadic/Knot)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
 **Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Pattern:** Three Pillars + Knot → Complete unification
 
 ---
 

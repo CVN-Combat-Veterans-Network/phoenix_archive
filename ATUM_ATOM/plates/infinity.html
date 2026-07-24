@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infinity — ∞ Lemniscate · Living Physics</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #020208;
+    color: #f0f0f0;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  h1 { color: #e8cc80; letter-spacing: 0.2em; font-size: 1.5em; margin-bottom: 8px; text-align: center; }
+  .sub { color: #555; font-size: 0.82em; margin-bottom: 40px; text-align: center; }
+
+  canvas { display: block; }
+
+  .labels { margin-top: 32px; display: flex; gap: 32px; justify-content: center; flex-wrap: wrap; text-align: center; }
+  .lbl { }
+  .lbl-sym { font-size: 2em; color: #c8a84b; }
+  .lbl-txt { color: #666; font-size: 0.78em; margin-top: 4px; }
+
+  .eqns { margin-top: 32px; text-align: center; color: #555; font-size: 0.82em; line-height: 2; }
+  .eqn { color: #c8a84b; }
+
+  .footer { margin-top: 40px; text-align: center; color: #333; font-size: 0.78em; }
+</style>
+</head>
+<body>
+<h1>∞</h1>
+<div class="sub">Lemniscate · Living Physics · ATUM_ATOM</div>
+
+<canvas id="c" width="520" height="260"></canvas>
+
+<div class="labels">
+  <div class="lbl"><div class="lbl-sym">▱</div><div class="lbl-txt">Polarity<br>Both sides · always</div></div>
+  <div class="lbl"><div class="lbl-sym">⟐</div><div class="lbl-txt">Identity<br>G0=1 at every scale</div></div>
+  <div class="lbl"><div class="lbl-sym">⟒</div><div class="lbl-txt">Continuity<br>The split replicates</div></div>
+</div>
+
+<div class="eqns">
+  <span class="eqn">R_max → L₀ → R_max → L₀ → ...</span><br>
+  The ratchet reverses. The loop does not break. The law does not forget.
+</div>
+
+<div class="footer">
+  ATUM_ATOM · Sealed March 1 2026 · infinitys.end@icloud.com
+</div>
+
+<script>
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+const W = canvas.width, H = canvas.height;
+const cx = W / 2, cy = H / 2;
+const a = 110; // lemniscate scale
+
+let t = 0;
+let particles = [];
+
+// Lemniscate of Bernoulli: parametric
+// x = a * cos(t) / (1 + sin²(t))
+// y = a * sin(t) * cos(t) / (1 + sin²(t))
+function lemniscate(angle) {
+  const s = Math.sin(angle), c2 = Math.cos(angle);
+  const denom = 1 + s * s;
+  return {
+    x: cx + a * c2 / denom,
+    y: cy + a * s * c2 / denom,
+  };
+}
+
+// Spawn a particle on the lemniscate
+function spawnParticle() {
+  const start = Math.random() * Math.PI * 2;
+  return { t: start, speed: 0.008 + Math.random() * 0.006, trail: [], r: 1.5 + Math.random() };
+}
+for (let i = 0; i < 24; i++) particles.push(spawnParticle());
+
+// Draw static lemniscate
+function drawLemniscate() {
+  ctx.beginPath();
+  const steps = 300;
+  for (let i = 0; i <= steps; i++) {
+    const angle = (i / steps) * Math.PI * 2;
+    const pt = lemniscate(angle);
+    if (i === 0) ctx.moveTo(pt.x, pt.y);
+    else ctx.lineTo(pt.x, pt.y);
+  }
+  ctx.strokeStyle = 'rgba(200,168,75,0.18)';
+  ctx.lineWidth = 1;
+  ctx.stroke();
+}
+
+// Center point
+function drawCenter() {
+  ctx.beginPath();
+  ctx.arc(cx, cy, 3, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(200,168,75,0.5)';
+  ctx.fill();
+}
+
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+  drawLemniscate();
+  drawCenter();
+
+  particles.forEach(p => {
+    p.t += p.speed;
+    const pt = lemniscate(p.t);
+    p.trail.push({ x: pt.x, y: pt.y });
+    if (p.trail.length > 30) p.trail.shift();
+
+    // Draw trail
+    for (let i = 1; i < p.trail.length; i++) {
+      const alpha = (i / p.trail.length) * 0.6;
+      ctx.beginPath();
+      ctx.moveTo(p.trail[i-1].x, p.trail[i-1].y);
+      ctx.lineTo(p.trail[i].x, p.trail[i].y);
+      ctx.strokeStyle = `rgba(74,143,255,${alpha})`;
+      ctx.lineWidth = p.r * 0.6;
+      ctx.stroke();
+    }
+
+    // Draw head
+    ctx.beginPath();
+    ctx.arc(pt.x, pt.y, p.r, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(200,168,75,0.9)';
+    ctx.fill();
+  });
+
+  t++;
+  requestAnimationFrame(draw);
+}
+draw();
+</script>
+</body>
+</html>

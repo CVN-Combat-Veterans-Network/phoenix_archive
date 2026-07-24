@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S — Stanley · Gold</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #080600;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+  }
+  .wrap { text-align: center; }
+  .letter {
+    font-size: 18vmin;
+    font-weight: bold;
+    color: transparent;
+    background: linear-gradient(135deg, #e8cc80 0%, #c8a84b 30%, #a07830 60%, #e8cc80 90%, #f8e8a0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    line-height: 1;
+    filter: drop-shadow(0 0 20px rgba(200,168,75,0.5));
+    animation: glow 5s ease-in-out infinite;
+  }
+  @keyframes glow {
+    0%, 100% { filter: drop-shadow(0 0 20px rgba(200,168,75,0.5)); }
+    50%       { filter: drop-shadow(0 0 36px rgba(232,204,128,0.85)); }
+  }
+  .name { color: #c8a84b; letter-spacing: 0.3em; font-size: 1em; margin-top: 16px; opacity: 0.8; }
+  .sub  { color: #403010; font-size: 0.72em; margin-top: 6px; letter-spacing: 0.12em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="letter">S</div>
+  <div class="name">STANLEY</div>
+  <div class="sub">ATUM_ATOM · March 1 2026 · James Paul Stanley Jr</div>
+</div>
+</body>
+</html>

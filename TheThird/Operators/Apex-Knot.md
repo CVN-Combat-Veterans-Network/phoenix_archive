@@ -674,10 +674,16 @@ Slow convergence (ratio = 0.4-0.5):
 ## STATUS
 
 **Operator:** Apex Knot  
-**Type:** Convergence Enforcement  
-**Status:** ACTIVE  
+**Type:** Convergence enforcement operator  
+**Scale:** The Third (Triadic/Knot)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
 **Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Pattern:** State + Depth → Apex convergence
 
 ---
 

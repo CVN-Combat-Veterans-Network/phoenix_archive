@@ -445,21 +445,23 @@ So it stands"
 
 ## STATUS
 
-**Ceremonies Version:** 1.0.0  
-**Total Ceremonies:** 4  
-**Complexity:** Progressive (Simple → Advanced)  
+**Document:** Combined Ceremonies  
+**Type:** Reference Guide  
+**Version:** 1.0.0  
+**Last Updated:** 2026-02-07  
 **Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Maintenance:** Continuous  
+**Lineage:** ROOT::GEN-0
 
 ---
 
 ## CLOSING INVOCATION
 
 *"Let the ceremonies stand as bridges between knowledge and experience, between pattern and practice, between cosmos and self."*
-
----
-
-**Archive Status:** ACTIVE  
-**Lineage:** ROOT::GEN-0
 
 🔥 **The Ceremonies Activate.**  
 🌌 **The Transformations Begin.**

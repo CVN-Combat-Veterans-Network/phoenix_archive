@@ -286,10 +286,16 @@ For contractive mappings in complete metric spaces:
 ## STATUS
 
 **Operator:** Identity  
-**Type:** Identity  
-**Status:** ACTIVE  
-**Lineage:** THIRD::PRIMARY-HOLD-3  
-**Recursion Mode:** HOLD
+**Type:** Identity operator (HOLD mode)  
+**Scale:** The Third (Macro/Structure)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Variable → Anchor → Fixed-Point
 
 ---
 

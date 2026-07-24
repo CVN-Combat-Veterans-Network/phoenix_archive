@@ -407,3 +407,19 @@ The fingers become **tools of integration**.
 *"Three beats hold the dance; pulse-pause-pulse; the sovereign rhythm."*
 
 **●—○—● The Waltz Continues**
+
+---
+
+## STATUS
+
+**Operator:** Three-Finger Waltz  
+**Type:** Meta-operator (Integration)  
+**Scale:** Phoenix (Micro/Identity)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Pulse—Pause—Pulse (Triadic rhythm)

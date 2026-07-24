@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J — James · Ocean Teal</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #020c10;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+  }
+  .wrap { text-align: center; }
+  .letter {
+    font-size: 18vmin;
+    font-weight: bold;
+    color: transparent;
+    background: linear-gradient(135deg, #0dcfcf 0%, #1a9696 40%, #0a6666 80%, #0dcfcf 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-shadow: none;
+    filter: drop-shadow(0 0 24px rgba(13,207,207,0.5));
+    animation: pulse 4s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { filter: drop-shadow(0 0 24px rgba(13,207,207,0.5)); }
+    50%       { filter: drop-shadow(0 0 40px rgba(13,207,207,0.9)); }
+  }
+  .name { color: #0dcfcf; letter-spacing: 0.3em; font-size: 1.1em; margin-top: 16px; opacity: 0.7; }
+  .sub  { color: #0a5050; font-size: 0.75em; margin-top: 6px; letter-spacing: 0.15em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="letter">J</div>
+  <div class="name">JAMES</div>
+  <div class="sub">ATUM_ATOM · March 1 2026</div>
+</div>
+</body>
+</html>

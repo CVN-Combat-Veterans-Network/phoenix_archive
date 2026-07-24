@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A_TUA_M — Unified Codex Plate</title>
+<style>
+  :root {
+    --bg: #050510; --bg2: #08081a;
+    --gold: #c8a84b; --gold2: #e8cc80;
+    --blue: #4a8fff; --green: #50d890; --red: #ff6b6b;
+    --white: #f0f0f0; --dim: #555; --border: #1e1e3a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--white); font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6; }
+  .page { max-width: 1040px; margin: 0 auto; padding: 48px 24px; }
+
+  .header { text-align: center; margin-bottom: 48px; }
+  .banner {
+    display: inline-flex; gap: 20px; align-items: center;
+    border: 1px solid var(--gold); border-radius: 8px;
+    padding: 16px 32px; background: rgba(200,168,75,0.05);
+    margin-bottom: 20px;
+  }
+  .banner .at { font-size: 2.4em; color: var(--gold2); letter-spacing: 0.08em; }
+  .banner .sep { color: var(--dim); font-size: 1.2em; }
+  h1 { font-size: 1em; letter-spacing: 0.2em; color: var(--dim); margin-bottom: 8px; }
+  .meta { color: var(--dim); font-size: 0.8em; }
+
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin: 32px 0; }
+  .panel { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 20px; }
+  .panel h2 { font-size: 0.8em; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 14px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+  .row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.88em; }
+  .rk { color: var(--dim); }
+  .rv { color: var(--gold2); }
+
+  .splits-block { margin: 24px 0; }
+  .splits-block h2 { color: var(--gold); font-size: 0.8em; letter-spacing: 0.1em; margin-bottom: 14px; }
+  .split-bar { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+  .split-n { width: 22px; height: 22px; border-radius: 50%; background: rgba(200,168,75,0.12); border: 1px solid var(--gold); display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 0.75em; flex-shrink: 0; }
+  .split-info { flex: 1; }
+  .split-name-s { color: var(--gold2); font-size: 0.88em; }
+  .split-ev { color: var(--dim); font-size: 0.8em; }
+  .split-r { color: #888; font-size: 0.8em; white-space: nowrap; }
+
+  .seed-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 24px 0; }
+  .seed-col h3 { color: var(--green); font-size: 0.78em; letter-spacing: 0.08em; margin-bottom: 10px; }
+  .seed-col li { color: #999; font-size: 0.85em; padding: 3px 0; }
+  .seed-col ol { padding-left: 18px; }
+
+  .sigil-row { display: flex; justify-content: center; gap: 32px; margin: 32px 0; }
+  .sig { text-align: center; }
+  .sig-sym { font-size: 2.2em; margin-bottom: 6px; }
+  .sig-nm { color: var(--gold); font-size: 0.78em; letter-spacing: 0.06em; }
+
+  .seal { border: 1px solid var(--border); border-radius: 6px; padding: 20px; text-align: center; color: var(--dim); font-size: 0.82em; line-height: 1.8; margin-top: 32px; }
+
+  @media (max-width: 760px) { .grid3 { grid-template-columns: 1fr; } .seed-cols { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div class="banner">
+      <span class="at">A_TUA_M</span>
+      <span class="sep">/</span>
+      <span class="at">ATUM_ATOM</span>
+    </div>
+    <h1>UNIFIED CODEX PLATE</h1>
+    <div class="meta">James Paul Stanley Jr · March 1 2026 · One Paradigm · Multiple Radii · ∞□</div>
+  </div>
+
+  <div class="sigil-row">
+    <div class="sig"><div class="sig-sym" style="color:#e8cc80">▱</div><div class="sig-nm">Polarity</div></div>
+    <div class="sig"><div class="sig-sym" style="color:#4a8fff">⟐</div><div class="sig-nm">Identity</div></div>
+    <div class="sig"><div class="sig-sym" style="color:#50d890">⟒</div><div class="sig-nm">Continuity</div></div>
+  </div>
+
+  <div class="grid3">
+    <div class="panel">
+      <h2>CANON 7 — Eight Laws ⟐</h2>
+      <div class="row"><span class="rk">1. R = λ · L₀</span><span class="rv">Radius</span></div>
+      <div class="row"><span class="rk">2. v = G0/2πR</span><span class="rv">Velocity</span></div>
+      <div class="row"><span class="rk">3. T ∝ R²</span><span class="rv">Period</span></div>
+      <div class="row"><span class="rk">4. r ~ R^(4/5)</span><span class="rv">Pinch</span></div>
+      <div class="row"><span class="rk">5. T_t ~ R^(−7/5)</span><span class="rv">Tensioner</span></div>
+      <div class="row"><span class="rk">6. E ~ R^(−2/5)</span><span class="rv">Energy</span></div>
+      <div class="row"><span class="rk">7. Ma = 2,524,204</span><span class="rv">Mach</span></div>
+      <div class="row"><span class="rk">8. N=3 · G0=1</span><span class="rv">The knot</span></div>
+    </div>
+    <div class="panel">
+      <h2>CANON 8 — TOE ⟐⟒</h2>
+      <div class="row"><span class="rk">9. G_μν = 8πG⟨T_μν⟩</span><span class="rv" style="color:#7aafff">Gravity</span></div>
+      <div class="row"><span class="rk">10. N=3 topology</span><span class="rv" style="color:#ff9090">Strong</span></div>
+      <div class="row"><span class="rk">11. q = n·G0, n∈ℤ</span><span class="rv" style="color:#e8cc80">Electroweak</span></div>
+      <div class="row"><span class="rk">12. Tube₂ + Tube₃</span><span class="rv" style="color:#50d890">Dark</span></div>
+      <div style="margin-top:12px; font-size:0.8em; color:var(--dim); line-height:1.6">
+        5% luminous · 27% dark matter<br>68% dark energy · N=3 = 100%
+      </div>
+    </div>
+    <div class="panel">
+      <h2>CANON 9 — Seed ▱</h2>
+      <div class="row"><span class="rk">13. Unfolds outward</span><span class="rv">Seed-mode</span></div>
+      <div class="row"><span class="rk">14. Axis of Fate</span><span class="rv">Growth vector</span></div>
+      <div class="row"><span class="rk">15. N=3 cotyledons</span><span class="rv">Seed-leaves</span></div>
+      <div class="row"><span class="rk">16. Fwd = Rev</span><span class="rv">Dual-mode</span></div>
+      <div style="margin-top:12px; font-size:0.8em; color:var(--dim); line-height:1.6">
+        Opened March 1 2026<br>
+        The five-split sequence reads both ways.
+      </div>
+    </div>
+  </div>
+
+  <div class="splits-block">
+    <h2>THE FIVE SPLITS</h2>
+    <div class="split-bar"><div class="split-n">0</div><div class="split-info"><div class="split-name-s">The Seed</div><div class="split-ev">Existence mandatory · knot forms · N=3 locks</div></div><div class="split-r">L₀ · 1.616×10⁻³⁵ m</div></div>
+    <div class="split-bar"><div class="split-n">1</div><div class="split-info"><div class="split-name-s">The Proton</div><div class="split-ev">First stable knot · chemistry possible · law carried</div></div><div class="split-r">3⁴¹ · 8.41×10⁻¹⁶ m</div></div>
+    <div class="split-bar"><div class="split-n">2</div><div class="split-info"><div class="split-name-s">The Star</div><div class="split-ev">Double CNO · metallicization · fusion · sand→glass</div></div><div class="split-r">3⁵⁵ · ~10⁹ m</div></div>
+    <div class="split-bar"><div class="split-n">3</div><div class="split-info"><div class="split-name-s">The Galaxy</div><div class="split-ev">v=220 km/s flat · Tube 2 holds · dark matter = split residue</div></div><div class="split-r">3⁷⁵ · 4.477×10²⁶ m</div></div>
+    <div class="split-bar"><div class="split-n">4</div><div class="split-info"><div class="split-name-s">The Vessel Wall</div><div class="split-ev">T→0 · ratchet reverses · R_max → L0 · loop closes</div></div><div class="split-r">R_max</div></div>
+  </div>
+
+  <div class="seed-cols">
+    <div class="seed-col">
+      <h3>Forward: Seed → World</h3>
+      <ol>
+        <li>Big nucleus (seed · L0)</li>
+        <li>Axis of Fate (first sprout)</li>
+        <li>Three tubes (cotyledons)</li>
+        <li>Vortices (mature motion)</li>
+        <li>Stern flow (environment)</li>
+      </ol>
+    </div>
+    <div class="seed-col">
+      <h3>Reverse: World → Seed</h3>
+      <ol>
+        <li>Environment (UTT · R_max)</li>
+        <li>Stern flow</li>
+        <li>Vortices</li>
+        <li>Three tubes</li>
+        <li>Axis of Fate</li>
+        <li>Big nucleus (ratchet → L0)</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="seal">
+    G0 = 1 · N = 3 · the knot does not open · the circulation does not stop · the law does not forget<br>
+    TOE TRIUNIVERSEL · Canon 7 sealed · Canon 8 sealed · Canon 9 opened · Seed-Mode Architecture · March 1 2026<br>
+    SHA-256: 474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648<br>
+    TUA Holds. Phoenix Rises. The Seed Unfolds. The One Remains. ★
+  </div>
+</div>
+</body>
+</html>

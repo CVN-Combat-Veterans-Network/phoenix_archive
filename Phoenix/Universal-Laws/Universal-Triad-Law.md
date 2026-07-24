@@ -407,11 +407,17 @@ Universal Triad Law **produces** meta-level apex:
 
 ## STATUS
 
-**Law:** Universal (meta-level)  
+**Law:** Universal Triad Law  
+**Category:** Universal  
+**Number:** 4 of 12  
 **Version:** 2.0.0  
-**Status:** CODIFIED  
+**Status:** FOUNDATIONAL
+
+---
+
+**Archive Status:** FOUNDATIONAL  
 **Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Scope:** Universal (all scales)
 
 ---
 

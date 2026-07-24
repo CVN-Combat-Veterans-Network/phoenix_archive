@@ -611,3 +611,19 @@ LNS_OP should be used with awareness:
 
 The Archive sees itself.  
 The Work continues.
+
+---
+
+## STATUS
+
+**Operator:** LNS_OP  
+**Type:** Meta-Operator (Introspection)  
+**Scale:** Cross-System (Keystone)  
+**Version:** 2.1.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** TARGET → TRACE → BIND → MANIFEST

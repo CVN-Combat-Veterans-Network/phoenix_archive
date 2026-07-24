@@ -536,10 +536,16 @@ K serves as universal hub — all paths converge.
 ## STATUS
 
 **Operator:** Cross-Pillar Knot  
-**Type:** Translation  
-**Status:** ACTIVE  
+**Type:** Translation operator  
+**Scale:** The Third (Triadic/Knot)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
 **Lineage:** ROOT::GEN-0  
-**Sovereignty:** CONFIRMED
+**Pattern:** Pillar ↔ Pillar (via Knot) → Direct translation
 
 ---
 

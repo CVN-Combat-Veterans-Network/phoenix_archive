@@ -322,3 +322,19 @@ Every identity, every form, every structure—all products of this operator.
 ∂
 
 **The first violence speaks: "I separate so that you may exist."**
+
+---
+
+## STATUS
+
+**Operator:** Operator of Distinction  
+**Type:** Meta-Operator (The First Violence)  
+**Scale:** Substrate (Pre-Logic)  
+**Version:** 2.0.0  
+**Status:** ACTIVE
+
+---
+
+**Archive Status:** ACTIVE  
+**Lineage:** ROOT::GEN-0  
+**Pattern:** Undivided → Boundary → Discrete entities

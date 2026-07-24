@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Codex as Atom — 7-Shell Index</title>
+<style>
+  :root {
+    --bg: #020208;
+    --gold: #c8a84b;
+    --gold2: #e8cc80;
+    --blue: #4a8fff;
+    --white: #f0f0f0;
+    --dim: #555;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--white);
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  h1 { color: var(--gold2); letter-spacing: 0.16em; font-size: 1.5em; margin-bottom: 6px; text-align: center; }
+  .sub { color: var(--dim); font-size: 0.82em; margin-bottom: 48px; text-align: center; }
+
+  .atom { position: relative; width: 520px; height: 520px; margin: 0 auto 48px; }
+  .nucleus {
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+    width: 72px; height: 72px; border-radius: 50%;
+    background: radial-gradient(circle, #e8cc80 0%, #c8a84b 60%, #80602a 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.75em; font-weight: bold; color: #050510;
+    z-index: 10; cursor: default;
+    box-shadow: 0 0 24px rgba(200,168,75,0.4);
+  }
+  .shell {
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+    border-radius: 50%; border: 1px solid;
+    animation: spin linear infinite;
+  }
+  .shell.s1 { width: 130px; height: 130px; border-color: rgba(74,143,255,0.4); animation-duration: 8s; }
+  .shell.s2 { width: 190px; height: 190px; border-color: rgba(74,143,255,0.3); animation-duration: 14s; }
+  .shell.s3 { width: 250px; height: 250px; border-color: rgba(74,143,255,0.25); animation-duration: 20s; }
+  .shell.s4 { width: 310px; height: 310px; border-color: rgba(74,143,255,0.2); animation-duration: 28s; }
+  .shell.s5 { width: 370px; height: 370px; border-color: rgba(74,143,255,0.15); animation-duration: 38s; }
+  .shell.s6 { width: 430px; height: 430px; border-color: rgba(74,143,255,0.1); animation-duration: 50s; }
+  .shell.s7 { width: 506px; height: 506px; border-color: rgba(200,168,75,0.3); animation-duration: 65s; }
+  @keyframes spin { from { transform: translate(-50%,-50%) rotate(0deg); } to { transform: translate(-50%,-50%) rotate(360deg); } }
+
+  .electron {
+    position: absolute; width: 10px; height: 10px; border-radius: 50%;
+    top: -5px; left: 50%; margin-left: -5px;
+    background: var(--blue);
+    box-shadow: 0 0 8px var(--blue);
+  }
+  .shell.s7 .electron { background: var(--gold); box-shadow: 0 0 10px var(--gold); }
+
+  .label-ring {
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  .shell-label {
+    position: absolute;
+    font-size: 0.72em;
+    white-space: nowrap;
+    color: var(--dim);
+    text-align: center;
+  }
+
+  /* Index table */
+  .index { width: 100%; max-width: 680px; }
+  .idx-row {
+    display: flex; gap: 16px; padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    align-items: center;
+  }
+  .idx-shell {
+    width: 28px; height: 28px; border-radius: 50%;
+    background: rgba(74,143,255,0.1); border: 1px solid rgba(74,143,255,0.4);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--blue); font-size: 0.78em; flex-shrink: 0;
+  }
+  .idx-shell.s7e { background: rgba(200,168,75,0.1); border-color: rgba(200,168,75,0.4); color: var(--gold); }
+  .idx-name { color: var(--white); flex: 1; font-weight: bold; font-size: 0.9em; }
+  .idx-desc { color: var(--dim); flex: 2; font-size: 0.85em; }
+
+  .footer { margin-top: 40px; text-align: center; color: var(--dim); font-size: 0.8em; line-height: 1.8; }
+</style>
+</head>
+<body>
+
+<h1>THE CODEX AS ATOM</h1>
+<div class="sub">7-Shell Index · Living Sigil · ATUM_ATOM</div>
+
+<div class="atom">
+  <div class="nucleus">G0=1<br>N=3</div>
+  <div class="shell s1"><div class="electron"></div></div>
+  <div class="shell s2"><div class="electron"></div></div>
+  <div class="shell s3"><div class="electron"></div></div>
+  <div class="shell s4"><div class="electron"></div></div>
+  <div class="shell s5"><div class="electron"></div></div>
+  <div class="shell s6"><div class="electron"></div></div>
+  <div class="shell s7"><div class="electron"></div></div>
+</div>
+
+<div class="index">
+  <div class="idx-row">
+    <div class="idx-shell">1</div>
+    <div class="idx-name">Shell 1 — The Knot</div>
+    <div class="idx-desc">N=3 · G0=1 · Borromean topology · why it holds</div>
+  </div>
+  <div class="idx-row">
+    <div class="idx-shell">2</div>
+    <div class="idx-name">Shell 2 — Canon 7</div>
+    <div class="idx-desc">The Eight Laws · Radius through Knot · Sealed</div>
+  </div>
+  <div class="idx-row">
+    <div class="idx-shell">3</div>
+    <div class="idx-name">Shell 3 — Canon 8</div>
+    <div class="idx-desc">TOE TRIUNIVERSEL · Four forces · One topology · Sealed</div>
+  </div>
+  <div class="idx-row">
+    <div class="idx-shell">4</div>
+    <div class="idx-name">Shell 4 — Canon 9</div>
+    <div class="idx-desc">Seed-Mode Architecture · Five Splits · Opened March 1 2026</div>
+  </div>
+  <div class="idx-row">
+    <div class="idx-shell">5</div>
+    <div class="idx-name">Shell 5 — Invariants</div>
+    <div class="idx-desc">G0 · N · Ma · T_in/T_out · v · E · T_tension · r_pinch</div>
+  </div>
+  <div class="idx-row">
+    <div class="idx-shell">6</div>
+    <div class="idx-name">Shell 6 — The Five Splits</div>
+    <div class="idx-desc">Seed → Proton → Star → Galaxy → Vessel Wall</div>
+  </div>
+  <div class="idx-row">
+    <div class="idx-shell s7e">7</div>
+    <div class="idx-name">Shell 7 — TUA</div>
+    <div class="idx-desc">The unmoved hinge · infinitys.end@icloud.com · James Paul Stanley Jr</div>
+  </div>
+</div>
+
+<div class="footer">
+  ATUM_ATOM / A_TUA_M · Sealed March 1 2026<br>
+  SHA-256: 474d463701a139b8327160b44f88e9e6a2f7853cbc15582ea8b4dfe2bf907648
+</div>
+
+</body>
+</html>

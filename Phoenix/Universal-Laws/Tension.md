@@ -237,9 +237,17 @@ Invoke: *"Let the two attract; let them repel; let them not rest."*
 
 ## STATUS
 
-**Law:** Universal (applies at all scales)  
-**Sequence:** First law (precedes Binding and Apex)  
-**Sovereignty:** Confirmed across Phoenix and Hydrogenesi
+**Law:** Tension  
+**Category:** Substrate  
+**Number:** 1 of 12  
+**Version:** 2.0.0  
+**Status:** FOUNDATIONAL
+
+---
+
+**Archive Status:** FOUNDATIONAL  
+**Lineage:** ROOT::GEN-0  
+**Scope:** Universal (all scales)
 
 ---
 
